@@ -202,26 +202,6 @@ get_header();
         </div>
     </section>
 
-    <!-- Experience Text Section -->
-    <section class="experience-section">
-        <div class="experience-container">
-            <h4 class="experience-subtitle">
-                <span class="show-da">OPLEV LAMFUZ</span>
-                <span class="show-en notranslate">EXPERIENCE LAMFUZ</span>
-            </h4>
-            <h2 class="experience-title">
-                <span class="show-da">
-                    <span class="desktop-only-title">SMAGEN AF NEPAL – MIDT I KØBENHAVN</span>
-                    <span class="mobile-only-title">SMAGEN AF NEPAL – MIDT<br>I KØBENHAVN</span>
-                </span>
-                <span class="show-en notranslate">
-                    <span class="desktop-only-title">THE TASTE OF NEPAL – IN THE MIDDLE OF COPENHAGEN</span>
-                    <span class="mobile-only-title">THE TASTE OF NEPAL – IN THE<br>MIDDLE OF COPENHAGEN</span>
-                </span>
-            </h2>
-        </div>
-    </section>
-
     <!-- Instagram Section -->
     <section class="instagram-section" style="background-color: #fff8e6; padding: 5rem 1.25rem; text-align: center;">
         <div class="instagram-container" style="max-width: 1200px; margin: 0 auto;">
