@@ -1,4 +1,8 @@
 <?php
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly.
+}
+
 function cmc_enqueue_scripts() {
     $theme_uri = get_template_directory_uri();
     $stylesheet_uri = get_stylesheet_uri();

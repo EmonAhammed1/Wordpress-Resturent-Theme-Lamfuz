@@ -1,4 +1,8 @@
 <?php
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly.
+}
+
 function cmc_register_patterns() {
     $hero_bg = get_template_directory_uri() . '/assets/images/hero-bg.png';
     $street_bg = get_template_directory_uri() . '/assets/images/charleston-street.png';
@@ -186,6 +190,11 @@ function cmc_register_patterns() {
 add_action( 'init', 'cmc_register_patterns' );
 
 function cmc_create_homepage() {
+    // Only run this setup if it hasn't been completed yet
+    if ( get_option( 'cmc_homepage_setup_done' ) === 'yes' ) {
+        return;
+    }
+
     $page = get_page_by_title( 'Home' );
     $pattern_content = '<!-- wp:pattern {"slug":"cmc/homepage"} /-->';
     
@@ -199,6 +208,7 @@ function cmc_create_homepage() {
         if ( $page_id ) {
             update_option( 'page_on_front', $page_id );
             update_option( 'show_on_front', 'page' );
+            update_option( 'cmc_homepage_setup_done', 'yes' );
         }
     } else {
         // Force update the content to apply the new perfectly native Gutenberg pattern!
@@ -211,6 +221,7 @@ function cmc_create_homepage() {
         }
         update_option( 'page_on_front', $page->ID );
         update_option( 'show_on_front', 'page' );
+        update_option( 'cmc_homepage_setup_done', 'yes' );
     }
 }
 add_action( 'after_setup_theme', 'cmc_create_homepage' );
