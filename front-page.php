@@ -113,13 +113,6 @@ get_header();
                         <div class="menu-item"><span class="menu-item-name">Lamb Sekuwa</span><span class="menu-item-price">99 kr.</span></div>
                         <div class="menu-item"><span class="menu-item-name">Chicken Sekuwa</span><span class="menu-item-price">79 kr.</span></div>
                         <div class="menu-item"><span class="menu-item-name">Chicken Choila</span><span class="menu-item-price">79 kr.</span></div>
-                        <div class="menu-item"><span class="menu-item-name">Spicy King Prawn</span><span class="menu-item-price">89 kr.</span></div>
-                        <div class="menu-item"><span class="menu-item-name">Spicy Mushroom</span><span class="menu-item-price">79 kr.</span></div>
-                        <div class="menu-item"><span class="menu-item-name">Salad Bowl</span><span class="menu-item-price">59 kr.</span></div>
-                        <div class="menu-item"><span class="menu-item-name">Papad</span><span class="menu-item-price">20 kr.</span></div>
-                        <div class="menu-item"><span class="menu-item-name">Cucumber bites</span><span class="menu-item-price">59 kr.</span></div>
-                        <div class="menu-item"><span class="menu-item-name">Chicken MoMo</span><span class="menu-item-price">75 kr.</span></div>
-                        <div class="menu-item"><span class="menu-item-name">Vegan MoMo</span><span class="menu-item-price">75 kr.</span></div>
                     </div>
                 </div>
                 <div class="menu-accordion-item">
@@ -132,10 +125,7 @@ get_header();
                         <div class="menu-item"><span class="menu-item-name">Lamb Platter</span><span class="menu-item-price">250 kr.</span></div>
                         <div class="menu-item"><span class="menu-item-name">Chicken Platter</span><span class="menu-item-price">230 kr.</span></div>
                         <div class="menu-item"><span class="menu-item-name">Vegan Platter</span><span class="menu-item-price">220 kr.</span></div>
-                        <div class="menu-item"><span class="menu-item-name">MoMo Big Bowl</span><span class="menu-item-price">149 kr.</span></div>
                         <div class="menu-item"><span class="menu-item-name">Jhol MoMo</span><span class="menu-item-price">149 kr.</span></div>
-                        <div class="menu-item"><span class="menu-item-name">Chow Mein</span><span class="menu-item-price">129-145 kr.</span></div>
-                        <div class="menu-item"><span class="menu-item-name">Fried Rice</span><span class="menu-item-price">129-145 kr.</span></div>
                     </div>
                 </div>
                 <div class="menu-accordion-item">
@@ -147,11 +137,6 @@ get_header();
                         <div class="menu-item"><span class="menu-item-name">Lamb Gravy</span><span class="menu-item-price">99 kr.</span></div>
                         <div class="menu-item"><span class="menu-item-name">Chicken Gravy</span><span class="menu-item-price">79 kr.</span></div>
                         <div class="menu-item"><span class="menu-item-name">Rice</span><span class="menu-item-price">39 kr.</span></div>
-                        <div class="menu-item"><span class="menu-item-name">Jimbu, garlic & ginger Tempered Daal</span><span class="menu-item-price">69 kr.</span></div>
-                        <div class="menu-item"><span class="menu-item-name">Stir-fried greens</span><span class="menu-item-price">69 kr.</span></div>
-                        <div class="menu-item"><span class="menu-item-name">Wok Fired Rayo Saag</span><span class="menu-item-price">69 kr.</span></div>
-                        <div class="menu-item"><span class="menu-item-name">Fermented Greens</span><span class="menu-item-price">29 kr.</span></div>
-                        <div class="menu-item"><span class="menu-item-name">Dips</span><span class="menu-item-price">20 kr.</span></div>
                     </div>
                 </div>
                 <div class="menu-accordion-item">
