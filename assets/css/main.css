@@ -165,6 +165,8 @@ body {
 .lang-selector span {
     cursor: pointer;
     transition: opacity 0.3s ease;
+    display: inline-flex;
+    align-items: center;
 }
 
 .lang-selector span.active {
@@ -377,6 +379,8 @@ body {
     transition: opacity 0.3s ease;
     color: #b2512b;
     opacity: 0.5;
+    display: inline-flex;
+    align-items: center;
 }
 
 .mobile-lang-selector span.active {
