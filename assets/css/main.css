@@ -159,7 +159,7 @@ body {
     color: #ffffff;
     letter-spacing: 0.15em;
     display: flex;
-    gap: 0.6rem;
+    gap: 1.2rem;
 }
 
 .lang-selector span {
@@ -167,6 +167,11 @@ body {
     transition: opacity 0.3s ease;
     display: inline-flex;
     align-items: center;
+}
+
+.lang-selector span .flag-icon,
+.mobile-lang-selector span .flag-icon {
+    margin-right: 8px !important;
 }
 
 .lang-selector span.active {
@@ -371,7 +376,7 @@ body {
     font-weight: 700;
     color: #b2512b;
     display: flex;
-    gap: 0.8rem;
+    gap: 1.5rem;
 }
 
 .mobile-lang-selector span {
