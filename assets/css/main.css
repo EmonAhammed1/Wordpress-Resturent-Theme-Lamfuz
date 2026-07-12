@@ -10,8 +10,8 @@
 /* CSS Variables */
 :root {
     --primary-color: #a89066;
-    --red-cta: #e52424;
-    --red-cta-hover: #c81c1c;
+    --red-cta: #DC1840;
+    --red-cta-hover: #b81031;
     --dark-text-btn: #8c2b23;
     --text-light: #ffffff;
     --font-heading: 'Amagro-bold', serif;
@@ -186,7 +186,7 @@ body {
     display: inline-block;
     background-color: #ffffff;
     color: #b2512b;
-    font-family: var(--font-heading);
+    font-family: var(--font-body);
     font-size: 0.9rem;
     font-weight: 700;
     letter-spacing: 0.1em;
@@ -243,12 +243,12 @@ body {
 }
 
 .hero-header.sticky .btn-header-book {
-    background-color: #e52424;
+    background-color: var(--red-cta);
     color: #ffffff;
 }
 
 .hero-header.sticky .btn-header-book:hover {
-    background-color: #c81c1c;
+    background-color: var(--red-cta-hover);
 }
 
 .hero-header.sticky .mobile-menu-toggle span {
@@ -398,7 +398,7 @@ body {
     width: 100%;
     background-color: var(--red-cta);
     color: #ffffff;
-    font-family: var(--font-heading);
+    font-family: var(--font-body);
     font-size: 0.95rem;
     font-weight: 700;
     letter-spacing: 0.1em;
@@ -543,17 +543,17 @@ body {
     display: inline-block;
     background-color: var(--red-cta) !important;
     color: #ffffff !important;
-    font-family: var(--font-heading);
+    font-family: var(--font-body);
     font-size: 16px;
     font-weight: 700;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
     padding: 1.1rem 2.4rem;
     border-radius: 0;
     text-decoration: none;
     border: 2px solid var(--red-cta) !important;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 20px rgba(229, 36, 36, 0.35);
+    box-shadow: 0 4px 20px rgba(220, 24, 64, 0.35);
     text-align: center;
 }
 
@@ -569,10 +569,10 @@ body {
     display: inline-block;
     background-color: transparent !important;
     color: #ffffff !important;
-    font-family: var(--font-heading);
+    font-family: var(--font-body);
     font-size: 16px;
     font-weight: 700;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
     padding: 1.1rem 2.4rem;
     border-radius: 0;
