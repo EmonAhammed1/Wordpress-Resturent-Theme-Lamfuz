@@ -27,18 +27,7 @@ get_header(); ?>
     <section class="menu-page-section">
         <div class="menu-page-container">
             
-            <!-- INTRO / SUBTITLE -->
-            <div class="menu-page-intro">
-                <div class="menu-ornament">
-                    <svg viewBox="0 0 100 20" width="80" height="16">
-                        <path d="M10,10 Q30,5 50,10 Q70,15 90,10" fill="none" stroke="#a89066" stroke-width="1.5"/>
-                        <circle cx="50" cy="10" r="3" fill="#a89066"/>
-                        <path d="M42,10 Q46,7 50,10 Q46,13 42,10" fill="#a89066"/>
-                        <path d="M58,10 Q54,7 50,10 Q54,13 58,10" fill="#a89066"/>
-                    </svg>
-                </div>
-                <div class="menu-divider-line"></div>
-            </div>
+
 
             <!-- DRINKS SECTION -->
             <div class="menu-group-container">
