@@ -24,26 +24,49 @@ get_header();
         <section class="contact-info-section" style="background-color: #fff8e6; padding: 6rem 2rem;">
 
             <!-- Full Width Heading -->
-            <h2 class="contact-main-title">Contact Lamfuz -<br class="mobile-br">We're Ready to Help</h2>
+            <h2 class="contact-main-title">
+                <span class="show-da">KONTAKT LAMFUZ –<br class="mobile-br">VI ER KLAR TIL AT HJÆLPE DIG</span>
+                <span class="show-en notranslate">Contact Lamfuz -<br class="mobile-br">We're Ready to Help</span>
+            </h2>
 
             <!-- Intro Text Container -->
             <div class="contact-text-container">
-                <p style="margin-bottom: 1.5rem; font-family: var(--font-body); line-height: 1.8; font-size: 17px;">Welcome to Lamfuz, where flavour, hygge and hospitality go hand in hand. Whether you have a question, want to reserve a table, order takeaway, or ask about catering for your next event, we would love to hear from you.</p>
-                <p style="margin-bottom: 2rem; font-family: var(--font-body); line-height: 1.8; font-size: 17px;">Whether you write, call, or simply walk in, we are always ready to welcome you with open arms and the smell of freshly cooked Nepalese food.</p>
+                <div class="show-da">
+                    <p style="margin-bottom: 1.5rem; font-family: var(--font-body); line-height: 1.8; font-size: 17px;">Velkommen til Lamfuz – hvor smag, hygge og gæstfrihed går hånd i hånd. Har du spørgsmål, vil du reservere bord, bestille take-away eller høre mere om vores catering? Så er du altid velkommen til at tage fat i os – vi elsker at høre fra dig!</p>
+                    <p style="margin-bottom: 2rem; font-family: var(--font-body); line-height: 1.8; font-size: 17px;">Uanset om du skriver, ringer eller kigger forbi, står vi klar med åbne arme og duften af frisklavet nepalesisk mad.</p>
 
-                <h3 class="contact-sub-title">Booking a Table</h3>
-                <p style="margin-bottom: 2rem; font-family: var(--font-body); line-height: 1.8; font-size: 17px;">The fastest way to secure a table, especially on Friday and Saturday evenings, is to book directly through our website or call us at +45 70 60 56 57. For larger groups or special occasions, calling ahead lets us prepare properly for your visit.</p>
+                    <h3 class="contact-sub-title">Reservation af bord</h3>
+                    <p style="margin-bottom: 2rem; font-family: var(--font-body); line-height: 1.8; font-size: 17px;">Den hurtigste måde at sikre sig et bord på, især fredag og lørdag aften, er at booke direkte på vores hjemmeside eller ringe til os på +45 70 60 56 57. For større grupper eller særlige begivenheder giver det os mulighed for at forberede os ordentligt på jeres besøg, hvis I ringer i forvejen.</p>
 
-                <h3 class="contact-sub-title">Takeaway and Catering</h3>
-                <p style="margin-bottom: 2rem; font-family: var(--font-body); line-height: 1.8; font-size: 17px;">Our full menu, including momo, dal bhat platters, sekuwa, choila, chow mein and fried rice, is available for takeaway. If you are planning an office lunch, birthday, or private event anywhere in Copenhagen, get in touch about catering and we will help you build a menu that fits your group.</p>
+                    <h3 class="contact-sub-title">Takeaway og catering</h3>
+                    <p style="margin-bottom: 2rem; font-family: var(--font-body); line-height: 1.8; font-size: 17px;">Hele vores menukort, inklusive momo, dal bhat-tallerkener, sekuwa, choila, chow mein og stegte ris, kan bestilles som takeaway. Hvis du planlægger en frokost på kontoret, en fødselsdag eller en privat fest i København, kan du kontakte os angående catering, så hjælper vi dig med at sammensætte en menu, der passer til din gruppe.</p>
 
-                <h3 class="contact-sub-title">Follow Lamfuz</h3>
-                <p style="margin-bottom: 2rem; font-family: var(--font-body); line-height: 1.8; font-size: 17px;">Stay up to date with new dishes, offers and behind-the-scenes moments from our kitchen on Facebook and Instagram.</p>
+                    <h3 class="contact-sub-title">Følg Lamfuz</h3>
+                    <p style="margin-bottom: 2rem; font-family: var(--font-body); line-height: 1.8; font-size: 17px;">Hold dig opdateret med nye retter, tilbud og øjeblikke bag kulisserne i vores køkken på Facebook og Instagram.</p>
 
-                <p style="margin-bottom: 3rem; font-family: var(--font-body); line-height: 1.8; font-size: 17px;">We look forward to welcoming you to Lamfuz, your Nepalese restaurant in the heart of Copenhagen.</p>
+                    <p style="margin-bottom: 3rem; font-family: var(--font-body); line-height: 1.8; font-size: 17px;">Vi glæder os to at byde dig velkommen hos Lamfuz, din nepalesiske restaurant i hjertet af København.</p>
+                </div>
+                <div class="show-en notranslate">
+                    <p style="margin-bottom: 1.5rem; font-family: var(--font-body); line-height: 1.8; font-size: 17px;">Welcome to Lamfuz, where flavour, hygge and hospitality go hand in hand. Whether you have a question, want to reserve a table, order takeaway, or ask about catering for your next event, we would love to hear from you.</p>
+                    <p style="margin-bottom: 2rem; font-family: var(--font-body); line-height: 1.8; font-size: 17px;">Whether you write, call, or simply walk in, we are always ready to welcome you with open arms and the smell of freshly cooked Nepalese food.</p>
+
+                    <h3 class="contact-sub-title">Booking a Table</h3>
+                    <p style="margin-bottom: 2rem; font-family: var(--font-body); line-height: 1.8; font-size: 17px;">The fastest way to secure a table, especially on Friday and Saturday evenings, is to book directly through our website or call us at +45 70 60 56 57. For larger groups or special occasions, calling ahead lets us prepare properly for your visit.</p>
+
+                    <h3 class="contact-sub-title">Takeaway and Catering</h3>
+                    <p style="margin-bottom: 2rem; font-family: var(--font-body); line-height: 1.8; font-size: 17px;">Our full menu, including momo, dal bhat platters, sekuwa, choila, chow mein and fried rice, is available for takeaway. If you are planning an office lunch, birthday, or private event anywhere in Copenhagen, get in touch about catering and we will help you build a menu that fits your group.</p>
+
+                    <h3 class="contact-sub-title">Follow Lamfuz</h3>
+                    <p style="margin-bottom: 2rem; font-family: var(--font-body); line-height: 1.8; font-size: 17px;">Stay up to date with new dishes, offers and behind-the-scenes moments from our kitchen on Facebook and Instagram.</p>
+
+                    <p style="margin-bottom: 3rem; font-family: var(--font-body); line-height: 1.8; font-size: 17px;">We look forward to welcoming you to Lamfuz, your Nepalese restaurant in the heart of Copenhagen.</p>
+                </div>
 
                 <div style="text-align: center; margin-bottom: 2rem;">
-                    <a href="#book" class="btn-hero-red" style="font-size: 0.85rem; padding: 1rem 2.5rem; display: inline-block;">BOOK A TABLE</a>
+                    <a href="<?php echo home_url('/book-et-bord'); ?>" class="btn-hero-red" style="font-size: 0.85rem; padding: 1rem 2.5rem; display: inline-block;">
+                        <span class="show-da">BOOK ET BORD</span>
+                        <span class="show-en notranslate">BOOK A TABLE</span>
+                    </a>
                 </div>
             </div>
 
@@ -81,24 +104,40 @@ get_header();
                         <div class="contact-hours-container">
                             <div class="contact-hours-title">
                                 <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-                                ÅBNINGSTIDER
+                                <span class="show-da">ÅBNINGSTIDER</span>
+                                <span class="show-en notranslate">OPENING HOURS</span>
                             </div>
                             <ul class="contact-hours-list">
                                 <li class="contact-hours-row">
-                                    <span class="contact-hours-day">Monday – Thursday</span>
+                                    <span class="contact-hours-day">
+                                        <span class="show-da">Mandag – Torsdag</span>
+                                        <span class="show-en notranslate">Monday – Thursday</span>
+                                    </span>
                                     <span class="contact-hours-time">16:00 – 23:00</span>
                                 </li>
                                 <li class="contact-hours-row">
-                                    <span class="contact-hours-day">Friday – Saturday</span>
+                                    <span class="contact-hours-day">
+                                        <span class="show-da">Fredag – Lørdag</span>
+                                        <span class="show-en notranslate">Friday – Saturday</span>
+                                    </span>
                                     <span class="contact-hours-time">16:00 – 24:00</span>
                                 </li>
                                 <li class="contact-hours-row">
-                                    <span class="contact-hours-day">Last arrival</span>
+                                    <span class="contact-hours-day">
+                                        <span class="show-da">Sidste ankomst</span>
+                                        <span class="show-en notranslate">Last arrival</span>
+                                    </span>
                                     <span class="contact-hours-time">21:30</span>
                                 </li>
                                 <li class="contact-hours-row">
-                                    <span class="contact-hours-day">Sunday</span>
-                                    <span class="contact-hours-time" style="color: #c0392b;">Closed</span>
+                                    <span class="contact-hours-day">
+                                        <span class="show-da">Søndag</span>
+                                        <span class="show-en notranslate">Sunday</span>
+                                    </span>
+                                    <span class="contact-hours-time" style="color: #c0392b;">
+                                        <span class="show-da">Lukket</span>
+                                        <span class="show-en notranslate">Closed</span>
+                                    </span>
                                 </li>
                             </ul>
                         </div>

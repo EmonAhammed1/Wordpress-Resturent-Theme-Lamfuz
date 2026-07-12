@@ -51,7 +51,10 @@ get_header(); ?>
                             <path d="M12,2 Q15,8 20,8 Q15,12 12,22 Q9,12 4,8 Q9,8 12,2" />
                         </svg>
                     </span>
-                    <h2 class="menu-group-title">DRINKS</h2>
+                    <h2 class="menu-group-title">
+                        <span class="show-da">DRIKKEVARER</span>
+                        <span class="show-en notranslate">DRINKS</span>
+                    </h2>
                     <span class="menu-ornament-leaf right">
                         <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="#b3522a" stroke-width="1.5">
                             <path d="M12,2 Q15,8 20,8 Q15,12 12,22 Q9,12 4,8 Q9,8 12,2" />
@@ -241,7 +244,10 @@ get_header(); ?>
                             <path d="M12,2 Q15,8 20,8 Q15,12 12,22 Q9,12 4,8 Q9,8 12,2" />
                         </svg>
                     </span>
-                    <h2 class="menu-group-title">FOOD</h2>
+                    <h2 class="menu-group-title">
+                        <span class="show-da">MAD</span>
+                        <span class="show-en notranslate">FOOD</span>
+                    </h2>
                     <span class="menu-ornament-leaf right">
                         <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="#b3522a" stroke-width="1.5">
                             <path d="M12,2 Q15,8 20,8 Q15,12 12,22 Q9,12 4,8 Q9,8 12,2" />

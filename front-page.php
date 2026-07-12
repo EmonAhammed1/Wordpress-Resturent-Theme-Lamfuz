@@ -42,7 +42,8 @@ get_header();
     <section class="home-intro-section">
         <div class="home-intro-container">
             <h2 class="home-intro-title">
-                Lamfuz – Authentic Nepalese Restaurant in Copenhagen
+                <span class="show-da">Lamfuz – Autentisk nepalesisk restaurant i København</span>
+                <span class="show-en notranslate">Lamfuz – Authentic Nepalese Restaurant in Copenhagen</span>
             </h2>
             <p class="home-intro-subtitle">
                 <span class="show-da">Nepalesisk restaurant i København | Lamfuz – Autentisk momo & dal bhat i Indre By</span>
@@ -248,11 +249,17 @@ get_header();
     <!-- Menu Section -->
     <section class="menu-section" id="menu">
         <div class="menu-container">
-            <h2 class="menu-title">OUR MENU</h2>
+            <h2 class="menu-title">
+                <span class="show-da">VORES MENU</span>
+                <span class="show-en notranslate">OUR MENU</span>
+            </h2>
             <div class="menu-accordion">
                 <div class="menu-accordion-item">
                     <div class="menu-accordion-header">
-                        <h3>APPETIZERS & SKEWERS</h3>
+                        <h3>
+                            <span class="show-da">FORRETTER & SPYD</span>
+                            <span class="show-en notranslate">APPETIZERS & SKEWERS</span>
+                        </h3>
                         <span class="menu-accordion-icon">+</span>
                     </div>
                     <div class="menu-accordion-content">
@@ -263,7 +270,10 @@ get_header();
                 </div>
                 <div class="menu-accordion-item">
                     <div class="menu-accordion-header">
-                        <h3>MAINS</h3>
+                        <h3>
+                            <span class="show-da">HOVEDRETTER</span>
+                            <span class="show-en notranslate">MAINS</span>
+                        </h3>
                         <span class="menu-accordion-icon">+</span>
                     </div>
                     <div class="menu-accordion-content">
@@ -276,7 +286,10 @@ get_header();
                 </div>
                 <div class="menu-accordion-item">
                     <div class="menu-accordion-header">
-                        <h3>PAGES</h3>
+                        <h3>
+                            <span class="show-da">TILBEHØR</span>
+                            <span class="show-en notranslate">SIDE DISHES</span>
+                        </h3>
                         <span class="menu-accordion-icon">+</span>
                     </div>
                     <div class="menu-accordion-content">
@@ -287,7 +300,10 @@ get_header();
                 </div>
                 <div class="menu-accordion-item">
                     <div class="menu-accordion-header">
-                        <h3>CHILDREN'S MENU</h3>
+                        <h3>
+                            <span class="show-da">BØRNEMENU</span>
+                            <span class="show-en notranslate">CHILDREN'S MENU</span>
+                        </h3>
                         <span class="menu-accordion-icon">+</span>
                     </div>
                     <div class="menu-accordion-content">
@@ -297,7 +313,10 @@ get_header();
                 </div>
                 <div class="menu-accordion-item">
                     <div class="menu-accordion-header">
-                        <h3>DESSERTS</h3>
+                        <h3>
+                            <span class="show-da">DESSERTER</span>
+                            <span class="show-en notranslate">DESSERTS</span>
+                        </h3>
                         <span class="menu-accordion-icon">+</span>
                     </div>
                     <div class="menu-accordion-content">
@@ -307,7 +326,10 @@ get_header();
                 </div>
                 <div class="menu-accordion-item">
                     <div class="menu-accordion-header">
-                        <h3>BEVERAGES</h3>
+                        <h3>
+                            <span class="show-da">DRIKKEVARER</span>
+                            <span class="show-en notranslate">BEVERAGES</span>
+                        </h3>
                         <span class="menu-accordion-icon">+</span>
                     </div>
                     <div class="menu-accordion-content">
