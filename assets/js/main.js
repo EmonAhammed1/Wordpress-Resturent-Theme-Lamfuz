@@ -127,15 +127,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     function syncTranslateCookie(langCode) {
         const domain = window.location.hostname;
-        const path = "/";
-        
-        // Clear duplicates to ensure only ONE cookie exists
-        document.cookie = "googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=" + path + ";";
-        document.cookie = "googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=" + path + "; domain=" + domain + ";";
-        document.cookie = "googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=" + path + "; domain=." + domain + ";";
-        
-        // Set the active language cookie
-        document.cookie = "googtrans=/da/" + langCode + "; path=/; SameSite=Lax";
+        // Set the active language cookie on all scopes (host-only, domain, and dotted domain)
+        document.cookie = "googtrans=/da/" + langCode + "; path=/;";
+        document.cookie = "googtrans=/da/" + langCode + "; domain=" + domain + "; path=/;";
+        document.cookie = "googtrans=/da/" + langCode + "; domain=." + domain + "; path=/;";
     }
 
     // Determine active language: check localStorage, fallback to cookie, fallback to default 'da'
@@ -163,47 +158,10 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function doTranslate(langCode) {
-        currentLang = langCode;
         localStorage.setItem('selectedLanguage', langCode);
         syncTranslateCookie(langCode);
-        
-        // Toggle body classes
-        if (langCode === 'en') {
-            document.body.classList.add('lang-en');
-            document.body.classList.remove('lang-da');
-        } else {
-            document.body.classList.add('lang-da');
-            document.body.classList.remove('lang-en');
-        }
-
-        // Apply translation
-        applyGoogleTranslate(langCode);
+        window.location.reload();
     }
-
-    // Programmatically apply translation to Google Translate combo box
-    function applyGoogleTranslate(langCode) {
-        const select = document.querySelector('select.goog-te-combo');
-        if (select) {
-            if (select.value !== langCode) {
-                select.value = langCode;
-                select.dispatchEvent(new Event('change'));
-            }
-        }
-    }
-
-    // Periodically check and apply translation until Google Translate is ready
-    let checkCount = 0;
-    const checkInterval = setInterval(() => {
-        const select = document.querySelector('select.goog-te-combo');
-        if (select) {
-            applyGoogleTranslate(currentLang);
-            clearInterval(checkInterval);
-        }
-        checkCount++;
-        if (checkCount > 50) { // Stop checking after 5 seconds
-            clearInterval(checkInterval);
-        }
-    }, 100);
 
     langSelectors.forEach(langSelector => {
         const langDA = langSelector.querySelector('.lang-da-btn');
@@ -221,22 +179,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
             langDA.addEventListener('click', () => {
                 if(currentLang !== 'da') {
-                    langSelectors.forEach(ls => {
-                        const lDA = ls.querySelector('.lang-da-btn');
-                        const lEN = ls.querySelector('.lang-en-btn');
-                        if (lDA && lEN) { lDA.classList.add('active'); lEN.classList.remove('active'); }
-                    });
                     doTranslate('da');
                 }
             });
             
             langEN.addEventListener('click', () => {
                 if(currentLang !== 'en') {
-                    langSelectors.forEach(ls => {
-                        const lDA = ls.querySelector('.lang-da-btn');
-                        const lEN = ls.querySelector('.lang-en-btn');
-                        if (lDA && lEN) { lEN.classList.add('active'); lDA.classList.remove('active'); }
-                    });
                     doTranslate('en');
                 }
             });
