@@ -75,11 +75,7 @@ get_header();
                 </div>
 
             </div>
-        </div>
-
-        
-
-    </section>
+        </section>
 
         <!-- Gallery Section -->
         <section class="gallery-section" id="gallery" style="background-color: #fff8e6; padding-top: 2rem;">
