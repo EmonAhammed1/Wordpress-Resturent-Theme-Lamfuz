@@ -34,7 +34,7 @@ get_header(); ?>
             </div>
             <div class="booking-content">
                 <h4 class="booking-subtitle">NEPALI KØKKEN MED SJÆL</h4>
-                <div class="booking-image-wrap" style="margin: 1.5rem 0 2.5rem; overflow: hidden; border-radius: 8px;">
+                <div class="booking-image-wrap" style="margin: 1.5rem 0 2.5rem; overflow: hidden; border-radius: 0;">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Dish-3_16-9_Above.webp" alt="Nepali Food" style="width: 100%; display: block; height: auto;">
                 </div>
                 
