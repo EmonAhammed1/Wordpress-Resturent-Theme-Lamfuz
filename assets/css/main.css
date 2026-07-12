@@ -1053,22 +1053,26 @@ body {
 
 @media (max-width: 900px) {
     .booking-section {
-        padding: 4rem 1.5rem;
+        padding: 3rem 0 !important;
     }
     .booking-container {
         flex-direction: column;
         text-align: center;
-        gap: 3rem;
-        padding: 0 1.25rem !important;
+        gap: 2rem;
+        padding: 0 1rem !important;
+        width: 100% !important;
+        max-width: 100% !important;
     }
     .booking-widget {
         justify-content: center;
-        width: 100%;
+        width: 100% !important;
+        max-width: 100% !important;
     }
     .booking-widget iframe {
-        max-width: 100%;
-        height: 560px;
-        border-width: 8px;
+        max-width: 100% !important;
+        width: 100% !important;
+        height: 480px !important;
+        border: 6px solid #ffffff !important;
     }
     .booking-subtitle {
         font-size: 1rem;
