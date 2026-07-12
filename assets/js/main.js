@@ -126,17 +126,31 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function syncTranslateCookie(langCode) {
-        const domain = window.location.hostname;
+        const hostname = window.location.hostname;
         if (langCode === 'da') {
-            // Delete the googtrans cookie on all scopes to reset Google Translate to original Danish
-            document.cookie = "googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-            document.cookie = "googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; domain=" + domain + "; path=/;";
-            document.cookie = "googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; domain=." + domain + "; path=/;";
+            // Delete googtrans cookie on all path and domain combinations (including parent domains)
+            const domainParts = hostname.split('.');
+            for (let i = 0; i < domainParts.length - 1; i++) {
+                const domain = domainParts.slice(i).join('.');
+                document.cookie = "googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+                document.cookie = "googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; domain=" + domain + "; path=/;";
+                document.cookie = "googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; domain=." + domain + "; path=/;";
+            }
+            // Clear any local/session storage cache used by Google Translate
+            try {
+                sessionStorage.removeItem('googtrans');
+                localStorage.removeItem('googtrans');
+                for (let key in sessionStorage) {
+                    if (key.indexOf('goog') !== -1) {
+                        sessionStorage.removeItem(key);
+                    }
+                }
+            } catch(e) {}
         } else {
             // Set the active language cookie on all scopes (host-only, domain, and dotted domain)
             document.cookie = "googtrans=/da/" + langCode + "; path=/;";
-            document.cookie = "googtrans=/da/" + langCode + "; domain=" + domain + "; path=/;";
-            document.cookie = "googtrans=/da/" + langCode + "; domain=." + domain + "; path=/;";
+            document.cookie = "googtrans=/da/" + langCode + "; domain=" + hostname + "; path=/;";
+            document.cookie = "googtrans=/da/" + langCode + "; domain=." + hostname + "; path=/;";
         }
     }
 
