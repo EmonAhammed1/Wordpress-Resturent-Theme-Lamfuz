@@ -168,21 +168,14 @@ get_header();
                         <div class="menu-item"><span class="menu-item-name">Organic Pilsner</span><span class="menu-item-price">45/65 kr.</span></div>
                         <div class="menu-item"><span class="menu-item-name">Organic IPA</span><span class="menu-item-price">50/70 kr.</span></div>
                         <div class="menu-item"><span class="menu-item-name">Barahsinghe Pilsner</span><span class="menu-item-price">59 kr.</span></div>
-                        <div class="menu-item"><span class="menu-item-name">Non-alcoholic Beers</span><span class="menu-item-price">59 kr.</span></div>
-                        <div class="menu-item"><span class="menu-item-name">Wine: Red/White/Sparkling/Rose</span><span class="menu-item-price">From 70 kr.</span></div>
-                        <div class="menu-item"><span class="menu-item-name">Temple Ginger Twist</span><span class="menu-item-price">99 kr.</span></div>
-                        <div class="menu-item"><span class="menu-item-name">Pink Raspberry Gin</span><span class="menu-item-price">89 kr.</span></div>
-                        <div class="menu-item"><span class="menu-item-name">Terai Cooler</span><span class="menu-item-price">89 kr.</span></div>
-                        <div class="menu-item"><span class="menu-item-name">Nepali Punch</span><span class="menu-item-price">99 kr.</span></div>
-                        <div class="menu-item"><span class="menu-item-name">Organic Homemade Mocktails</span><span class="menu-item-price">59 kr.</span></div>
-                        <div class="menu-item"><span class="menu-item-name">Tea (golden/ white/ green/ black)</span><span class="menu-item-price">39 kr.</span></div>
-                        <div class="menu-item"><span class="menu-item-name">Teapot</span><span class="menu-item-price">135 kr.</span></div>
-                        <div class="menu-item"><span class="menu-item-name">Nepali Chiya Tea</span><span class="menu-item-price">45 kr.</span></div>
                     </div>
                 </div>
             </div>
             <div class="menu-actions">
-                <a href="#full-menu" class="btn-hero-red" style="text-transform: uppercase; font-size: 0.85rem; padding: 1rem 2.5rem; letter-spacing: 0.05em;">SEE THE FULL MENU</a>
+                <a href="<?php echo home_url('/menu'); ?>" class="btn-hero-red" style="text-transform: uppercase; font-size: 0.85rem; padding: 1rem 2.5rem; letter-spacing: 0.02em;">
+                    <span class="show-da">SE HELE MENUKORTET</span>
+                    <span class="show-en notranslate">SEE THE FULL MENU</span>
+                </a>
             </div>
         </div>
     </section>
