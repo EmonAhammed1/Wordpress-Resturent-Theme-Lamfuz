@@ -1071,7 +1071,7 @@ body {
     .booking-widget iframe {
         max-width: 100% !important;
         width: 100% !important;
-        height: 480px !important;
+        height: 650px !important;
         border: 6px solid #ffffff !important;
     }
     .booking-subtitle {
@@ -2472,7 +2472,7 @@ body.lang-en span.show-da, body.lang-en a.show-da {
 @media (max-width: 600px) {
     /* Reduce booking section padding on mobile to match reference */
     .booking-section {
-        padding: 3rem 1rem !important;
+        padding: 3rem 0 !important;
     }
 
     /* Headings (Titles) -> 24px Amagro-bold */
