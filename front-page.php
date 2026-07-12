@@ -21,7 +21,7 @@ get_header();
 
 
         <!-- Vertical Sidebar Scroll Indicator (Right Side) -->
-        <a href="<?php echo home_url('/about'); ?>" class="hero-scroll-side">
+        <a href="<?php echo lamfuz_get_page_url(array('about', 'om-lamfuz')); ?>" class="hero-scroll-side">
             <span class="hero-vertical-text">OPDAG LAMFUZ</span>
             <div class="hero-scroll-arrow">
                 <svg viewBox="0 0 24 24">
@@ -98,7 +98,7 @@ get_header();
                     <span class="show-da">I lamfuz vi brænder for at lave mad inspireret af den eksplosion af smag, som det nepalesiske køkken byder på. Vi tilbyder DINE IN, takeout og catering til dig, der længes efter eksotisk mad og nye smage – på en sund måde og uden at tømme din pung!</span>
                     <span class="show-en notranslate">At lamfuz we are passionate about cooking inspired by the explosion of flavors that Nepalese cuisine offers. We offer DINE IN, takeout and catering for those of you who long for exotic food and new flavors - in a healthy way and without emptying your wallet!</span>
                 </p>
-                <a href="<?php echo home_url('/about'); ?>" class="btn-hero-red" style="margin-top: 1.5rem; text-transform: uppercase; font-size: 0.85rem; padding: 1rem 1.8rem;">
+                <a href="<?php echo lamfuz_get_page_url(array('about', 'om-lamfuz')); ?>" class="btn-hero-red" style="margin-top: 1.5rem; text-transform: uppercase; font-size: 0.85rem; padding: 1rem 1.8rem;">
                     <span class="show-da">LÆS MERE OM OS</span>
                     <span class="show-en notranslate">READ MORE ABOUT US</span>
                 </a>
@@ -236,7 +236,7 @@ get_header();
                         <span class="show-da">Forretter, hovedretter, vegetariske specialiteter, grillretter, desserter og kolde drikke til at skylle det hele ned med – vores fulde menukort har meget mere at byde på. Kom sulten.</span>
                         <span class="show-en notranslate">Starters, mains, vegetarian specialities, grills, desserts, and drinks to wash it all down — our full menu has plenty more to explore. Come hungry.</span>
                     </p>
-                    <a href="<?php echo home_url('/menu'); ?>" class="btn-hero-red" style="margin-top: 1.5rem; display: inline-block;">
+                    <a href="<?php echo lamfuz_get_page_url('menu'); ?>" class="btn-hero-red" style="margin-top: 1.5rem; display: inline-block;">
                         <span class="show-da">SE HELE MENUKORTET →</span>
                         <span class="show-en notranslate">VIEW FULL MENU →</span>
                     </a>
@@ -340,7 +340,7 @@ get_header();
                 </div>
             </div>
             <div class="menu-actions">
-                <a href="<?php echo home_url('/menu'); ?>" class="btn-hero-red" style="text-transform: uppercase; font-size: 0.85rem; padding: 1rem 2.5rem; letter-spacing: 0.02em;">
+                <a href="<?php echo lamfuz_get_page_url('menu'); ?>" class="btn-hero-red" style="text-transform: uppercase; font-size: 0.85rem; padding: 1rem 2.5rem; letter-spacing: 0.02em;">
                     <span class="show-da">SE HELE MENUKORTET</span>
                     <span class="show-en notranslate">SEE THE FULL MENU</span>
                 </a>

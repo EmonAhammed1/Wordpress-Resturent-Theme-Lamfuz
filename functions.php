@@ -40,13 +40,13 @@ add_action( 'after_setup_theme', 'cmc_theme_setup' );
 
 
 function cmc_force_page_templates($template) {
-    if (is_page('contact')) {
+    if (is_page('contact') || is_page('kontakt')) {
         $new_template = locate_template(array('page-contact.php'));
         if ('' != $new_template) {
             return $new_template;
         }
     }
-    if (is_page('about')) {
+    if (is_page('about') || is_page('om-lamfuz')) {
         $new_template = locate_template(array('page-about.php'));
         if ('' != $new_template) {
             return $new_template;
@@ -67,6 +67,20 @@ function cmc_force_page_templates($template) {
     return $template;
 }
 add_filter('template_include', 'cmc_force_page_templates', 99);
+
+// Helper function to resolve page URLs dynamically based on available slugs (supports English/Danish fallbacks)
+function lamfuz_get_page_url($slugs) {
+    if (!is_array($slugs)) {
+        $slugs = array($slugs);
+    }
+    foreach ($slugs as $slug) {
+        $page = get_page_by_path($slug);
+        if ($page) {
+            return get_permalink($page->ID);
+        }
+    }
+    return home_url('/' . $slugs[0]);
+}
 
 function cmc_register_menus() {
     register_nav_menus(

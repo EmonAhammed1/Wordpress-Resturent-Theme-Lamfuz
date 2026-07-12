@@ -51,17 +51,17 @@ if ( ! defined( 'ABSPATH' ) ) {
                     ?>
                         <div class="show-da">
                             <a href="<?php echo home_url('/'); ?>">FORSIDE</a>
-                            <a href="<?php echo home_url('/menu'); ?>">MENU</a>
-                            <a href="<?php echo home_url('/about'); ?>">OM LAMFUZ</a>
-                            <a href="<?php echo home_url('/blog'); ?>">BLOG</a>
-                            <a href="<?php echo home_url('/contact'); ?>">KONTAKT</a>
+                            <a href="<?php echo lamfuz_get_page_url('menu'); ?>">MENU</a>
+                            <a href="<?php echo lamfuz_get_page_url(array('about', 'om-lamfuz')); ?>">OM LAMFUZ</a>
+                            <a href="<?php echo lamfuz_get_page_url('blog'); ?>">BLOG</a>
+                            <a href="<?php echo lamfuz_get_page_url(array('contact', 'kontakt')); ?>">KONTAKT</a>
                         </div>
                         <div class="show-en notranslate">
                             <a href="<?php echo home_url('/'); ?>">FRONT</a>
-                            <a href="<?php echo home_url('/menu'); ?>">MENU</a>
-                            <a href="<?php echo home_url('/about'); ?>">ABOUT LAMFUZ</a>
-                            <a href="<?php echo home_url('/blog'); ?>">BLOG</a>
-                            <a href="<?php echo home_url('/contact'); ?>">CONTACT</a>
+                            <a href="<?php echo lamfuz_get_page_url('menu'); ?>">MENU</a>
+                            <a href="<?php echo lamfuz_get_page_url(array('about', 'om-lamfuz')); ?>">ABOUT LAMFUZ</a>
+                            <a href="<?php echo lamfuz_get_page_url('blog'); ?>">BLOG</a>
+                            <a href="<?php echo lamfuz_get_page_url(array('contact', 'kontakt')); ?>">CONTACT</a>
                         </div>
                     <?php } ?>
                 </div>
@@ -70,8 +70,8 @@ if ( ! defined( 'ABSPATH' ) ) {
                 <div class="footer-col">
                     <h4 class="show-da">INFO</h4>
                     <h4 class="show-en notranslate">ABOUT</h4>
-                    <a href="<?php echo home_url('/book-et-bord'); ?>" class="show-da">OPLEV MERE FRA LAMFUZ</a>
-                    <a href="<?php echo home_url('/book-et-bord'); ?>" class="show-en notranslate">DISCOVER MORE FROM LAMFUZ</a>
+                    <a href="<?php echo lamfuz_get_page_url('book-et-bord'); ?>" class="show-da">OPLEV MERE FRA LAMFUZ</a>
+                    <a href="<?php echo lamfuz_get_page_url('book-et-bord'); ?>" class="show-en notranslate">DISCOVER MORE FROM LAMFUZ</a>
                 </div>
 
                 <!-- Column 5: Kontakt / Contact -->
