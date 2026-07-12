@@ -165,22 +165,7 @@ document.addEventListener("DOMContentLoaded", function() {
     function doTranslate(langCode) {
         localStorage.setItem('selectedLanguage', langCode);
         syncTranslateCookie(langCode);
-        
-        const select = document.querySelector('select.goog-te-combo');
-        if (select) {
-            select.value = langCode;
-            select.dispatchEvent(new Event('change'));
-        } else {
-            setTimeout(() => {
-                const selectRetry = document.querySelector('select.goog-te-combo');
-                if (selectRetry) {
-                    selectRetry.value = langCode;
-                    selectRetry.dispatchEvent(new Event('change'));
-                } else {
-                    window.location.reload();
-                }
-            }, 500);
-        }
+        window.location.reload();
     }
 
     langSelectors.forEach(langSelector => {

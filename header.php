@@ -4,7 +4,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 ?>
 <!DOCTYPE html>
-<html <?php language_attributes(); ?>>
+<html lang="<?php echo (isset($_COOKIE['googtrans']) && strpos($_COOKIE['googtrans'], '/en') !== false) ? 'en' : 'da'; ?>">
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
