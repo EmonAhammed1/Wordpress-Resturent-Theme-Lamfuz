@@ -2002,7 +2002,7 @@ body { top: 0 !important; }
     font-family: var(--font-heading);
     font-size: 1.4rem;
     font-weight: 600;
-    color: #8c2b23;
+    color: #b3522a;
     margin: 0 0 2.2rem;
     letter-spacing: 0.05em;
     text-transform: uppercase;
@@ -2045,7 +2045,7 @@ body { top: 0 !important; }
 
 .item-price {
     font-weight: 600;
-    color: #8c2b23;
+    color: #b3522a;
     white-space: nowrap;
     flex-shrink: 0;
 }
