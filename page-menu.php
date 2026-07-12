@@ -13,7 +13,7 @@ get_header(); ?>
     <!-- HERO SECTION -->
     <section class="about-hero-section menu-hero-section">
         <div class="about-hero-bg">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Space-1_16-9_Side.webp" alt="Menu">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Dish-3_16-9_Above.webp" alt="Menu">
             <div class="about-hero-overlay menu-hero-overlay"></div>
         </div>
         <div class="about-container" style="width: 100%; position: relative; z-index: 10;">
@@ -26,8 +26,22 @@ get_header(); ?>
     <!-- MENU CONTENT SECTION -->
     <section class="menu-page-section">
         <div class="menu-page-container">
-            
 
+            <!-- MENU INTRO / SEO SECTION -->
+            <div class="menu-intro-section">
+                <h2 class="menu-intro-title">
+                    <span class="show-da">Lamfuz-menuen: Autentisk nepalesisk mad i København</span>
+                    <span class="show-en notranslate">The Lamfuz Menu: Authentic Nepalese Food in Copenhagen</span>
+                </h2>
+                <p class="menu-intro-seo-subtitle visually-hidden">
+                    <span class="show-da">SEO-sidetitel: Nepalesisk menu København | Momo, Dal Bhat og Chow Mein priser - Lamfuz</span>
+                    <span class="show-en notranslate">SEO Page Title: Nepalese Menu Copenhagen | Momo, Dal Bhat &amp; Chow Mein Prices - Lamfuz</span>
+                </p>
+                <p class="menu-intro-desc">
+                    <span class="show-da">Udforsk vores fulde menu med autentiske nepalesiske retter, frisk tilberedt i vores køkken hver dag. Se vores mad, drikkevarer og aktuelle priser nedenfor. Veganske og glutenfrie muligheder er tilgængelige på de fleste retter.</span>
+                    <span class="show-en notranslate">Explore our full menu of authentic Nepalese dishes, freshly prepared in our kitchen every day. View our food, drinks, and current prices below. Vegan and gluten-free options are available on most of the dishes.</span>
+                </p>
+            </div>
 
             <!-- DRINKS SECTION -->
             <div class="menu-group-container">
@@ -577,17 +591,42 @@ get_header(); ?>
                             </ul>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
 
-                    <!-- FOOTER INFO NOTE -->
-                    <div class="menu-food-footer">
-                        <span class="menu-leaf-small">
-                            <svg viewBox="0 0 24 24" width="16" height="16" fill="#b3522a">
-                                <path d="M12,2 C15,8 20,8 12,22 C4,8 9,8 12,2 Z" />
-                            </svg>
-                        </span>
-                        <p class="menu-footer-text">Alle retter tilberedes frisk hver dag. Veganske og glutenfri muligheder kan tilvælges efter ønske.</p>
-                        <p class="menu-footer-subtext">Besøg os på <strong>Lamfuz Nepali Cuisine &ndash; lamfuz.dk</strong></p>
+        <!-- Gallery Section -->
+        <section class="gallery-section" id="gallery" style="background-color: #fff8e6; padding-top: 2rem;">
+            <div class="gallery-container">
+                <div class="gallery-content">
+                    <h4 class="gallery-subtitle">OUR GALLERY</h4>
+                    <h2 class="gallery-title">GIVE YOUR TASTE BUDS A ROLLER COASTER RIDE!</h2>
+                    <p class="gallery-text">Are you looking for exotic and tasty food? Would you like to challenge yourself with a rollercoaster ride for your taste buds?</p>
+                    <p class="gallery-text">Then Lamfuz is for you!</p>
+                    <p class="gallery-text">At lamfuz we are passionate about cooking inspired by the explosion of flavors that Nepalese cuisine offers. We offer DINE IN, takeout and catering for those of you who long for exotic food and new flavors - in a healthy way and without emptying your wallet!</p>
+                    <a href="<?php echo home_url('/about'); ?>" class="btn-hero-red" style="margin-top: 1.5rem; text-transform: uppercase; font-size: 0.85rem; padding: 1rem 1.8rem; display: inline-block;">READ MORE</a>
+                </div>
+                <div class="swiper mySwiper gallery-images-container" style="overflow: hidden; flex: 1;">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" style="width: auto;"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/DhalBhatPlatter_9-16_Above.webp" alt="Dhal Bhat Platter" class="gallery-img"></div>
+                        <div class="swiper-slide" style="width: auto;"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/JholMoMo_9-16_Above.webp" alt="Jhol MoMo" class="gallery-img"></div>
+                        <div class="swiper-slide" style="width: auto;"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/ChickenChoila_9-16_Above.webp" alt="Chicken Choila" class="gallery-img"></div>
+                        <div class="swiper-slide" style="width: auto;"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/ChowMein_9-16_Above.webp" alt="Chow Mein" class="gallery-img"></div>
+                        <div class="swiper-slide" style="width: auto;"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/FriedRice_9-16_Above.webp" alt="Fried Rice" class="gallery-img"></div>
+                        <div class="swiper-slide" style="width: auto;"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/SaladBowl_9-16_Above.webp" alt="Salad Bowl" class="gallery-img"></div>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer Info Note -->
+        <section class="menu-footer-note-section" style="background-color: #fff8e6; padding: 0 0 6rem 0; overflow: hidden;">
+            <div class="menu-page-container">
+                <div class="menu-food-footer" style="margin-top: 0;">
+                    <p class="menu-intro-desc" style="margin-top: 0;">
+                        <span class="show-da">Uanset om du spiser hos os til middag, bestiller takeaway eller planlægger et særligt arrangement, glæder vi os til at dele Nepals smage med dig. Har du brug for anbefalinger eller har du særlige kostbehov, hjælper vores team dig altid gerne.</span>
+                        <span class="show-en notranslate">Whether you're joining us for dinner, ordering takeaway, or planning a special event, we look forward to sharing the flavours of Nepal with you. If you need recommendations or have dietary requirements, our team is always happy to help.</span>
+                    </p>
                 </div>
             </div>
         </section>

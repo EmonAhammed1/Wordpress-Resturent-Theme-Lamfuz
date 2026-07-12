@@ -37,11 +37,11 @@ if ( ! defined( 'ABSPATH' ) ) {
                         ) );
                     } else {
                     ?>
-                        <a href="<?php echo home_url('/'); ?>" class="hero-nav-link">FORSIDE</a>
-                        <a href="<?php echo home_url('/menu'); ?>" class="hero-nav-link">MENU</a>
-                        <a href="<?php echo home_url('/about'); ?>" class="hero-nav-link">OM LAMFUZ</a>
-                        <a href="<?php echo home_url('/blog'); ?>" class="hero-nav-link">BLOG</a>
-                        <a href="<?php echo home_url('/contact'); ?>" class="hero-nav-link">KONTAKT</a>
+                        <a href="<?php echo home_url('/'); ?>" class="hero-nav-link <?php echo is_front_page() ? 'active' : ''; ?>">FORSIDE</a>
+                        <a href="<?php echo home_url('/menu'); ?>" class="hero-nav-link <?php echo is_page('menu') ? 'active' : ''; ?>">MENU</a>
+                        <a href="<?php echo home_url('/about'); ?>" class="hero-nav-link <?php echo is_page('about') ? 'active' : ''; ?>">OM LAMFUZ</a>
+                        <a href="<?php echo home_url('/blog'); ?>" class="hero-nav-link <?php echo is_page('blog') || is_page_template('page-blog.php') || (is_home() && !is_front_page()) || is_singular('post') ? 'active' : ''; ?>">BLOG</a>
+                        <a href="<?php echo home_url('/contact'); ?>" class="hero-nav-link <?php echo is_page('contact') ? 'active' : ''; ?>">KONTAKT</a>
                     <?php } ?>
                 </nav>
             </div>
@@ -95,11 +95,11 @@ if ( ! defined( 'ABSPATH' ) ) {
                 ) );
             } else {
             ?>
-                <a href="<?php echo home_url('/'); ?>" class="mobile-nav-link">FORSIDE</a>
-                <a href="<?php echo home_url('/menu'); ?>" class="mobile-nav-link">MENU</a>
-                <a href="<?php echo home_url('/about'); ?>" class="mobile-nav-link">OM LAMFUZ</a>
-                <a href="<?php echo home_url('/blog'); ?>" class="mobile-nav-link">BLOG</a>
-                <a href="<?php echo home_url('/contact'); ?>" class="mobile-nav-link">KONTAKT</a>
+                <a href="<?php echo home_url('/'); ?>" class="mobile-nav-link <?php echo is_front_page() ? 'active' : ''; ?>">FORSIDE</a>
+                <a href="<?php echo home_url('/menu'); ?>" class="mobile-nav-link <?php echo is_page('menu') ? 'active' : ''; ?>">MENU</a>
+                <a href="<?php echo home_url('/about'); ?>" class="mobile-nav-link <?php echo is_page('about') ? 'active' : ''; ?>">OM LAMFUZ</a>
+                <a href="<?php echo home_url('/blog'); ?>" class="mobile-nav-link <?php echo is_page('blog') || is_page_template('page-blog.php') || (is_home() && !is_front_page()) || is_singular('post') ? 'active' : ''; ?>">BLOG</a>
+                <a href="<?php echo home_url('/contact'); ?>" class="mobile-nav-link <?php echo is_page('contact') ? 'active' : ''; ?>">KONTAKT</a>
             <?php } ?>
         </div>
 

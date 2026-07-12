@@ -88,3 +88,12 @@ function add_menu_link_class( $atts, $item, $args ) {
     return $atts;
 }
 add_filter( 'nav_menu_link_attributes', 'add_menu_link_class', 1, 3 );
+
+// Custom SEO Page Title for Contact Page
+function cmc_custom_seo_title( $title ) {
+    if ( is_page_template( 'page-contact.php' ) || is_page( 'contact' ) ) {
+        return 'Contact Lamfuz | Nepalese Restaurant Turesensgade, Copenhagen K';
+    }
+    return $title;
+}
+add_filter( 'pre_get_document_title', 'cmc_custom_seo_title', 50 );
