@@ -127,10 +127,17 @@ document.addEventListener("DOMContentLoaded", function() {
 
     function syncTranslateCookie(langCode) {
         const domain = window.location.hostname;
-        // Set the active language cookie on all scopes (host-only, domain, and dotted domain)
-        document.cookie = "googtrans=/da/" + langCode + "; path=/;";
-        document.cookie = "googtrans=/da/" + langCode + "; domain=" + domain + "; path=/;";
-        document.cookie = "googtrans=/da/" + langCode + "; domain=." + domain + "; path=/;";
+        if (langCode === 'da') {
+            // Delete the googtrans cookie on all scopes to reset Google Translate to original Danish
+            document.cookie = "googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+            document.cookie = "googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; domain=" + domain + "; path=/;";
+            document.cookie = "googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; domain=." + domain + "; path=/;";
+        } else {
+            // Set the active language cookie on all scopes (host-only, domain, and dotted domain)
+            document.cookie = "googtrans=/da/" + langCode + "; path=/;";
+            document.cookie = "googtrans=/da/" + langCode + "; domain=" + domain + "; path=/;";
+            document.cookie = "googtrans=/da/" + langCode + "; domain=." + domain + "; path=/;";
+        }
     }
 
     // Determine active language: check localStorage, fallback to cookie, fallback to default 'da'
