@@ -125,11 +125,33 @@ document.addEventListener("DOMContentLoaded", function() {
         return null;
     }
 
-    const googtrans = getCookie('googtrans');
-    let currentLang = 'da';
-    if (googtrans && googtrans.endsWith('/en')) {
-        currentLang = 'en';
+    function syncTranslateCookie(langCode) {
+        const domain = window.location.hostname;
+        const path = "/";
+        
+        // Clear duplicates to ensure only ONE cookie exists
+        document.cookie = "googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=" + path + ";";
+        document.cookie = "googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=" + path + "; domain=" + domain + ";";
+        document.cookie = "googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=" + path + "; domain=." + domain + ";";
+        
+        // Set the active language cookie
+        document.cookie = "googtrans=/da/" + langCode + "; path=/; SameSite=Lax";
     }
+
+    // Determine active language: check localStorage, fallback to cookie, fallback to default 'da'
+    let currentLang = localStorage.getItem('selectedLanguage');
+    if (!currentLang) {
+        const googtrans = getCookie('googtrans');
+        if (googtrans && googtrans.endsWith('/en')) {
+            currentLang = 'en';
+        } else {
+            currentLang = 'da';
+        }
+        localStorage.setItem('selectedLanguage', currentLang);
+    }
+
+    // Force sync the cookie to match the persisted language state on load
+    syncTranslateCookie(currentLang);
 
     // Set initial body classes
     if (currentLang === 'en') {
@@ -141,8 +163,8 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function doTranslate(langCode) {
-        document.cookie = "googtrans=/da/" + langCode + "; path=/;";
-        document.cookie = "googtrans=/da/" + langCode + "; domain=" + window.location.hostname + "; path=/;";
+        localStorage.setItem('selectedLanguage', langCode);
+        syncTranslateCookie(langCode);
         
         const select = document.querySelector('select.goog-te-combo');
         if (select) {
@@ -162,11 +184,11 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     langSelectors.forEach(langSelector => {
-        const langDA = langSelector.querySelector('span:first-child');
-        const langEN = langSelector.querySelector('span:last-child');
+        const langDA = langSelector.querySelector('.lang-da-btn');
+        const langEN = langSelector.querySelector('.lang-en-btn');
         
         if(langDA && langEN) {
-            // Set initial active state based on cookie
+            // Set initial active state based on persisted language
             if (currentLang === 'en') {
                 langEN.classList.add('active');
                 langDA.classList.remove('active');
@@ -181,8 +203,8 @@ document.addEventListener("DOMContentLoaded", function() {
                     document.body.classList.add('lang-da');
                     document.body.classList.remove('lang-en');
                     langSelectors.forEach(ls => {
-                        const lDA = ls.querySelector('span:first-child');
-                        const lEN = ls.querySelector('span:last-child');
+                        const lDA = ls.querySelector('.lang-da-btn');
+                        const lEN = ls.querySelector('.lang-en-btn');
                         if (lDA && lEN) { lDA.classList.add('active'); lEN.classList.remove('active'); }
                     });
                     doTranslate('da');
@@ -195,8 +217,8 @@ document.addEventListener("DOMContentLoaded", function() {
                     document.body.classList.add('lang-en');
                     document.body.classList.remove('lang-da');
                     langSelectors.forEach(ls => {
-                        const lDA = ls.querySelector('span:first-child');
-                        const lEN = ls.querySelector('span:last-child');
+                        const lDA = ls.querySelector('.lang-da-btn');
+                        const lEN = ls.querySelector('.lang-en-btn');
                         if (lDA && lEN) { lEN.classList.add('active'); lDA.classList.remove('active'); }
                     });
                     doTranslate('en');
