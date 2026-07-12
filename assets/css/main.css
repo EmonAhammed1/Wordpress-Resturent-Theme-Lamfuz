@@ -1967,7 +1967,7 @@ body { top: 0 !important; }
 .menu-card {
     background-color: #ffffff;
     border: 1px solid rgba(168, 144, 102, 0.2);
-    border-radius: 8px;
+    border-radius: 0;
     padding: 3rem 2.5rem;
     position: relative;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
