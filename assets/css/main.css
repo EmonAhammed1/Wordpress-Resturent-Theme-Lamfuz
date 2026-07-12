@@ -1059,6 +1059,7 @@ body {
         flex-direction: column;
         text-align: center;
         gap: 3rem;
+        padding: 0 1.25rem !important;
     }
     .booking-widget {
         justify-content: center;
@@ -1066,7 +1067,7 @@ body {
     }
     .booking-widget iframe {
         max-width: 100%;
-        height: 580px;
+        height: 560px;
         border-width: 8px;
     }
     .booking-subtitle {
