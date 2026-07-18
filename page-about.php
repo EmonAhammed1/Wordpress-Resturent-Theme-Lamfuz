@@ -89,47 +89,47 @@ get_header(); ?>
                         <p style="margin-bottom: 1.2rem;">Lamfuz began as a small takeaway & event space at Krudttønden in Østerbro, where Krishna and Badal first introduced Nepali cuisine to Copenhagen. They quickly built a loyal following, proving the city's appetite for Nepali food.</p>
                         <p style="margin-bottom: 0;">In 2022, Badal stepped away from the project, while Krishna continued the journey. When the café closed in 2023, it had already fulfilled its purpose, leading to the opening of Lamfuz on Turesensgade, where the taste of Nepal is served with a thoughtful modern touch.</p>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- MEET THE TEAM SECTION -->
+                </d    <!-- MEET THE TEAM SECTION -->
     <section class="about-team-section" style="background-color: #fff8e6; padding: 6rem 0 3rem 0;">
         <div class="about-container">
-            <div class="about-split">
-                <div class="about-split-content">
-                    <h2 class="about-section-title" style="text-align: left; margin-bottom: 1.5rem;">
-                        <span class="show-da">Mød teamet</span>
-                        <span class="show-en notranslate">Meet the Team</span>
-                    </h2>
-                    <div class="show-da" style="color: #b3522a; font-family: var(--font-body); font-size: 1.05rem; line-height: 1.8;">
-                        <p style="margin-bottom: 1.2rem;">Bag hver ret hos Lamfuz står et dedikeret team ledet af køkkenchef Krishna Adhikari. Sammen med sin familie og en tæt sammentømret gruppe af kokke og serveringspersonale deler de en passion for det autentiske nepalesiske køkken, varm gæstfrihed og at skabe mindeværdige spiseoplevelser.</p>
-                        <p style="margin-bottom: 2rem;">Fra at tilberede håndlavede momos og friskkværne krydderier to at byde hver gæst velkommen i døren, spiller alle medlemmer af teamet en rolle i at bringe Nepals smage og traditioner til hjertet af København. Vi er måske en lille, uafhængi restaurant, men vi tror på, at det er netop det, der gør hvert måltid personligt.</p>
-                        
-                        <h3 style="font-family: var(--font-body); font-size: 1.35rem; font-weight: 700; color: #b2512b; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: normal;">Fra Nepal til København</h3>
-                        <p style="margin-bottom: 1.2rem;">Længe før Lamfuz åbnede i København, voksede Krishna Adhikari og Badal Maharjan op i Nepal, hvor familieopskrifter, friskkværnede krydderier og varm gæstfrihed var en del of hverdagen. Disse traditioner inspirerede deres passion for at dele det nepalesiske køkken med andre.</p>
-                        <p style="margin-bottom: 2rem;">Efter at have flyttet til Danmark tilbragte de flere år med at arbejde på caféer og restauranter i hele København, hvor de fik stor erfaring med råvarer af høj kvalitet, sæsonbestemte ingredienser, præcision og moderne restaurantstandarder. Ved at kombinere disse færdigheder med deres nepalesiske rødder skabte de Lamfuz - en restaurant, hvor familieopskrifter, gennemtænkt moderne præsentation og ægte gæstfrihed mødes for at bringe den sande smag af Nepal til hjertet af København.</p>
-                        
-                        <h3 style="font-family: var(--font-body); font-size: 1.35rem; font-weight: 700; color: #b2512b; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: normal;">En sen aften, en enkel idé</h3>
-                        <p style="margin-bottom: 1.2rem;">Lamfuz startede med en simpel samtale over en øl en sen aften. Efter mange års samarbejde delte Krishna og Badal en fælles vision: at bringe det autentiske nepalesiske køkken til København. Med mange års professionel køkkenerfaring og en kandidatuddannelse i ledelse, forretning og iværksætteri gjorde de denne idé til virkelighed.</p>
-                        <p style="margin-bottom: 0;">Den samtale blev begyndelsen på Lamfuz.</p>
-                    </div>
-                    <div class="show-en notranslate" style="color: #b3522a; font-family: var(--font-body); font-size: 1.05rem; line-height: 1.8;">
-                        <p style="margin-bottom: 1.2rem;">Behind every dish at Lamfuz is a dedicated team led by Chef Krishna Adhikari. Together with his family and a close-knit group of chefs and front-of-house staff, they share a passion for authentic Nepali cuisine, warm hospitality, and creating memorable dining experiences.</p>
-                        <p style="margin-bottom: 2rem;">From preparing handmade momo and freshly grinding spices to welcoming every guest through the door, every member of the team plays a part in bringing the flavours and traditions of Nepal to the heart of Copenhagen. We may be a small independent restaurant, but we believe that's what makes every meal personal.</p>
-                        
-                        <h3 style="font-family: var(--font-body); font-size: 1.35rem; font-weight: 700; color: #b2512b; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: normal;">From Nepal to Copenhagen</h3>
-                        <p style="margin-bottom: 1.2rem;">Long before Lamfuz opened in Copenhagen, Krishna Adhikari and Badal Maharjan grew up in Nepal, where family recipes, freshly ground spices, and warm hospitality were part of everyday life. Those traditions inspired their passion for sharing Nepali cuisine.</p>
-                        <p style="margin-bottom: 2rem;">After moving to Denmark, they spent several years working in cafés and restaurants across Copenhagen, gaining experience in quality ingredients, seasonality, precision, and modern restaurant standards. Combining those skills with their Nepalese roots, they created Lamfuz, a restaurant where family recipes, thoughtful modern presentation, and genuine hospitality come together to bring the true taste of Nepal to the heart of Copenhagen.</p>
-                        
-                        <h3 style="font-family: var(--font-body); font-size: 1.35rem; font-weight: 700; color: #b2512b; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: normal;">One Late Night, One Simple Idea</h3>
-                        <p style="margin-bottom: 1.2rem;">Lamfuz began with a simple conversation over a late night beer. After years of working together, Krishna and Badal shared one vision: to bring authentic Nepali cuisine to Copenhagen. With years of professional kitchen experience and postgraduate studies in business management and entrepreneurship, they turned that idea into reality.</p>
-                        <p style="margin-bottom: 0;">That conversation became the beginning of Lamfuz.</p>
-                    </div>
+            <!-- Center title -->
+            <div style="text-align: center; margin-bottom: 3rem;">
+                <h2 class="about-section-title" style="margin-bottom: 1rem; display: inline-block;">
+                    <span class="show-da">Mød teamet</span>
+                    <span class="show-en notranslate">Meet the Team</span>
+                </h2>
+            </div>
+
+            <!-- Centered Team Photo -->
+            <div class="about-team-photo-wrapper" style="max-width: 800px; margin: 0 auto 3rem; text-align: center;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/LAMFUZ-team.webp" alt="Meet the Team" style="width: 100%; height: auto; max-height: 500px; object-fit: cover; box-shadow: 0 15px 40px rgba(0,0,0,0.1);">
+            </div>
+
+            <!-- Story Texts -->
+            <div class="about-team-story-content" style="max-width: 800px; margin: 0 auto; color: #b3522a; font-family: var(--font-body); font-size: 1.05rem; line-height: 1.8;">
+                <div class="show-da">
+                    <p style="margin-bottom: 1.2rem;">Bag hver ret hos Lamfuz står et dedikeret team ledet af køkkenchef Krishna Adhikari. Sammen med sin familie og en tæt sammentømret gruppe af kokke og serveringspersonale deler de en passion for det autentiske nepalesiske køkken, varm gæstfrihed og at skabe mindeværdige spiseoplevelser.</p>
+                    <p style="margin-bottom: 3rem;">Fra at tilberede håndlavede momos og friskkværne krydderier to at byde hver gæst velkommen i døren, spiller alle medlemmer af teamet en rolle i at bringe Nepals smage og traditioner til hjertet af København. Vi er måske en lille, uafhængi restaurant, men vi tror på, at det er netop det, der gør hvert måltid personligt.</p>
+                    
+                    <h3 style="font-family: var(--font-body); font-size: 1.45rem; font-weight: 700; color: #b2512b; margin-bottom: 1.2rem; text-transform: uppercase; letter-spacing: normal;">Fra Nepal til København</h3>
+                    <p style="margin-bottom: 1.2rem;">Længe før Lamfuz åbnede i København, voksede Krishna Adhikari og Badal Maharjan op i Nepal, hvor familieopskrifter, friskkværnede krydderier og varm gæstfrihed var en del of hverdagen. Disse traditioner inspirerede deres passion for at dele det nepalesiske køkken med andre.</p>
+                    <p style="margin-bottom: 3rem;">Efter at have flyttet til Danmark tilbragte de flere år med at arbejde på caféer og restauranter i hele København, hvor de fik stor erfaring med råvarer af høj kvalitet, sæsonbestemte ingredienser, præcision og moderne restaurantstandarder. Ved at kombinere disse færdigheder med deres nepalesiske rødder skabte de Lamfuz - en restaurant, hvor familieopskrifter, gennemtænkt moderne præsentation og ægte gæstfrihed mødes for at bringe den sande smag af Nepal til hjertet af København.</p>
+                    
+                    <h3 style="font-family: var(--font-body); font-size: 1.45rem; font-weight: 700; color: #b2512b; margin-bottom: 1.2rem; text-transform: uppercase; letter-spacing: normal;">En sen aften, en enkel idé</h3>
+                    <p style="margin-bottom: 1.2rem;">Lamfuz startede med en simpel samtale over en øl en sen aften. Efter mange års samarbejde delte Krishna og Badal en fælles vision: at bringe det autentiske nepalesiske køkken til København. Med mange års professionel køkkenerfaring og en kandidatuddannelse i ledelse, forretning og iværksætteri gjorde de deze idé til virkelighed.</p>
+                    <p style="margin-bottom: 0;">Den samtale blev begyndelsen på Lamfuz.</p>
                 </div>
-                <div class="about-split-image about-team-image">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/LAMFUZ-team.webp" alt="Meet the Team">
+                <div class="show-en notranslate">
+                    <p style="margin-bottom: 1.2rem;">Behind every dish at Lamfuz is a dedicated team led by Chef Krishna Adhikari. Together with his family and a close-knit group of chefs and front-of-house staff, they share a passion for authentic Nepali cuisine, warm hospitality, and creating memorable dining experiences.</p>
+                    <p style="margin-bottom: 3rem;">From preparing handmade momo and freshly grinding spices to welcoming every guest through the door, every member of the team plays a part in bringing the flavours and traditions of Nepal to the heart of Copenhagen. We may be a small independent restaurant, but we believe that's what makes every meal personal.</p>
+                    
+                    <h3 style="font-family: var(--font-body); font-size: 1.45rem; font-weight: 700; color: #b2512b; margin-bottom: 1.2rem; text-transform: uppercase; letter-spacing: normal;">From Nepal to Copenhagen</h3>
+                    <p style="margin-bottom: 1.2rem;">Long before Lamfuz opened in Copenhagen, Krishna Adhikari and Badal Maharjan grew up in Nepal, where family recipes, freshly ground spices, and warm hospitality were part of everyday life. Those traditions inspired their passion for sharing Nepali cuisine.</p>
+                    <p style="margin-bottom: 3rem;">After moving to Denmark, they spent several years working in cafés and restaurants across Copenhagen, gaining experience in quality ingredients, seasonality, precision, and modern restaurant standards. Combining those skills with their Nepalese roots, they created Lamfuz, a restaurant where family recipes, thoughtful modern presentation, and genuine hospitality come together to bring the true taste of Nepal to the heart of Copenhagen.</p>
+                    
+                    <h3 style="font-family: var(--font-body); font-size: 1.45rem; font-weight: 700; color: #b2512b; margin-bottom: 1.2rem; text-transform: uppercase; letter-spacing: normal;">One Late Night, One Simple Idea</h3>
+                    <p style="margin-bottom: 1.2rem;">Lamfuz began with a simple conversation over a late night beer. After years of working together, Krishna and Badal shared one vision: to bring authentic Nepali cuisine to Copenhagen. With years of professional kitchen experience and postgraduate studies in business management and entrepreneurship, they turned that idea into reality.</p>
+                    <p style="margin-bottom: 0;">That conversation became the beginning of Lamfuz.</p>
                 </div>
             </div>
         </div>
