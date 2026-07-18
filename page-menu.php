@@ -601,29 +601,6 @@ get_header(); ?>
             </div>
         </section>
 
-        <!-- Gallery Section -->
-        <section class="gallery-section" id="gallery" style="background-color: #fff8e6; padding-top: 2rem;">
-            <div class="gallery-container">
-                <div class="gallery-content">
-                    <h4 class="gallery-subtitle">OUR GALLERY</h4>
-                    <h2 class="gallery-title">GIVE YOUR TASTE BUDS A ROLLER COASTER RIDE!</h2>
-                    <p class="gallery-text">Are you looking for exotic and tasty food? Would you like to challenge yourself with a rollercoaster ride for your taste buds?</p>
-                    <p class="gallery-text">Then Lamfuz is for you!</p>
-                    <p class="gallery-text">At lamfuz we are passionate about cooking inspired by the explosion of flavors that Nepalese cuisine offers. We offer DINE IN, takeout and catering for those of you who long for exotic food and new flavors - in a healthy way and without emptying your wallet!</p>
-                    <a href="<?php echo home_url('/about'); ?>" class="btn-hero-red" style="margin-top: 1.5rem; text-transform: uppercase; font-size: 0.85rem; padding: 1rem 1.8rem; display: inline-block;">READ MORE</a>
-                </div>
-                <div class="swiper mySwiper gallery-images-container" style="overflow: hidden; flex: 1;">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide" style="width: auto;"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/DhalBhatPlatter_9-16_Above.webp" alt="Dhal Bhat Platter" class="gallery-img"></div>
-                        <div class="swiper-slide" style="width: auto;"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/JholMoMo_9-16_Above.webp" alt="Jhol MoMo" class="gallery-img"></div>
-                        <div class="swiper-slide" style="width: auto;"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/ChickenChoila_9-16_Above.webp" alt="Chicken Choila" class="gallery-img"></div>
-                        <div class="swiper-slide" style="width: auto;"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/ChowMein_9-16_Above.webp" alt="Chow Mein" class="gallery-img"></div>
-                        <div class="swiper-slide" style="width: auto;"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/FriedRice_9-16_Above.webp" alt="Fried Rice" class="gallery-img"></div>
-                        <div class="swiper-slide" style="width: auto;"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/SaladBowl_9-16_Above.webp" alt="Salad Bowl" class="gallery-img"></div>
-                    </div>
-                </div>
-            </div>
-        </section>
 
         <!-- Footer Info Note -->
         <section class="menu-footer-note-section" style="background-color: #fff8e6; padding: 0 0 6rem 0; overflow: hidden;">
