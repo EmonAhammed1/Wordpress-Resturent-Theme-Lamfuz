@@ -30,7 +30,7 @@ get_header(); ?>
     <section class="booking-section" style="padding: 6rem 0; background-color: #fff8e6;">
         <div class="booking-container">
             <div class="booking-widget">
-                <iframe src="https://booking.favouritetable.com/?SiteCode=2125&skin=lamfuz" width="100%" height="680" frameborder="0" scrolling="no" allowfullscreen></iframe>
+                <iframe src="https://booking.favouritetable.com/?SiteCode=2125&skin=lamfuz" width="100%" height="800" frameborder="0" scrolling="no" allowfullscreen></iframe>
             </div>
             <div class="booking-content">
                 <h4 class="booking-subtitle">NEPALI KØKKEN MED SJÆL</h4>
