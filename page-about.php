@@ -13,7 +13,7 @@ get_header(); ?>
     <!-- HERO SECTION -->
     <section class="about-hero-section">
         <div class="about-hero-bg">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Space-1_16-9_Side.webp" alt="Om Lamfuz">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/LAMFUZ-team.webp" alt="Om Lamfuz">
             <div class="about-hero-overlay"></div>
         </div>
         <div class="about-container" style="width: 100%; position: relative; z-index: 10;">
@@ -143,7 +143,7 @@ get_header(); ?>
                     </div>
                 </div>
                 <div class="about-split-image about-team-image">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/LAMFUZ-team.webp" alt="Lamfuz Team">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Space-1_16-9_Side.webp" alt="Lamfuz Team">
                 </div>
             </div>
         </div>
