@@ -3290,16 +3290,11 @@ body.lang-en span.show-da, body.lang-en a.show-da {
     position: fixed;
     right: 2.5rem;
     bottom: 6.5rem;
+    width: 55px;
+    height: 55px;
     background-color: var(--red-cta);
     color: #ffffff !important;
-    padding: 0.8rem 1.8rem;
-    border-radius: 50px;
-    font-family: var(--font-heading);
-    font-size: 0.95rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    text-decoration: none;
+    border-radius: 50%;
     box-shadow: 0 4px 15px rgba(220, 24, 64, 0.35);
     transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
     z-index: 998;
@@ -3307,22 +3302,34 @@ body.lang-en span.show-da, body.lang-en a.show-da {
     align-items: center;
     justify-content: center;
     border: 2px solid var(--red-cta) !important;
+    padding: 0;
 }
 
 .floating-book-btn:hover {
     background-color: #ffffff;
     border-color: #ffffff !important;
-    color: #000000 !important;
+    color: var(--red-cta) !important;
     transform: translateY(-3px);
     box-shadow: 0 6px 20px rgba(220, 24, 64, 0.45);
+}
+
+.floating-book-btn svg {
+    width: 24px;
+    height: 24px;
+    fill: currentColor;
+    display: block;
 }
 
 @media (max-width: 900px) {
     .floating-book-btn {
         right: 1.5rem;
         bottom: 5.5rem;
-        padding: 0.65rem 1.4rem;
-        font-size: 0.85rem;
+        width: 48px;
+        height: 48px;
+    }
+    .floating-book-btn svg {
+        width: 20px;
+        height: 20px;
     }
 }
 
