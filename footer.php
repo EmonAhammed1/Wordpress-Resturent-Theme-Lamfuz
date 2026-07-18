@@ -122,6 +122,10 @@ if ( ! defined( 'ABSPATH' ) ) {
         <svg viewBox="0 0 24 24">
             <path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11zM7 11h2v2H7zm4 0h2v2h-2zm4 0h2v2h-2zm-8 4h2v2H7zm4 0h2v2h-2zm4 0h2v2h-2z"/>
         </svg>
+        <span class="btn-text">
+            <span class="show-da">Book et bord</span>
+            <span class="show-en notranslate">Book a table</span>
+        </span>
     </a>
 
     <?php wp_footer(); ?>

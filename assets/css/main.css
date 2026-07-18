@@ -3294,22 +3294,24 @@ body.lang-en span.show-da, body.lang-en a.show-da {
     height: 55px;
     background-color: var(--red-cta);
     color: #ffffff !important;
-    border-radius: 50%;
+    border-radius: 50px;
     box-shadow: 0 4px 15px rgba(220, 24, 64, 0.35);
-    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
     z-index: 998;
     display: inline-flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     border: 2px solid var(--red-cta) !important;
     padding: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-decoration: none;
 }
 
 .floating-book-btn:hover {
+    width: 195px;
     background-color: #ffffff;
     border-color: #ffffff !important;
-    color: var(--red-cta) !important;
-    transform: translateY(-3px);
     box-shadow: 0 6px 20px rgba(220, 24, 64, 0.45);
 }
 
@@ -3318,6 +3320,36 @@ body.lang-en span.show-da, body.lang-en a.show-da {
     height: 24px;
     fill: currentColor;
     display: block;
+    margin-left: 13px;
+    flex-shrink: 0;
+    transition: margin-left 0.4s cubic-bezier(0.4, 0, 0.2, 1), color 0.3s ease;
+}
+
+.floating-book-btn:hover svg {
+    color: var(--red-cta);
+    margin-left: 18px;
+}
+
+.floating-book-btn .btn-text {
+    font-family: var(--font-heading);
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+    opacity: 0;
+    transform: translateX(10px);
+    transition: opacity 0.3s ease, transform 0.3s ease, color 0.3s ease;
+    margin-left: 10px;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.floating-book-btn:hover .btn-text {
+    color: var(--red-cta);
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 0.3s ease 0.1s, transform 0.3s ease 0.1s;
 }
 
 @media (max-width: 900px) {
@@ -3330,7 +3362,18 @@ body.lang-en span.show-da, body.lang-en a.show-da {
     .floating-book-btn svg {
         width: 20px;
         height: 20px;
+        margin-left: 12px;
+    }
+    .floating-book-btn:hover {
+        width: 48px;
+        background-color: var(--red-cta);
+        border-color: var(--red-cta) !important;
+    }
+    .floating-book-btn:hover svg {
+        color: #ffffff;
+        margin-left: 12px;
+    }
+    .floating-book-btn .btn-text {
+        display: none;
     }
 }
-
-
