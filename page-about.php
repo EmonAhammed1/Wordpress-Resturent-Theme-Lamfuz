@@ -94,90 +94,60 @@ get_header(); ?>
         </div>
     </section>
 
-    <!-- STORY SECTION -->
-    <section class="about-story-section">
-        <div class="about-container">
-            <div class="about-split">
-                <div class="about-split-image">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Dish-1_4-5_Side.webp" alt="Authentic Taste">
-                </div>
-                <div class="about-split-content">
-                    <h2 class="about-section-title">
-                        <span class="show-da">
-                            <span style="display: inline-block; white-space: nowrap;">OPLEV DEN AUTENTISKE SMAG</span><br>
-                            <span style="display: inline-block; white-space: nowrap;">AF NEPAL I LAMFUZ</span>
-                        </span>
-                        <span class="show-en notranslate">
-                            <span style="display: inline-block; white-space: nowrap;">Experience the Authentic Taste</span><br>
-                            <span style="display: inline-block; white-space: nowrap;">of Nepal at Lamfuz</span>
-                        </span>
-                    </h2>
-                    <div class="show-da">
-                        <p>Lamfuz betyder slendrian, men med et interior bygget af kokken selv i genbrugsmaterialer og med alle detaljer kælet for, fornemmer man tydeligt den kærlighed, Krishna lægger i sin restaurant. Fra det kompromisløse valg of specialvarer til de hjemmelavede og til perfektion ristede krydderiblandinger, er man ikke i tvivl om, at Krishnas ambition er at placere Nepal solidt på den københavnske spisescene som et unikum af en oplevelse.</p>
-                        <p>På hylden står den nepalesiske te – kendt for sin særlige blødhed og umamismag – side om side med danskproducerede sodavand, og i vitualrummet finder man kun de bedste koldpressede rapsolier. Retterne designes med udgangspunkt i danske råvarer i sæson og formes med Krishnas fornemmelse for Nepal, fuld of historier. På tallerkenerne i Lamfuz introduceres man til en moderne fortælling om den nepalesiske smagspalet i varme og muntre omgivelser.</p>
-                        <a href="<?php echo home_url('/book-et-bord'); ?>" class="btn-hero-red" style="margin-top: 1.5rem; text-transform: uppercase; font-size: 0.85rem; padding: 1rem 1.8rem; display: inline-block;">RESERVER ET BORD</a>
-                    </div>
-                    <div class="show-en notranslate">
-                        <p>Lamfuz offers a dining experience where traditional Nepalese flavours meet contemporary Copenhagen. The restaurant itself reflects the same care that goes into every meal. Much of the interior was personally built by chef Krishna using reclaimed and recycled materials, creating a warm, welcoming atmosphere that feels both personal and authentic. Every detail has been thoughtfully chosen, from the handcrafted décor to the carefully selected ingredients that define our menu.</p>
-                        <p>Our kitchen prepares homemade spice blends that are freshly roasted to bring out their rich aromas and distinctive flavours. Alongside these authentic Nepalese ingredients, we use high-quality Danish seasonal produce to create dishes that honour our roots while embracing the best local ingredients.</p>
-                        <p>Guests will also discover traditional Nepalese tea, celebrated for its smooth, delicate flavour and subtle umami notes, served alongside carefully selected Danish beverages. Every dish tells a story of Nepal — one that celebrates tradition while embracing modern culinary craftsmanship.</p>
-                        <a href="<?php echo home_url('/book-et-bord'); ?>" class="btn-hero-red" style="margin-top: 1.5rem; text-transform: uppercase; font-size: 0.85rem; padding: 1rem 1.8rem; display: inline-block;">RESERVE A TABLE</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- BANNER SECTION -->
-    <section class="about-banner-section">
-        <div class="about-container">
-            <div class="about-split">
-                <div class="about-split-image">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Dish-3_16-9_Above.webp" alt="About Lamfuz">
-                </div>
-                <div class="about-split-content">
-                    <h2 class="about-section-title">
-                        <span class="show-da">OM LAMFUZ</span>
-                        <span class="show-en notranslate">About Lamfuz</span>
-                    </h2>
-                    <div class="show-da">
-                        <p>Lamfuz er mere end blot en restaurant; det er en portal til de pulserende markeder og gadekøkkener i Kathmandu. Hver ret, vi serverer, bærer på en historie, et minde fra vores hjemland.</p>
-                        <p>Fra de dampende Momos, der vækker barndomsminder, til den rige, krydrede Dhal Bhat, som er rygraden i ethvert nepalesisk måltid, stræber vi efter at give dig en bid of Nepal, hver gang du besøger os. Det handler ikke kun om maden – det er en kulturel udveksling, en rejse i smag, der inviterer dig indenfor i vores verden.</p>
-                    </div>
-                    <div class="show-en notranslate">
-                        <p>Lamfuz invites you to experience the vibrant flavours and rich culinary traditions of Nepal. Whether you choose to dine in or enjoy takeaway, our goal is to offer authentic Nepalese cuisine in a relaxed and welcoming environment where everyone feels at home.</p>
-                        <p>The bold combination of cumin, turmeric, coriander, garlic, ginger, and fresh chilli creates the distinctive flavours that define Nepalese cooking. These carefully balanced spices bring every dish to life, delivering both incredible taste and wholesome goodness.</p>
-                        <p>Our menu has something for everyone. We proudly serve a wide selection of vegetarian and vegan dishes, alongside authentic Nepalese lamb, chicken, and seasonal fish prepared using traditional recipes. Whether you're discovering Nepalese cuisine for the first time or returning for your favourite dish, Lamfuz offers an authentic dining experience full of flavour, warmth, and hospitality.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- TEAM SECTION -->
-    <section class="about-team-section">
+    <!-- MEET THE TEAM SECTION -->
+    <section class="about-team-section" style="background-color: #fff8e6; padding: 6rem 0 3rem 0;">
         <div class="about-container">
             <div class="about-split">
                 <div class="about-split-content">
-                    <h2 class="about-section-title" style="margin-bottom: 1.5rem;">
-                        <span class="show-da">VORES TEAM</span>
-                        <span class="show-en notranslate">Our Team</span>
+                    <h2 class="about-section-title" style="text-align: left; margin-bottom: 1.5rem;">
+                        <span class="show-da">Mød teamet</span>
+                        <span class="show-en notranslate">Meet the Team</span>
                     </h2>
-                    <div class="show-da">
-                        <p class="about-team-subtitle" style="font-weight: 600; margin-bottom: 1.5rem;">Bag Lamfuz står Krishna Adhikari og Badal Maharjan.</p>
-                        <p>Vi tilbragte begge hver vores barndom med at fjolle rundt i nepalesiske rismarker – og indimellem smage maden, urterne og krydderierne, der er særlige for vores hjemland. Det fulgte med os, og vi har ikke glemt det siden.</p>
-                        <p>Spol frem til Danmark: Gennem ni års arbejde på danske caféer og restauranter, hvor vi oparbejdede vores færdigheder i et køkken, fandt vi en fælles passion for nepalesisk mad og dets vilde smage. Vi begyndte at hænge ud sammen, drikke øl og have lange natlige samtaler – og en beruset nat tænkte vi: Lad os lave noget sammen!</p>
-                        <p>Det blev til det, der nu er Lamfuz. Suppleret med en kandidatgrad i ledelse, forretning og iværksætteri kan vi nu føre vores nepalesiske barndoms madkultur helt ud til danske køkkener og middagsborde.</p>
+                    <div class="show-da" style="color: #b3522a; font-family: var(--font-body); font-size: 1.05rem; line-height: 1.8;">
+                        <p style="margin-bottom: 1.2rem;">Bag hver ret hos Lamfuz står et dedikeret team ledet af køkkenchef Krishna Adhikari. Sammen med sin familie og en tæt sammentømret gruppe af kokke og serveringspersonale deler de en passion for det autentiske nepalesiske køkken, varm gæstfrihed og at skabe mindeværdige spiseoplevelser.</p>
+                        <p style="margin-bottom: 2rem;">Fra at tilberede håndlavede momos og friskkværne krydderier to at byde hver gæst velkommen i døren, spiller alle medlemmer af teamet en rolle i at bringe Nepals smage og traditioner til hjertet af København. Vi er måske en lille, uafhængi restaurant, men vi tror på, at det er netop det, der gør hvert måltid personligt.</p>
+                        
+                        <h3 style="font-family: var(--font-body); font-size: 1.35rem; font-weight: 700; color: #b2512b; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: normal;">Fra Nepal til København</h3>
+                        <p style="margin-bottom: 1.2rem;">Længe før Lamfuz åbnede i København, voksede Krishna Adhikari og Badal Maharjan op i Nepal, hvor familieopskrifter, friskkværnede krydderier og varm gæstfrihed var en del of hverdagen. Disse traditioner inspirerede deres passion for at dele det nepalesiske køkken med andre.</p>
+                        <p style="margin-bottom: 2rem;">Efter at have flyttet til Danmark tilbragte de flere år med at arbejde på caféer og restauranter i hele København, hvor de fik stor erfaring med råvarer af høj kvalitet, sæsonbestemte ingredienser, præcision og moderne restaurantstandarder. Ved at kombinere disse færdigheder med deres nepalesiske rødder skabte de Lamfuz - en restaurant, hvor familieopskrifter, gennemtænkt moderne præsentation og ægte gæstfrihed mødes for at bringe den sande smag af Nepal til hjertet af København.</p>
+                        
+                        <h3 style="font-family: var(--font-body); font-size: 1.35rem; font-weight: 700; color: #b2512b; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: normal;">En sen aften, en enkel idé</h3>
+                        <p style="margin-bottom: 1.2rem;">Lamfuz startede med en simpel samtale over en øl en sen aften. Efter mange års samarbejde delte Krishna og Badal en fælles vision: at bringe det autentiske nepalesiske køkken til København. Med mange års professionel køkkenerfaring og en kandidatuddannelse i ledelse, forretning og iværksætteri gjorde de denne idé til virkelighed.</p>
+                        <p style="margin-bottom: 0;">Den samtale blev begyndelsen på Lamfuz.</p>
                     </div>
-                    <div class="show-en notranslate">
-                        <p>Behind Lamfuz are Krishna Adhikari and Badal Maharjan, two friends brought together by a shared love for Nepalese food and the desire to introduce its incredible flavours to Denmark.</p>
-                        <p>Growing up in Nepal, both spent their childhoods surrounded by rice fields, family kitchens, and the herbs and spices that make Nepalese cuisine so distinctive. Those early experiences shaped not only their love of food but also their appreciation for the traditions and hospitality that continue to inspire Lamfuz today.</p>
-                        <p>After moving to Denmark, Krishna and Badal spent nearly nine years working in Danish cafés and restaurants, developing their culinary expertise while gaining a deep understanding of local ingredients, service, and hospitality. During those years, their shared dream gradually became clear—to create a restaurant where authentic Nepalese food could be enjoyed without compromise.</p>
-                        <p>Many evenings were spent talking over food and drinks, discussing ideas and imagining what that restaurant could become. One memorable late-night conversation turned that dream into a decision: to build something together that reflected both their heritage and their passion.</p>
+                    <div class="show-en notranslate" style="color: #b3522a; font-family: var(--font-body); font-size: 1.05rem; line-height: 1.8;">
+                        <p style="margin-bottom: 1.2rem;">Behind every dish at Lamfuz is a dedicated team led by Chef Krishna Adhikari. Together with his family and a close-knit group of chefs and front-of-house staff, they share a passion for authentic Nepali cuisine, warm hospitality, and creating memorable dining experiences.</p>
+                        <p style="margin-bottom: 2rem;">From preparing handmade momo and freshly grinding spices to welcoming every guest through the door, every member of the team plays a part in bringing the flavours and traditions of Nepal to the heart of Copenhagen. We may be a small independent restaurant, but we believe that's what makes every meal personal.</p>
+                        
+                        <h3 style="font-family: var(--font-body); font-size: 1.35rem; font-weight: 700; color: #b2512b; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: normal;">From Nepal to Copenhagen</h3>
+                        <p style="margin-bottom: 1.2rem;">Long before Lamfuz opened in Copenhagen, Krishna Adhikari and Badal Maharjan grew up in Nepal, where family recipes, freshly ground spices, and warm hospitality were part of everyday life. Those traditions inspired their passion for sharing Nepali cuisine.</p>
+                        <p style="margin-bottom: 2rem;">After moving to Denmark, they spent several years working in cafés and restaurants across Copenhagen, gaining experience in quality ingredients, seasonality, precision, and modern restaurant standards. Combining those skills with their Nepalese roots, they created Lamfuz, a restaurant where family recipes, thoughtful modern presentation, and genuine hospitality come together to bring the true taste of Nepal to the heart of Copenhagen.</p>
+                        
+                        <h3 style="font-family: var(--font-body); font-size: 1.35rem; font-weight: 700; color: #b2512b; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: normal;">One Late Night, One Simple Idea</h3>
+                        <p style="margin-bottom: 1.2rem;">Lamfuz began with a simple conversation over a late night beer. After years of working together, Krishna and Badal shared one vision: to bring authentic Nepali cuisine to Copenhagen. With years of professional kitchen experience and postgraduate studies in business management and entrepreneurship, they turned that idea into reality.</p>
+                        <p style="margin-bottom: 0;">That conversation became the beginning of Lamfuz.</p>
                     </div>
                 </div>
                 <div class="about-split-image about-team-image">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Space-1_16-9_Side.webp" alt="Lamfuz Team">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/LAMFUZ-team.webp" alt="Meet the Team">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CALL TO ACTION SECTION -->
+    <section class="about-cta-section" style="background-color: #fff8e6; padding: 4rem 0 6rem 0; border-top: 1px solid rgba(168, 144, 102, 0.2);">
+        <div class="about-container">
+            <div class="about-cta-row">
+                <div class="about-cta-text" style="font-family: var(--font-heading, 'Cinzel', serif); font-size: 1.6rem; font-weight: 600; color: #b3522a;">
+                    <span class="show-da">Besøg Lamfuz på Turesensgade 6 i dag</span>
+                    <span class="show-en notranslate">Visit Lamfuz at Turesensgade 6 today</span>
+                </div>
+                <div>
+                    <a href="<?php echo home_url('/book-et-bord'); ?>" class="about-cta-link">
+                        <span class="show-da">Reserver et bord</span>
+                        <span class="show-en notranslate">Book a Table</span>
+                    </a>
                 </div>
             </div>
         </div>

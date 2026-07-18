@@ -1880,9 +1880,34 @@ body {
     margin-bottom: 1.2rem;
 }
 
-.about-banner-section {
-    background-color: #fff8e6;
-    padding: 3rem 0 6rem 0;
+.about-cta-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.about-cta-text {
+    font-family: var(--font-heading, "Cinzel", serif);
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #b3522a;
+}
+
+.about-cta-link {
+    font-family: var(--font-heading, "Cinzel", serif);
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #b3522a;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+    display: inline-block;
+}
+
+.about-cta-link:hover {
+    color: #8b3c1c;
 }
 
 @media (max-width: 900px) {
@@ -1965,13 +1990,22 @@ body {
         padding-bottom: 3rem !important;
     }
 
-    .about-banner-section {
-        padding-top: 2rem !important;
+    .about-cta-section {
+        padding: 3rem 0 5rem 0 !important;
     }
 
-    .about-story-section {
-        padding-top: 2rem !important;
-        padding-bottom: 3rem !important;
+    .about-cta-row {
+        flex-direction: column;
+        text-align: center;
+        gap: 1.5rem;
+    }
+
+    .about-cta-text {
+        font-size: 1.3rem !important;
+    }
+
+    .about-cta-link {
+        font-size: 1.3rem !important;
     }
 }
 
