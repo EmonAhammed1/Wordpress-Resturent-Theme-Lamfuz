@@ -97,17 +97,17 @@ get_header(); ?>
     <!-- MEET THE TEAM SECTION -->
     <section class="about-team-section" style="background-color: #fff8e6; padding: 6rem 0 3rem 0;">
         <div class="about-container">
-            <!-- Centered Team Photo -->
-            <div class="about-team-photo-wrapper" style="max-width: 800px; margin: 0 auto 3rem; text-align: center;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/LAMFUZ-team.webp" alt="Meet the Team" style="display: block; box-shadow: 0 15px 40px rgba(0,0,0,0.1);">
-            </div>
-
             <!-- Center title -->
             <div style="text-align: center; margin-bottom: 2rem;">
                 <h2 class="about-section-title" style="margin-bottom: 0; display: inline-block; color: #b3522a;">
                     <span class="show-da">Mød teamet</span>
                     <span class="show-en notranslate">Meet the Team</span>
                 </h2>
+            </div>
+
+            <!-- Centered Team Photo -->
+            <div class="about-team-photo-wrapper" style="max-width: 800px; margin: 0 auto 3rem; text-align: center;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/LAMFUZ-team.webp" alt="Meet the Team" style="display: block; box-shadow: 0 15px 40px rgba(0,0,0,0.1);">
             </div>
 
             <!-- Story Texts -->
