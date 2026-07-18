@@ -99,7 +99,7 @@ get_header(); ?>
         <div class="about-container">
             <!-- Centered Team Photo -->
             <div class="about-team-photo-wrapper" style="max-width: 800px; margin: 0 auto 3rem; text-align: center;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/LAMFUZ-team.webp" alt="Meet the Team" style="width: 100%; height: auto; display: block; box-shadow: 0 15px 40px rgba(0,0,0,0.1);">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/LAMFUZ-team.webp" alt="Meet the Team" style="display: block; box-shadow: 0 15px 40px rgba(0,0,0,0.1);">
             </div>
 
             <!-- Center title -->
