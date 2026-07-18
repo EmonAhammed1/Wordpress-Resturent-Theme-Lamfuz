@@ -1525,23 +1525,26 @@ body {
 
 .footer-col h4 {
     font-family: var(--font-heading, "Cinzel", serif);
-    font-size: 0.9rem;
-    font-weight: 600;
+    font-size: 1.15rem;
+    font-weight: 700;
     margin-bottom: 1.5rem;
     letter-spacing: 0.05em;
     text-transform: uppercase;
+    color: #ffffff;
 }
 
 .footer-col p,
 .footer-col a {
     color: #fff8e6;
     font-family: var(--font-heading, "Cinzel", serif);
-    font-size: 1.05rem;
-    line-height: 1.4;
+    font-size: 0.9rem;
+    line-height: 1.5;
     margin-bottom: 1.2rem;
     display: block;
     text-decoration: none;
     text-transform: uppercase;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
 }
 
 .footer-col p {
@@ -1549,7 +1552,7 @@ body {
 }
 
 .footer-col a:hover {
-    opacity: 0.8;
+    opacity: 1;
 }
 
 .footer-bottom {
