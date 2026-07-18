@@ -48,13 +48,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 
             <div class="hero-header-right">
                 <div class="lang-selector notranslate">
-                    <span class="lang-da-btn active">
-                        <svg class="flag-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 28" style="vertical-align: middle; display: inline-block; border-radius: 1px; box-shadow: 0 1px 2px rgba(0,0,0,0.2);"><rect width="37" height="28" fill="#C8102E"/><path d="M12 0h4v28h-4zM0 12h37v4H0z" fill="#FFF"/></svg>
-                    </span>
-                    <span class="lang-or">or</span>
-                    <span class="lang-en-btn">
-                        <svg class="flag-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 30" style="vertical-align: middle; display: inline-block; border-radius: 1px; box-shadow: 0 1px 2px rgba(0,0,0,0.2);"><rect width="50" height="30" fill="#012169"/><path d="M0 0 L50 30 M0 30 L50 0" stroke="#fff" stroke-width="6"/><path d="M0 0 L50 30 M0 30 L50 0" stroke="#C8102E" stroke-width="2"/><path d="M25 0 V30 M0 15 H50" stroke="#fff" stroke-width="10"/><path d="M25 0 V30 M0 15 H50" stroke="#C8102E" stroke-width="6"/></svg>
-                    </span>
+                    <span class="lang-da-btn active">DA</span>
+                    <span class="lang-or">/</span>
+                    <span class="lang-en-btn">EN</span>
                 </div>
                 <a href="<?php echo home_url('/book-et-bord'); ?>" class="btn-header-book">
                     <span class="show-da">BOOK ET BORD</span>
@@ -105,13 +101,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 
         <div class="mobile-nav-footer">
             <div class="mobile-lang-selector">
-                <span class="lang-da-btn active">
-                    <svg class="flag-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 28" style="vertical-align: middle; display: inline-block; border-radius: 1px; box-shadow: 0 1px 2px rgba(0,0,0,0.2);"><rect width="37" height="28" fill="#C8102E"/><path d="M12 0h4v28h-4zM0 12h37v4H0z" fill="#FFF"/></svg>
-                </span>
-                <span class="lang-or">or</span>
-                <span class="lang-en-btn">
-                    <svg class="flag-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 30" style="vertical-align: middle; display: inline-block; border-radius: 1px; box-shadow: 0 1px 2px rgba(0,0,0,0.2);"><rect width="50" height="30" fill="#012169"/><path d="M0 0 L50 30 M0 30 L50 0" stroke="#fff" stroke-width="6"/><path d="M0 0 L50 30 M0 30 L50 0" stroke="#C8102E" stroke-width="2"/><path d="M25 0 V30 M0 15 H50" stroke="#fff" stroke-width="10"/><path d="M25 0 V30 M0 15 H50" stroke="#C8102E" stroke-width="6"/></svg>
-                </span>
+                <span class="lang-da-btn active">DA</span>
+                <span class="lang-or">/</span>
+                <span class="lang-en-btn">EN</span>
             </div>
             <a href="<?php echo home_url('/book-et-bord'); ?>" class="btn-mobile-book">
                 <span class="show-da">BOOK ET BORD</span>
