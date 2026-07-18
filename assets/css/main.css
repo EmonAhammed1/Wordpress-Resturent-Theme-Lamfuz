@@ -1729,12 +1729,12 @@ body {
 
 .about-hero-section {
     position: relative;
-    height: 60vh;
-    min-height: 400px;
+    height: 45vh;
+    min-height: 300px;
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    padding-bottom: 4rem;
+    padding-bottom: 2.5rem;
     margin-top: 0;
     z-index: 1;
 }
@@ -1972,7 +1972,7 @@ body {
     }
     
     .about-hero-section {
-        height: 40vh;
+        height: 30vh;
         align-items: flex-end;
         justify-content: flex-start;
         text-align: left;
