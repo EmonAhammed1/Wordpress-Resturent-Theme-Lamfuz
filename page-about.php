@@ -99,12 +99,12 @@ get_header(); ?>
         <div class="about-container">
             <!-- Centered Team Photo -->
             <div class="about-team-photo-wrapper" style="max-width: 800px; margin: 0 auto 3rem; text-align: center;">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/LAMFUZ-team.webp" alt="Meet the Team" style="width: 100%; height: auto; max-height: 500px; object-fit: cover; box-shadow: 0 15px 40px rgba(0,0,0,0.1);">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/LAMFUZ-team.webp" alt="Meet the Team" style="width: 100%; height: auto; display: block; box-shadow: 0 15px 40px rgba(0,0,0,0.1);">
             </div>
 
             <!-- Center title -->
             <div style="text-align: center; margin-bottom: 2rem;">
-                <h2 class="about-section-title" style="margin-bottom: 0; display: inline-block;">
+                <h2 class="about-section-title" style="margin-bottom: 0; display: inline-block; color: #b3522a;">
                     <span class="show-da">Mød teamet</span>
                     <span class="show-en notranslate">Meet the Team</span>
                 </h2>
