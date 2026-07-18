@@ -93,6 +93,8 @@ document.addEventListener("DOMContentLoaded", function() {
     // Header Scroll Logic
     const header = document.getElementById('siteHeader');
     let lastScrollY = window.scrollY;
+    let scrollDelta = 0;
+    const threshold = 15; // Minimum pixels to scroll before triggering show/hide
 
     if (header) {
         window.addEventListener('scroll', () => {
@@ -101,14 +103,29 @@ document.addEventListener("DOMContentLoaded", function() {
             if (currentScrollY <= 50) {
                 header.classList.remove('sticky');
                 header.classList.remove('hidden');
-            } 
-            else if (currentScrollY > lastScrollY && currentScrollY > 200) {
-                header.classList.add('hidden');
-                header.classList.remove('sticky');
-            } 
-            else if (currentScrollY < lastScrollY && currentScrollY > 50) {
-                header.classList.remove('hidden');
-                header.classList.add('sticky');
+                scrollDelta = 0;
+            } else {
+                const diff = currentScrollY - lastScrollY;
+                
+                // Reset accumulator if scroll direction changes
+                if ((diff > 0 && scrollDelta < 0) || (diff < 0 && scrollDelta > 0)) {
+                    scrollDelta = 0;
+                }
+                
+                scrollDelta += diff;
+                
+                // Hide header on scroll down beyond threshold
+                if (scrollDelta > threshold && currentScrollY > 200) {
+                    header.classList.add('hidden');
+                    header.classList.remove('sticky');
+                    scrollDelta = 0;
+                }
+                // Show header on scroll up beyond threshold
+                else if (scrollDelta < -threshold) {
+                    header.classList.remove('hidden');
+                    header.classList.add('sticky');
+                    scrollDelta = 0;
+                }
             }
             
             lastScrollY = currentScrollY;
