@@ -3288,8 +3288,8 @@ body.lang-en span.show-da, body.lang-en a.show-da {
 /* Floating Book a Table Button Styles */
 .floating-book-btn {
     position: fixed;
-    right: 6.5rem;
-    bottom: 2.5rem;
+    right: 2.5rem;
+    bottom: 6.5rem;
     background-color: var(--red-cta);
     color: #ffffff !important;
     padding: 0.8rem 1.8rem;
@@ -3319,8 +3319,8 @@ body.lang-en span.show-da, body.lang-en a.show-da {
 
 @media (max-width: 900px) {
     .floating-book-btn {
-        right: 5rem;
-        bottom: 1.5rem;
+        right: 1.5rem;
+        bottom: 5.5rem;
         padding: 0.65rem 1.4rem;
         font-size: 0.85rem;
     }
