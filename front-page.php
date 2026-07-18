@@ -465,7 +465,7 @@ get_header();
         .faq-item {
             background-color: rgba(179, 82, 42, 0.02);
             border: 1px solid rgba(179, 82, 42, 0.15);
-            border-radius: 4px;
+            border-radius: 0;
             transition: all 0.35s ease;
         }
         .faq-item[open] {
