@@ -1068,7 +1068,7 @@ body {
 .booking-widget iframe {
     max-width: 440px;
     width: 100%;
-    height: 560px;
+    height: 680px;
     border: 16px solid #ffffff;
     border-radius: 0;
     background: #ffffff;
@@ -1129,7 +1129,7 @@ body {
     .booking-widget iframe {
         max-width: 100% !important;
         width: 100% !important;
-        height: 570px !important;
+        height: 680px !important;
         border: 6px solid #ffffff !important;
     }
     .booking-subtitle {
