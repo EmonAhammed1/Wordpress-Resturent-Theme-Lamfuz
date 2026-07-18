@@ -107,6 +107,12 @@ if ( ! defined( 'ABSPATH' ) ) {
                         <polyline points="18 15 12 9 6 15" fill="none" stroke="currentColor" stroke-width="2"></polyline>
                     </svg>
                 </button>
+
+                <!-- Floating Book a Table Button -->
+                <a href="<?php echo lamfuz_get_page_url(array('book-et-bord', 'book-table')); ?>" class="floating-book-btn" id="floatingBookBtn">
+                    <span class="show-da">Book et bord</span>
+                    <span class="show-en notranslate">Book a table</span>
+                </a>
             </div>
         </div>
     </footer>

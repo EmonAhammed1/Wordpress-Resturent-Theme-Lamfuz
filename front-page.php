@@ -38,37 +38,34 @@ get_header();
         </div>
     </section>
 
-    <!-- Home Intro Section -->
-    <section class="home-intro-section">
-        <div class="home-intro-container">
-            <h2 class="home-intro-title">
-                <span class="show-da">Lamfuz – Autentisk nepalesisk restaurant i København</span>
-                <span class="show-en notranslate">Lamfuz – Authentic Nepalese Restaurant in Copenhagen</span>
-            </h2>
-            <p class="home-intro-subtitle">
-                <span class="show-da">Nepalesisk restaurant i København | Lamfuz – Autentisk momo & dal bhat i Indre By</span>
-                <span class="show-en notranslate">Nepalese Restaurant in Copenhagen | Lamfuz – Authentic Momo & Dal Bhat in Indre By</span>
-            </p>
-            <div class="home-intro-content">
-                <div class="show-da home-intro-grid">
-                    <div class="home-intro-col">
-                        <p class="lead-text">Velkommen til Lamfuz, en nepalesisk restaurant på Turesensgade i hjertet af København, hvor mad og gæstfrihed går hånd i hånd. Hvert måltid her er en invitation til at opdage de rige smage, traditioner og varme gæstfrihed fra Nepal.</p>
-                        <p>Hos Lamfuz handler middagen om mere end god mad, det handler om at få hver gæst til at føle sig oprigtigt velkommen. Fra det øjeblik du ankommer, er vores mål at skabe en afslappet, mindeværdig oplevelse inspireret af nepalesisk kulturs varme og generøsitet.</p>
-                    </div>
-                    <div class="home-intro-col">
-                        <p>Fra håndfoldede momos og langtidskogt dal bhat til røget sekuwa og friskkværnede krydderier, enhver ret er rodfæstet i traditionelle familieopskrifter med et gennemtænkt moderne præg.</p>
-                        <p>Uanset om du opdager det nepalesiske køkken for første gang eller vender tilbage for endnu et besøg, inviterer vi dig til at opleve den autentiske smag af Nepal med et moderne tvist.</p>
+    <!-- Home About Section -->
+    <section class="home-about-section">
+        <div class="home-about-container">
+            <div class="home-about-grid">
+                <!-- Left Column: Content -->
+                <div class="home-about-content">
+                    <h2 class="home-about-title">
+                        <span class="show-da">Lamfuz – En nepalesisk restaurant i København</span>
+                        <span class="show-en notranslate">Lamfuz – A Nepali Restaurant in Copenhagen</span>
+                    </h2>
+                    <div class="home-about-text">
+                        <p class="lead-text">
+                            <span class="show-da">Længes du efter dristige, eksotiske smagsoplevelser? Lad Lamfuz tage dine smagsløg med på en uforglemmelig rejse.</span>
+                            <span class="show-en notranslate">Craving bold, exotic flavours? Let Lamfuz take your taste buds on an unforgettable journey.</span>
+                        </p>
+                        <p class="body-text">
+                            <span class="show-da">Velkommen til Lamfuz, en autentisk nepalesisk restaurant i hjertet af København, hvor livlige smage møder ægte gæstfrihed. Hver ret fejrer Nepals rige traditioner, serveret med varme, lidenskab og omhu.</span>
+                            <span class="show-en notranslate">Welcome to Lamfuz, an authentic Nepalese restaurant in the heart of Copenhagen, where vibrant flavours meet genuine hospitality. Every dish celebrates the rich traditions of Nepal, served with warmth, passion, and care.</span>
+                        </p>
+                        <p class="tagline-text">
+                            <span class="show-da">Kom for maden. Bliv for oplevelsen.</span>
+                            <span class="show-en notranslate">Come for the food. Stay for the experience.</span>
+                        </p>
                     </div>
                 </div>
-                <div class="show-en notranslate home-intro-grid">
-                    <div class="home-intro-col">
-                        <p class="lead-text">Welcome to Lamfuz, a Nepalese restaurant at Turesensgade in the heart of Copenhagen where meals & hospitality go hand in hand. Every meal here is an invitation to discover the rich flavours, traditions, and warm hospitality of Nepal.</p>
-                        <p>At Lamfuz, dining is about more than great food, it's about making every guest feel genuinely welcome. From the moment you arrive, our goal is to create a relaxed, memorable experience inspired by the warmth and generosity of Nepalese culture.</p>
-                    </div>
-                    <div class="home-intro-col">
-                        <p>From hand-folded momo and slow-cooked dal bhat to smoky sekuwa and freshly ground spices, every dish is rooted in traditional family recipes with a thoughtful modern touch.</p>
-                        <p>Whether you're discovering Nepalese cuisine for the first time or returning for another visit, we invite you to experience the authentic taste of Nepal with a modern twist.</p>
-                    </div>
+                <!-- Right Column: Image -->
+                <div class="home-about-image-wrapper">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Space-1_16-9_Side.webp" alt="Lamfuz Restaurant" class="home-about-img">
                 </div>
             </div>
         </div>
@@ -79,29 +76,65 @@ get_header();
         <div class="gallery-container">
             <div class="gallery-content">
                 <h4 class="gallery-subtitle">
-                    <span class="show-da">VORES GALLERI</span>
-                    <span class="show-en notranslate">OUR GALLERY</span>
+                    <span class="show-da">HVORFOR VÆLGE OS</span>
+                    <span class="show-en notranslate">WHY CHOOSE US</span>
                 </h4>
                 <h2 class="gallery-title">
-                    <span class="show-da">GIV DINE SMAGSLØG EN RUTSJEBANETUR!</span>
-                    <span class="show-en notranslate">GIVE YOUR TASTE BUDS A ROLLER COASTER RIDE!</span>
+                    <span class="show-da">Hvorfor vælge Lamfuz?</span>
+                    <span class="show-en notranslate">Why Choose Lamfuz?</span>
                 </h2>
-                <p class="gallery-text">
-                    <span class="show-da">Leder du efter eksotisk og velsmagende mad? Vil du gerne udfordre dig med en rutsjebanetur for jeres smagsløg?</span>
-                    <span class="show-en notranslate">Are you looking for exotic and tasty food? Would you like to challenge yourself with a rollercoaster ride for your taste buds?</span>
+                
+                <div class="gallery-reasons-list">
+                    <!-- Item 1 -->
+                    <div class="gallery-reason-item">
+                        <h3 class="gallery-reason-title">
+                            <span class="show-da">Autentisk nepalesisk kulturarv</span>
+                            <span class="show-en notranslate">Authentic Nepalese Heritage</span>
+                        </h3>
+                        <p class="gallery-reason-text">
+                            <span class="show-da">Traditionelle opskrifter og tidstypisk madlavning, der bringer de ægte smage af Nepal til København.</span>
+                            <span class="show-en notranslate">Traditional recipes and time-honoured cooking, bringing the true flavours of Nepal to Copenhagen.</span>
+                        </p>
+                    </div>
+                    <!-- Item 2 -->
+                    <div class="gallery-reason-item">
+                        <h3 class="gallery-reason-title">
+                            <span class="show-da">Frisktilberedt</span>
+                            <span class="show-en notranslate">Freshly Prepared</span>
+                        </h3>
+                        <p class="gallery-reason-text">
+                            <span class="show-da">Hver ret tilberedes efter bestilling med ingredienser af god kvalitet og vores egne hjemmelavede krydderiblandinger.</span>
+                            <span class="show-en notranslate">Every dish is cooked to order using good quality ingredients and our own house-made spice blends.</span>
+                        </p>
+                    </div>
+                    <!-- Item 3 -->
+                    <div class="gallery-reason-item">
+                        <h3 class="gallery-reason-title">
+                            <span class="show-da">Varm gæstfrihed</span>
+                            <span class="show-en notranslate">Warm Hospitality</span>
+                        </h3>
+                        <p class="gallery-reason-text">
+                            <span class="show-da">Oplev den ægte velkomst og venlige service, som nepalesisk kultur er kendt for.</span>
+                            <span class="show-en notranslate">Experience the genuine welcome and friendly service that Nepalese culture is known for.</span>
+                        </p>
+                    </div>
+                    <!-- Item 4 -->
+                    <div class="gallery-reason-item">
+                        <h3 class="gallery-reason-title">
+                            <span class="show-da">Alle er velkomne</span>
+                            <span class="show-en notranslate">Everyone's Welcome</span>
+                        </h3>
+                        <p class="gallery-reason-text">
+                            <span class="show-da">Uanset om du er kødelsker, vegetar eller veganer, er der noget for enhver smag.</span>
+                            <span class="show-en notranslate">Whether you're a meat lover, vegetarian, or vegan, there's something for everyone to enjoy.</span>
+                        </p>
+                    </div>
+                </div>
+
+                <p class="gallery-outro-text">
+                    <span class="show-da">Autentiske smage. Ægte gæstfrihed. En spiseoplevelse at huske.</span>
+                    <span class="show-en notranslate">Authentic flavours. Genuine hospitality. A dining experience to remember.</span>
                 </p>
-                <p class="gallery-text">
-                    <span class="show-da">Så er Lamfuz for dig!</span>
-                    <span class="show-en notranslate">Then Lamfuz is for you!</span>
-                </p>
-                <p class="gallery-text">
-                    <span class="show-da">I lamfuz vi brænder for at lave mad inspireret af den eksplosion af smag, som det nepalesiske køkken byder på. Vi tilbyder DINE IN, takeout og catering til dig, der længes efter eksotisk mad og nye smage – på en sund måde og uden at tømme din pung!</span>
-                    <span class="show-en notranslate">At lamfuz we are passionate about cooking inspired by the explosion of flavors that Nepalese cuisine offers. We offer DINE IN, takeout and catering for those of you who long for exotic food and new flavors - in a healthy way and without emptying your wallet!</span>
-                </p>
-                <a href="<?php echo lamfuz_get_page_url(array('about', 'om-lamfuz')); ?>" class="btn-hero-red" style="margin-top: 1.5rem; text-transform: uppercase; font-size: 0.85rem; padding: 1rem 1.8rem;">
-                    <span class="show-da">LÆS MERE OM OS</span>
-                    <span class="show-en notranslate">READ MORE ABOUT US</span>
-                </a>
             </div>
             <!-- Swiper Slider -->
             <div class="swiper mySwiper gallery-swiper">
@@ -117,129 +150,92 @@ get_header();
         </div>
     </section>
 
-    <!-- Booking Section -->
-    <section class="booking-section" id="book">
-        <div class="booking-container">
-            <div class="booking-widget">
-                <iframe src="https://booking.favouritetable.com/?SiteCode=2125&skin=lamfuz" width="100%" height="560" frameborder="0" scrolling="no" allowfullscreen></iframe>
-            </div>
-            <div class="booking-content">
-                <h4 class="booking-subtitle">NEPALI KØKKEN MED SJÆL</h4>
-                <h2 class="booking-title">
-                    <span class="desktop-only-title">EN SMAG AF NEPAL –<br>SKABT MED KÆRLIGHED<br>OG TRADITION</span>
-                    <span class="mobile-only-title">EN SMAG AF NEPAL – SKABT<br>MED KÆRLIGHED OG<br>TRADITION</span>
-                </h2>
-                <p class="booking-text">Hos Lamfuz mødes autentiske opskrifter, friskristeder krydderier og lokale råvarer i en oplevelse, der bringer Nepal varme smage til hjertet af København.</p>
-            </div>
-        </div>
 
-    </section><!-- END booking-section -->
 
     <!-- Signature Dishes Section -->
     <section class="signature-dishes-section">
         <div class="signature-dishes-container">
-            <h2 class="signature-dishes-title">
-                <span class="show-da">Vores signaturretter fra Nepal</span>
-                <span class="show-en notranslate">Our Signature Nepalese Dishes</span>
-            </h2>
-            <p class="signature-dishes-subtitle">
-                <span class="show-da">Hos Lamfuz er mad ikke bare noget, vi serverer – det er vores måde at byde dig velkommen på. Hver ret på vores menukort er rodfæstet i traditionelle nepalesiske opskrifter, lavet med friske råvarer og krydderier, der er afbalanceret præcis som de skal være. Uanset om det er din første smag af det nepalesiske køkken, eller du vender tilbage for at få de smage, du allerede elsker, så har vi noget, der vil falde i din smag.</span>
-                <span class="show-en notranslate">At Lamfuz, food isn't just something we serve — it's how we welcome you. Every dish on our menu is rooted in traditional Nepalese recipes, made with fresh ingredients and spices balanced the way they should be. Whether this is your first taste of Nepalese cuisine or you're coming back for flavours you already love, we've got something that'll hit the spot.</span>
-            </p>
-
-            <div class="signature-dishes-grid">
-                <!-- Card 1: Momo -->
-                <div class="dish-card">
-                    <div class="dish-img-container">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/JholMoMo_9-16_Above.webp" alt="Jhol Momo" class="dish-img">
-                    </div>
-                    <div class="dish-info">
-                        <span class="dish-badge">
-                            <span class="show-da">Kokkens anbefaling</span>
-                            <span class="show-en notranslate">Chef's Recommendation</span>
-                        </span>
-                        <h3 class="dish-name">Momos & Jhol Momo</h3>
-                        <p class="dish-desc">
-                            <span class="show-da">Ingen to dage er ens, men én ting ændrer sig aldrig – vores momos laves friske, hver eneste dag. Vælg mellem saftig kylling eller et fyldigt vegansk alternativ, begge serveret med vores signatur-sesam- og tomat-chutney. Vil du have noget med lidt mere spark i? Vælg vores jhol momo, serveret i en rig, syrlig suppe, der løfter denne nepalesiske favorit til et helt nyt niveau.</span>
-                            <span class="show-en notranslate">No two days are the same, but one thing never changes — our momo are made fresh, every single day. Pick from juicy chicken or a filling vegan option, both served with our signature sesame and tomato chutney. Want something with a bit more kick? Go for our jhol momo, dunked in a rich, tangy broth that takes this Nepalese favourite to another level.</span>
-                        </p>
-                    </div>
+            <div class="signature-dishes-grid-layout">
+                <!-- Left Column: Image -->
+                <div class="signature-dishes-image-column">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Dish-3_16-9_Above_portrait.jpg" alt="Signature Nepalese Dishes" class="signature-dishes-img">
                 </div>
-
-                <!-- Card 2: Dal Bhat Platter -->
-                <div class="dish-card">
-                    <div class="dish-img-container">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/DhalBhatPlatter_9-16_Above.webp" alt="Dal Bhat Platter" class="dish-img">
-                    </div>
-                    <div class="dish-info">
-                        <span class="dish-badge">
-                            <span class="show-da">Husets favorit</span>
-                            <span class="show-en notranslate">House Favourite</span>
-                        </span>
-                        <h3 class="dish-name">Dal Bhat Platter</h3>
-                        <p class="dish-desc">
-                            <span class="show-da">Spørger du en hvilken som helst person i Nepal, hvad de spiser hver dag, er sandsynligheden stor for, at det er dal bhat. Det er simpel mad lavet rigtigt – velduftende basmatiris, langtidskogte linser, sæsonens grøntsager, hjemmelavet chutney, sprød papadum og præcis de rigtige krydderier, der alle samles på én tilfredsstillende tallerken. Dette er nepalesisk hjemmelavet mad, når det er bedst.</span>
-                            <span class="show-en notranslate">If you ask anyone in Nepal what they eat every day, chances are it's dal bhat. It's simple food done right — fragrant basmati rice, slow-cooked lentils, seasonal veg, house-made chutneys, crispy papad, and just the right spices, all coming together in one satisfying plate. This is Nepalese home cooking at its best.</span>
-                        </p>
-                    </div>
-                </div>
-
-                <!-- Card 3: From the Grill -->
-                <div class="dish-card">
-                    <div class="dish-img-container">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/ChickenChoila_9-16_Above.webp" alt="Sekuwa & Choila" class="dish-img">
-                    </div>
-                    <div class="dish-info">
-                        <span class="dish-badge">
-                            <span class="show-da">Fra grillen</span>
-                            <span class="show-en notranslate">From the Grill</span>
-                        </span>
-                        <h3 class="dish-name">Sekuwa & Choila</h3>
-                        <p class="dish-desc">
-                            <span class="show-da">Røget, krydret og fyldt med smag – det er vores sekuwa, lavet med mørt kyllinge- eller lammekød grillet på traditionel vis. Længes du efter noget lidt mere intenst? Prøv vores choila. Friske krydderurter, hvidløg, ingefær, tomater, løg og chili forenes i en ret, der er kraftfuld fra allerførste mundfuld.</span>
-                            <span class="show-en notranslate">Smoky, spiced, and packed with flavour — that's our sekuwa, made with tender chicken or lamb grilled the traditional way. Craving something a little more intense? Try our choila. Fresh herbs, garlic, ginger, tomatoes, onions, and chilli come together for a dish that's bold from the first bite.</span>
-                        </p>
-                    </div>
-                </div>
-
-                <!-- Card 4: Stir-Fried Classics -->
-                <div class="dish-card">
-                    <div class="dish-img-container">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/ChowMein_9-16_Above.webp" alt="Chow Mein & Fried Rice" class="dish-img">
-                    </div>
-                    <div class="dish-info">
-                        <span class="dish-badge">
-                            <span class="show-da">Friske wok-klassikere</span>
-                            <span class="show-en notranslate">Freshly Stir-Fried Classics</span>
-                        </span>
-                        <h3 class="dish-name">Chow Mein & Fried Rice</h3>
-                        <p class="dish-desc">
-                            <span class="show-da">Tilberedt efter bestilling, aldrig færdiglavet på forhånd – vores chow mein og stegte ris i nepalesisk stil vendes med sæsonens grøntsager, hvidløg, grøn chili og forårsløg. Vælg mellem kylling, kæmperejer eller vegansk, og del det ved bordet eller nyd det hele selv. Ingen dømmer dig uanset hvad.</span>
-                            <span class="show-en notranslate">Cooked to order, never sitting around — our Nepalese-style chow mein and fried rice are tossed with seasonal vegetables, garlic, green chilli, and spring onions. Choose chicken, king prawn, or vegan, and share it at the table or enjoy it all to yourself. No judgement either way.</span>
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Outro & CTA -->
-            <div class="signature-dishes-outro">
-                <p class="outro-welcome">
-                    <span class="show-da">Uanset om du er her for en hurtig tallerken momos eller et bord fyldt med retter til deling, håber vi, at hvert måltid giver dig en lille smag af Nepal.</span>
-                    <span class="show-en notranslate">Whether you're here for a quick plate of momo or a table full of dishes to share, we hope every meal gives you a little taste of Nepal.</span>
-                </p>
-                <div class="outro-cta-box">
-                    <h4 class="outro-cta-title">
-                        <span class="show-da">Der er mere at opdage</span>
-                        <span class="show-en notranslate">There's More to Discover</span>
-                    </h4>
-                    <p class="outro-cta-text">
-                        <span class="show-da">Forretter, hovedretter, vegetariske specialiteter, grillretter, desserter og kolde drikke til at skylle det hele ned med – vores fulde menukort har meget mere at byde på. Kom sulten.</span>
-                        <span class="show-en notranslate">Starters, mains, vegetarian specialities, grills, desserts, and drinks to wash it all down — our full menu has plenty more to explore. Come hungry.</span>
+                <!-- Right Column: Content -->
+                <div class="signature-dishes-content-column">
+                    <h2 class="signature-dishes-main-title">
+                        <span class="show-da">Vores signaturretter fra Nepal</span>
+                        <span class="show-en notranslate">Our Signature Nepalese Dishes</span>
+                    </h2>
+                    <p class="signature-dishes-main-subtitle">
+                        <span class="show-da">Autentiske nepalesiske smage, skabt ud fra familieopskrifter med et moderne tvist. Med vegetariske og veganske muligheder overalt på vores menukort, er der noget for enhver smag.</span>
+                        <span class="show-en notranslate">Authentic Nepalese flavours, crafted from family recipes with a modern twist. With vegetarian and vegan options available across our menu, there's something for everyone to enjoy.</span>
                     </p>
-                    <a href="<?php echo lamfuz_get_page_url('menu'); ?>" class="btn-hero-red" style="margin-top: 1.5rem; display: inline-block;">
-                        <span class="show-da">SE HELE MENUKORTET →</span>
-                        <span class="show-en notranslate">VIEW FULL MENU →</span>
-                    </a>
+
+                    <div class="signature-dishes-list">
+                        <!-- Item 1 -->
+                        <div class="sig-dish-item">
+                            <h3 class="sig-dish-name">
+                                <span class="show-da">Dal Bhat</span>
+                                <span class="show-en notranslate">Dal Bhat</span>
+                            </h3>
+                            <p class="sig-dish-description">
+                                <span class="show-da">Nepals hverdagsfavorit. Velduftende ris, langtidskogte linser, sæsonens tilbehør og dit valg af lam, kylling, vegetar eller vegansk.</span>
+                                <span class="show-en notranslate">Nepal's everyday favourite. Fragrant rice, slow-cooked lentils, seasonal sides, and your choice of lamb, chicken, vegetarian, or vegan.</span>
+                            </p>
+                        </div>
+
+                        <!-- Item 2 -->
+                        <div class="sig-dish-item">
+                            <h3 class="sig-dish-name">
+                                <span class="show-da">Friske Momos</span>
+                                <span class="show-en notranslate">Fresh Momo</span>
+                            </h3>
+                            <p class="sig-dish-description">
+                                <span class="show-da">Håndfoldet dagligt og serveret med vores signatur-sesam- og tomat-chutney. Prøv vores <strong>Jhol Momo</strong> for et ekstra spark.</span>
+                                <span class="show-en notranslate">Hand-folded daily and served with our signature sesame & tomato chutney. Try our <strong>Jhol Momo</strong> for an extra kick.</span>
+                            </p>
+                        </div>
+
+                        <!-- Item 3 -->
+                        <div class="sig-dish-item">
+                            <h3 class="sig-dish-name">
+                                <span class="show-da">Fra grillen</span>
+                                <span class="show-en notranslate">From the Grill</span>
+                            </h3>
+                            <p class="sig-dish-description">
+                                <span class="show-da">Røget <strong>Sekuwa</strong> eller krydret <strong>Choila</strong> – dristig, autentisk smag og fuld af kraft.</span>
+                                <span class="show-en notranslate">Smoky <strong>Sekuwa</strong> or spicy <strong>Choila</strong>—bold, authentic taste and full of flavour.</span>
+                            </p>
+                        </div>
+
+                        <!-- Item 4 -->
+                        <div class="sig-dish-item">
+                            <h3 class="sig-dish-name">
+                                <span class="show-da">Favoritter fra wokken</span>
+                                <span class="show-en notranslate">Wok-Fired Favourites</span>
+                            </h3>
+                            <p class="sig-dish-description">
+                                <span class="show-da">Frisktilberedt chow mein og stegte ris med dit valg af kylling, kæmperejer eller vegansk.</span>
+                                <span class="show-en notranslate">Freshly cooked chow mein and fried rice with your choice of chicken, king prawn, or vegan.</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <p class="signature-dishes-note">
+                        <span class="show-da">Uanset om du er kødelsker, vegetar eller veganer, er hver ret lavet til at bringe dig de autentiske smage af Nepal. Kom for momoen. Bliv for oplevelsen.</span>
+                        <span class="show-en notranslate">Whether you're a meat lover, vegetarian, or vegan, every dish is made to bring you the authentic flavours of Nepal. Come for the momo. Stay for the experience.</span>
+                    </p>
+
+                    <div class="signature-dishes-actions">
+                        <a href="<?php echo lamfuz_get_page_url('menu'); ?>" class="btn-sig-menu-link">
+                            <span class="show-da">[Se hele menukortet →]</span>
+                            <span class="show-en notranslate">[View Full Menu →]</span>
+                        </a>
+                        <a href="<?php echo lamfuz_get_page_url(array('book-et-bord', 'book-table')); ?>" class="btn-hero-red btn-sig-book">
+                            <span class="show-da">Book et bord</span>
+                            <span class="show-en notranslate">Book a table</span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
