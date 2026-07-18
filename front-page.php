@@ -517,6 +517,7 @@ get_header();
     </style>
 </main>
 <?php
+get_footer();
 
 
 
