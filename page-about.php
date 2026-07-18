@@ -89,20 +89,25 @@ get_header(); ?>
                         <p style="margin-bottom: 1.2rem;">Lamfuz began as a small takeaway & event space at Krudttønden in Østerbro, where Krishna and Badal first introduced Nepali cuisine to Copenhagen. They quickly built a loyal following, proving the city's appetite for Nepali food.</p>
                         <p style="margin-bottom: 0;">In 2022, Badal stepped away from the project, while Krishna continued the journey. When the café closed in 2023, it had already fulfilled its purpose, leading to the opening of Lamfuz on Turesensgade, where the taste of Nepal is served with a thoughtful modern touch.</p>
                     </div>
-                </d    <!-- MEET THE TEAM SECTION -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MEET THE TEAM SECTION -->
     <section class="about-team-section" style="background-color: #fff8e6; padding: 6rem 0 3rem 0;">
         <div class="about-container">
-            <!-- Center title -->
-            <div style="text-align: center; margin-bottom: 3rem;">
-                <h2 class="about-section-title" style="margin-bottom: 1rem; display: inline-block;">
-                    <span class="show-da">Mød teamet</span>
-                    <span class="show-en notranslate">Meet the Team</span>
-                </h2>
-            </div>
-
             <!-- Centered Team Photo -->
             <div class="about-team-photo-wrapper" style="max-width: 800px; margin: 0 auto 3rem; text-align: center;">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/LAMFUZ-team.webp" alt="Meet the Team" style="width: 100%; height: auto; max-height: 500px; object-fit: cover; box-shadow: 0 15px 40px rgba(0,0,0,0.1);">
+            </div>
+
+            <!-- Center title -->
+            <div style="text-align: center; margin-bottom: 2rem;">
+                <h2 class="about-section-title" style="margin-bottom: 0; display: inline-block;">
+                    <span class="show-da">Mød teamet</span>
+                    <span class="show-en notranslate">Meet the Team</span>
+                </h2>
             </div>
 
             <!-- Story Texts -->
