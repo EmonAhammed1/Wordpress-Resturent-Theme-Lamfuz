@@ -1947,6 +1947,15 @@ body {
         gap: 2.5rem;
     }
 
+    .about-history-section {
+        padding: 2rem 0 4rem 0 !important;
+    }
+
+    .about-history-section .about-split {
+        flex-direction: column-reverse;
+        gap: 2.5rem;
+    }
+
     .about-intro-image {
         margin-bottom: 2rem;
     }

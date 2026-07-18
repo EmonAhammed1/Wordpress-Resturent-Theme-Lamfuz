@@ -57,6 +57,43 @@ get_header(); ?>
         </div>
     </section>
 
+    <!-- HISTORY SECTION -->
+    <section class="about-history-section" style="background-color: #fff8e6; padding: 3rem 0 6rem 0; border-bottom: 1px solid rgba(168, 144, 102, 0.2);">
+        <div class="about-container">
+            <div class="about-split">
+                <div class="about-split-image">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Space-1_1-1_Side.webp" alt="Building Lamfuz on Turesensgade">
+                </div>
+                <div class="about-split-content">
+                    <h2 class="about-section-title" style="text-align: left; margin-bottom: 1rem;">
+                        <span class="show-da">Opbygningen af Lamfuz på Turesensgade</span>
+                        <span class="show-en notranslate">Building Lamfuz on Turesensgade</span>
+                    </h2>
+                    <h4 class="about-section-subtitle" style="font-weight: 700; color: #b2512b; margin-bottom: 1.5rem; text-transform: none; letter-spacing: normal; font-size: 1.15rem; font-family: var(--font-body);">
+                        <span class="show-da">Familieejet. Uafhængigt drevet. Skabt med tradition. Serveret med hjerte.</span>
+                        <span class="show-en notranslate">Family Owned. Independently Run. Crafted with Tradition. Served with Heart.</span>
+                    </h4>
+                    <div class="show-da" style="color: #4a2f13; font-family: var(--font-body); font-size: 1.05rem; line-height: 1.8;">
+                        <p style="margin-bottom: 1.2rem;">I dag er Lamfuz stolte af at have til huse på Turesensgade 6 i hjertet af København. Restauranten er bygget af køkkenchef Krishna sammen med hans familie og venner ved hjælp af genanvendte materialer, og den afspejler den samme omhu og det samme håndværk, som du finder i vores køkken.</p>
+                        <p style="margin-bottom: 2rem;">Navnet Lamfuz er inspireret af et nepalesisk ord forbundet med en let, afslappet livsstil - en filosofi, der præger alt, hvad vi gør. Bag den varme atmosfære ligger et stort fokus på kvalitet, hvor hver eneste håndlavede momo, friskkværnede krydderiblanding og omhyggeligt tilberedte ret afspejler de værdier, som Lamfuz blev bygget på.</p>
+                        
+                        <h3 style="font-family: var(--font-body); font-size: 1.35rem; font-weight: 700; color: #b2512b; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: normal;">Før Turesensgade: En spæd start ved Krudttønden</h3>
+                        <p style="margin-bottom: 1.2rem;">Lamfuz startede som et lille takeaway- og eventsted ved Krudttønden på Østerbro, hvor Krishna og Badal for første gang introducerede det nepalesiske køkken til København. De opbyggede hurtigt en loyal kundeskare, hvilket bekræftede københavnernes appetit på nepalesisk mad.</p>
+                        <p style="margin-bottom: 0;">I 2022 trådte Badal ud af projektet, mens Krishna fortsatte rejsen. Da caféen lukkede i 2023, havde den allerede opfyldt sit formål, hvilket banede vejen for åbningen af Lamfuz på Turesensgade, hvor smagen af Nepal i dag serveres med et gennemtænkt, moderne strejf.</p>
+                    </div>
+                    <div class="show-en notranslate" style="color: #4a2f13; font-family: var(--font-body); font-size: 1.05rem; line-height: 1.8;">
+                        <p style="margin-bottom: 1.2rem;">Today, Lamfuz is proudly located on Turesensgade 6 in the heart of Copenhagen. Built by Chef Krishna, together with his family and friends, using reclaimed and recycled materials, the restaurant reflects the same care and craftsmanship found in our kitchen.</p>
+                        <p style="margin-bottom: 2rem;">The name Lamfuz is inspired by a Nepali word associated with an easy, relaxed way of life, a philosophy that shapes everything we do. Behind the welcoming atmosphere is a commitment to quality, where every handmade momo, freshly ground spice blend, and carefully prepared dish reflects the values on which Lamfuz was built.</p>
+                        
+                        <h3 style="font-family: var(--font-body); font-size: 1.35rem; font-weight: 700; color: #b2512b; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: normal;">Before Turesensgade: A Small Beginning at Krudttønden</h3>
+                        <p style="margin-bottom: 1.2rem;">Lamfuz began as a small takeaway & event space at Krudttønden in Østerbro, where Krishna and Badal first introduced Nepali cuisine to Copenhagen. They quickly built a loyal following, proving the city's appetite for Nepali food.</p>
+                        <p style="margin-bottom: 0;">In 2022, Badal stepped away from the project, while Krishna continued the journey. When the café closed in 2023, it had already fulfilled its purpose, leading to the opening of Lamfuz on Turesensgade, where the taste of Nepal is served with a thoughtful modern touch.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- STORY SECTION -->
     <section class="about-story-section">
         <div class="about-container">
