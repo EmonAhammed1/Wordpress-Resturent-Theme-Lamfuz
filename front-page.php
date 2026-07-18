@@ -268,13 +268,9 @@ get_header();
     <section class="faq-section" style="background-color: #fff8e6; padding: 0 1.25rem 7rem; font-family: var(--font-body);">
         <div class="faq-container" style="max-width: 1200px; margin: 0 auto;">
             <div class="faq-header" style="text-align: center; margin-bottom: 4rem;">
-                <h4 class="faq-subtitle" style="font-family: var(--font-body); font-size: 0.9rem; letter-spacing: 0.2em; color: #b2512b; text-transform: uppercase; margin-bottom: 0.5rem; font-weight: 600;">
-                    <span class="show-da">Ofte Stillede Spørgsmål</span>
-                    <span class="show-en notranslate">Frequently Asked Questions</span>
-                </h4>
                 <h2 class="faq-title" style="font-family: var(--font-heading); font-size: clamp(28px, 5vw, 38px); font-weight: 400; color: #b2512b; margin-top: 0; text-transform: uppercase; letter-spacing: 0.05em;">
-                    <span class="show-da">Læs mere om Lamfuz</span>
-                    <span class="show-en notranslate">FAQ</span>
+                    <span class="show-da">Ofte stillede spørgsmål?</span>
+                    <span class="show-en notranslate">Frequently Asked Questions?</span>
                 </h2>
             </div>
             

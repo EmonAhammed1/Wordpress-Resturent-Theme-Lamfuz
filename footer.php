@@ -5,11 +5,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 ?>
     <footer class="site-footer">
         <div class="footer-container">
-            <div class="footer-logo">
-                <a href="<?php echo home_url('/'); ?>">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Lamfuz-Logo-Tagline-White-RGB-copy (2) - Copy.webp" alt="Lamfuz Nepali Cuisine" class="footer-logo-img">
-                </a>
-            </div>
+
             <div class="footer-columns">
                 <!-- Column 1: Opening Hours -->
                 <div class="footer-col">
