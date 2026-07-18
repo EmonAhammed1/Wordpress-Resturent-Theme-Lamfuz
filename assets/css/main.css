@@ -1834,6 +1834,16 @@ body {
     padding: 6rem 0 6rem 0;
 }
 
+.about-team-section .about-split {
+    align-items: center;
+}
+
+.about-team-image img {
+    height: 400px !important;
+    min-height: 400px !important;
+    object-position: center 25%;
+}
+
 .about-split {
     display: flex;
     align-items: stretch;
@@ -2006,6 +2016,11 @@ body {
 
     .about-cta-link {
         font-size: 1.3rem !important;
+    }
+
+    .about-team-image img {
+        height: 300px !important;
+        min-height: 300px !important;
     }
 }
 
