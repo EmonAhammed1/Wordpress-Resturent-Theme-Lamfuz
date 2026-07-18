@@ -21,7 +21,7 @@ get_header();
 
 
         <!-- Vertical Sidebar Scroll Indicator (Right Side) -->
-        <a href="<?php echo lamfuz_get_page_url(array('about', 'om-lamfuz')); ?>" class="hero-scroll-side">
+        <a href="#about-intro" class="hero-scroll-side">
             <span class="hero-vertical-text">OPDAG LAMFUZ</span>
             <div class="hero-scroll-arrow">
                 <svg viewBox="0 0 24 24">
@@ -39,7 +39,7 @@ get_header();
     </section>
 
     <!-- Home About Section -->
-    <section class="home-about-section">
+    <section class="home-about-section" id="about-intro">
         <div class="home-about-container">
             <div class="home-about-grid">
                 <!-- Left Column: Content -->
