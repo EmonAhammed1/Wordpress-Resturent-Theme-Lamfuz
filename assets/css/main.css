@@ -174,16 +174,17 @@ body {
 
 .lang-selector {
     font-family: var(--font-heading);
-    font-size: 0.9rem;
-    font-weight: 700;
+    font-size: 1.05rem;
+    font-weight: 800 !important;
     color: #ffffff;
-    letter-spacing: 0.15em;
+    letter-spacing: 0.05em;
     display: flex;
     align-items: center;
     gap: 0.7rem;
 }
 
 .lang-selector span {
+    font-weight: 800 !important;
     cursor: pointer;
     transition: opacity 0.3s ease;
     display: inline-flex;
@@ -407,8 +408,8 @@ body {
 
 .mobile-lang-selector {
     font-family: var(--font-heading);
-    font-size: 1rem;
-    font-weight: 700;
+    font-size: 1.15rem;
+    font-weight: 800 !important;
     color: #b2512b;
     display: flex;
     align-items: center;
@@ -416,6 +417,7 @@ body {
 }
 
 .mobile-lang-selector span {
+    font-weight: 800 !important;
     cursor: pointer;
     transition: opacity 0.3s ease;
     color: #b2512b;
@@ -427,7 +429,7 @@ body {
 
 .mobile-lang-selector span.active {
     opacity: 1;
-    font-weight: 700;
+    font-weight: 800 !important;
     border-bottom: 2px solid #b2512b;
 }
 
