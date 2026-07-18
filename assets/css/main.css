@@ -1939,7 +1939,12 @@ body {
     }
 
     .about-intro-section {
-        padding: 2rem 0 1.5rem 0 !important;
+        padding: 4rem 0 3rem 0 !important;
+    }
+
+    .about-intro-section .about-split {
+        flex-direction: column;
+        gap: 2.5rem;
     }
 
     .about-intro-image {

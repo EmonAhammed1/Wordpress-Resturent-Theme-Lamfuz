@@ -29,32 +29,29 @@ get_header(); ?>
     <!-- INTRO SECTION -->
     <section class="about-intro-section">
         <div class="about-container">
-            <div class="about-intro-image">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Dish-3_16-9_Above.webp" alt="Lamfuz Table">
-            </div>
-            
-            <div class="about-intro-text">
-                <div class="show-da">
-                    <div class="about-intro-black">
-                        <p>Hos Lamfuz handler det om mere end mad – det handler om oplevelsen.<br>
-                        Vi bringer de autentiske nepalesiske smage til Danmark med kærlighed, krydderier og en dyb respekt for vores madkultur.<br>
-                        Vores retter er inspireret af barndommens måltider i rismarkerne i Nepal, hvor dufte af hvidløg, ingefær og chili fyldte luften.</p>
-                        <p>Vores køkken handler ikke kun om opskrifter – det handler om håndværk, tradition og den gastfrihed, der kendetegner Nepal. Hver ret bliver skabt med præcision og respekt for de råvarer, vi arbejder med. Fra de dybe, aromatiske krydderier til de friske grøntsager og langsomt tilberedte saucer gør vi os umage for at bringe dig den samme varme og autenticitet, som vi selv voksede op med.</p>
-                        <p>Her i København deler vi den tradition med dig – serveret med moderne finesse, lokale råvarer og ægte varme.</p>
+            <div class="about-split">
+                <div class="about-split-content">
+                    <h2 class="about-section-title" style="text-align: left; margin-bottom: 1rem;">
+                        <span class="show-da">Et autentisk nepalesisk køkken i hjertet af København</span>
+                        <span class="show-en notranslate">An Authentic Nepali Kitchen in the Heart of Copenhagen</span>
+                    </h2>
+                    <h4 class="about-section-subtitle" style="font-weight: 700; color: #b2512b; margin-bottom: 1.5rem; text-transform: none; letter-spacing: normal; font-size: 1.15rem; font-family: var(--font-body);">
+                        <span class="show-da">Autentisk smag. Moderne udtryk. Forankret i Nepal. Skabt til København.</span>
+                        <span class="show-en notranslate">Authentic Taste. Modern Expression. Rooted in Nepal. Made for Copenhagen.</span>
+                    </h4>
+                    <div class="show-da" style="color: #4a2f13; font-family: var(--font-body); font-size: 1.05rem; line-height: 1.8;">
+                        <p style="margin-bottom: 1.2rem;">Lamfuz er mere end en restaurant. Det er en fejring af nepalesisk kultur, smag og gæstfrihed, bragt til hjertet af København. Hver ret, vi serverer, fortæller en historie - en der begynder i Nepals bjerge og dale, fortsætter gennem mange års erfaring i danske køkkener, og vækkes til live i dag på Turesensgade.</p>
+                        <p style="margin-bottom: 1.2rem;">Vores filosofi er enkel: at ære traditionen og samtidig omfavne nutiden. Vi forbliver tro mod autentiske nepalesiske opskrifter, tilbereder hver ret med omhu og bruger de fineste danske sæsonbestemte ingredienser til at skabe mad, der føles både tidløs og moderne. Det er det, vi kalder en autentisk smag med et moderne udtryk.</p>
+                        <p style="margin-bottom: 0;">Mere end noget andet er Lamfuz bygget på mennesker, familie, venskab, håndværk og troen på, at god mad har styrken til at samle alle omkring det samme bord.</p>
                     </div>
-                    <div class="about-intro-orange">
-                        <p>Lamfuz vil gerne introducere dig til det festfyrværkeri af smag, som vores barndoms nepalesiske køkken tilbyder. Vi tilbyder dine in og takeout, hvor vi inviterer dig ind i vores univers fuld af velsmagende og sund afslapning!</p>
-                        <p>Spidskommen, gurkemeje, chili, koriander, hvidløg og ingefær vækker maden til live og giver dine smagsløg en rutsjebanetur – og så er det sundt! Lamfuz er til dig, der længes efter eksotisk mad og nye smage med vegetariske og veganske valgmuligheder. Og bare rolig, hvis du er dedikeret kødæder – vi har også menuer med lam, kylling og årstidens fisk.</p>
+                    <div class="show-en notranslate" style="color: #4a2f13; font-family: var(--font-body); font-size: 1.05rem; line-height: 1.8;">
+                        <p style="margin-bottom: 1.2rem;">Lamfuz is more than a restaurant. It is a celebration of Nepali culture, flavours, and hospitality, brought to the heart of Copenhagen. Every dish we serve tells a story, one that begins in the mountains and valleys of Nepal, continues through years of experience in Danish kitchens, and comes to life today on Turesensgade.</p>
+                        <p style="margin-bottom: 1.2rem;">Our philosophy is simple: honour tradition while embracing the present. We stay true to authentic Nepali recipes, prepare every dish with care, and use the finest Danish seasonal ingredients to create food that feels both timeless and contemporary. It's what we call an <strong>authentic taste with a modern expression</strong>.</p>
+                        <p style="margin-bottom: 0;">More than anything, Lamfuz is built on people, family, friendship, craftsmanship, and the belief that great food has the power to bring everyone around the same table.</p>
                     </div>
                 </div>
-                <div class="show-en notranslate">
-                    <div class="about-intro-black">
-                        <p>At Lamfuz, it's about more than food — it's about creating an unforgettable experience. We bring the authentic flavours of Nepal to the heart of Copenhagen with passion, carefully selected spices, and a deep respect for our culinary heritage.</p>
-                        <p>Every dish we prepare is inspired by childhood memories of growing up in Nepal, where the aromas of garlic, ginger, chilli, cumin, and coriander filled family kitchens and meals were always shared with warmth and hospitality. Those traditions continue to inspire everything we do today.</p>
-                    </div>
-                    <div class="about-intro-orange">
-                        <p>Our cuisine is about more than recipes. It reflects craftsmanship, authenticity, and the welcoming spirit that defines Nepalese culture. From freshly prepared vegetables and slow-cooked sauces to our signature spice blends, every plate is created with precision, care, and respect for the ingredients. Here in Copenhagen, we proudly share those traditions while combining them with modern presentation, locally sourced seasonal ingredients, and genuine Nepalese hospitality.</p>
-                    </div>
+                <div class="about-split-image">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Dish-3_2_4-5_Above.webp" alt="Authentic Nepali Kitchen">
                 </div>
             </div>
         </div>
