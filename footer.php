@@ -98,17 +98,6 @@ if ( ! defined( 'ABSPATH' ) ) {
                     <span class="show-da">Alle rettigheder forbeholdt &copy; 2026 Lamfuz.dk | Drevet af Blavora</span>
                     <span class="show-en notranslate">All rights reserved &copy; 2026 Lamfuz.dk | Powered by Blavora</span>
                 </div>
-                <button class="back-to-top" id="backToTop" aria-label="Back to Top">
-                    <svg viewBox="0 0 24 24" width="20" height="20">
-                        <polyline points="18 15 12 9 6 15" fill="none" stroke="currentColor" stroke-width="2"></polyline>
-                    </svg>
-                </button>
-
-                <!-- Floating Book a Table Button -->
-                <a href="<?php echo lamfuz_get_page_url(array('book-et-bord', 'book-table')); ?>" class="floating-book-btn" id="floatingBookBtn">
-                    <span class="show-da">Book et bord</span>
-                    <span class="show-en notranslate">Book a table</span>
-                </a>
             </div>
         </div>
     </footer>
@@ -121,6 +110,19 @@ if ( ! defined( 'ABSPATH' ) ) {
     </script>
     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- Floating UI Elements -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to Top">
+        <svg viewBox="0 0 24 24" width="20" height="20">
+            <polyline points="18 15 12 9 6 15" fill="none" stroke="currentColor" stroke-width="2"></polyline>
+        </svg>
+    </button>
+
+    <a href="<?php echo lamfuz_get_page_url(array('book-et-bord', 'book-table')); ?>" class="floating-book-btn" id="floatingBookBtn">
+        <span class="show-da">Book et bord</span>
+        <span class="show-en notranslate">Book a table</span>
+    </a>
+
     <?php wp_footer(); ?>
 </body>
 </html>
