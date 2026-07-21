@@ -2991,7 +2991,7 @@ body.lang-en span.show-da, body.lang-en a.show-da {
 }
 .contact-card-divider {
     border: none;
-    border-top: 1.5px solid rgba(178, 81, 43, 0.2);
+    border-top: 1.5px solid rgba(178, 81, 43, 0.8);
     margin: 2.5rem 0;
 }
 .contact-hours-title {
@@ -3014,24 +3014,23 @@ body.lang-en span.show-da, body.lang-en a.show-da {
     margin: 0;
 }
 .contact-hours-row {
-    display: flex;
-    justify-content: space-between;
     font-family: var(--font-body);
     font-size: 1.05rem;
-    margin-bottom: 1rem;
-    border-bottom: 1px dashed rgba(178, 81, 43, 0.1);
-    padding-bottom: 0.5rem;
+    margin-bottom: 0.8rem;
+    display: block;
 }
 .contact-hours-row:last-child {
-    border-bottom: none;
     margin-bottom: 0;
 }
 .contact-hours-day {
-    font-weight: 600;
+    font-weight: 500;
     color: #b2512b;
 }
+.contact-hours-day::after {
+    content: ": ";
+}
 .contact-hours-time {
-    color: #444;
+    color: #b2512b;
     font-weight: 600;
 }
 
