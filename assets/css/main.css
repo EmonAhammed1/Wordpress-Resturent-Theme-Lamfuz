@@ -1170,7 +1170,7 @@ body {
     margin: 0;
     padding-left: max(3.5rem, calc(50vw - 650px + 3.5rem));
     display: flex;
-    align-items: stretch;
+    align-items: flex-start;
     gap: 4rem;
 }
 
@@ -1180,6 +1180,12 @@ body {
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
+}
+
+@media (min-width: 901px) {
+    .gallery-content {
+        height: 650px !important;
+    }
 }
 
 /* Gallery Reasons List Styles */
