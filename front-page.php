@@ -82,8 +82,8 @@ get_header();
         <div class="gallery-container">
             <div class="gallery-content">
                 <h2 class="gallery-title">
-                    <span class="show-da">Hvorfor vælge os</span>
-                    <span class="show-en notranslate">Why Choose Us</span>
+                    <span class="show-da">Hvorfor vælge os?</span>
+                    <span class="show-en notranslate">Why Choose Us?</span>
                 </h2>
                 
                 <div class="gallery-reasons-list">
