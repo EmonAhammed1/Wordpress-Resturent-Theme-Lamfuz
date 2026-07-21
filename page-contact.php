@@ -29,54 +29,25 @@ get_header();
                 <span class="show-en notranslate">Contact Lamfuz -<br class="mobile-br">We're Ready to Help</span>
             </h2>
 
-            <!-- Intro Text Container -->
-            <div class="contact-text-container">
-                <div class="show-da">
-                    <p style="margin-bottom: 1.5rem; font-family: var(--font-body); line-height: 1.8; font-size: 17px;">Velkommen til Lamfuz – hvor smag, hygge og gæstfrihed går hånd i hånd. Har du spørgsmål, vil du reservere bord, bestille take-away eller høre mere om vores catering? Så er du altid velkommen til at tage fat i os – vi elsker at høre fra dig!</p>
-                    <p style="margin-bottom: 2rem; font-family: var(--font-body); line-height: 1.8; font-size: 17px;">Uanset om du skriver, ringer eller kigger forbi, står vi klar med åbne arme og duften af frisklavet nepalesisk mad.</p>
-
-                    <h3 class="contact-sub-title">Reservation af bord</h3>
-                    <p style="margin-bottom: 2rem; font-family: var(--font-body); line-height: 1.8; font-size: 17px;">Den hurtigste måde at sikre sig et bord på, især fredag og lørdag aften, er at booke direkte på vores hjemmeside eller ringe til os på +45 70 60 56 57. For større grupper eller særlige begivenheder giver det os mulighed for at forberede os ordentligt på jeres besøg, hvis I ringer i forvejen.</p>
-
-                    <h3 class="contact-sub-title">Takeaway og catering</h3>
-                    <p style="margin-bottom: 2rem; font-family: var(--font-body); line-height: 1.8; font-size: 17px;">Hele vores menukort, inklusive momo, dal bhat-tallerkener, sekuwa, choila, chow mein og stegte ris, kan bestilles som takeaway. Hvis du planlægger en frokost på kontoret, en fødselsdag eller en privat fest i København, kan du kontakte os angående catering, så hjælper vi dig med at sammensætte en menu, der passer til din gruppe.</p>
-
-                    <h3 class="contact-sub-title">Følg Lamfuz</h3>
-                    <p style="margin-bottom: 2rem; font-family: var(--font-body); line-height: 1.8; font-size: 17px;">Hold dig opdateret med nye retter, tilbud og øjeblikke bag kulisserne i vores køkken på Facebook og Instagram.</p>
-
-                    <p style="margin-bottom: 3rem; font-family: var(--font-body); line-height: 1.8; font-size: 17px;">Vi glæder os to at byde dig velkommen hos Lamfuz, din nepalesiske restaurant i hjertet af København.</p>
-                </div>
-                <div class="show-en notranslate">
-                    <p style="margin-bottom: 1.5rem; font-family: var(--font-body); line-height: 1.8; font-size: 17px;">Welcome to Lamfuz, where flavour, hygge and hospitality go hand in hand. Whether you have a question, want to reserve a table, order takeaway, or ask about catering for your next event, we would love to hear from you.</p>
-                    <p style="margin-bottom: 2rem; font-family: var(--font-body); line-height: 1.8; font-size: 17px;">Whether you write, call, or simply walk in, we are always ready to welcome you with open arms and the smell of freshly cooked Nepalese food.</p>
-
-                    <h3 class="contact-sub-title">Booking a Table</h3>
-                    <p style="margin-bottom: 2rem; font-family: var(--font-body); line-height: 1.8; font-size: 17px;">The fastest way to secure a table, especially on Friday and Saturday evenings, is to book directly through our website or call us at +45 70 60 56 57. For larger groups or special occasions, calling ahead lets us prepare properly for your visit.</p>
-
-                    <h3 class="contact-sub-title">Takeaway and Catering</h3>
-                    <p style="margin-bottom: 2rem; font-family: var(--font-body); line-height: 1.8; font-size: 17px;">Our full menu, including momo, dal bhat platters, sekuwa, choila, chow mein and fried rice, is available for takeaway. If you are planning an office lunch, birthday, or private event anywhere in Copenhagen, get in touch about catering and we will help you build a menu that fits your group.</p>
-
-                    <h3 class="contact-sub-title">Follow Lamfuz</h3>
-                    <p style="margin-bottom: 2rem; font-family: var(--font-body); line-height: 1.8; font-size: 17px;">Stay up to date with new dishes, offers and behind-the-scenes moments from our kitchen on Facebook and Instagram.</p>
-
-                    <p style="margin-bottom: 3rem; font-family: var(--font-body); line-height: 1.8; font-size: 17px;">We look forward to welcoming you to Lamfuz, your Nepalese restaurant in the heart of Copenhagen.</p>
-                </div>
-
-                <div style="text-align: center; margin-bottom: 2rem;">
-                    <a href="<?php echo home_url('/book-et-bord'); ?>" class="btn-hero-red" style="font-size: 0.85rem; padding: 1rem 2.5rem; display: inline-block;">
-                        <span class="show-da">BOOK ET BORD</span>
-                        <span class="show-en notranslate">BOOK A TABLE</span>
-                    </a>
-                </div>
-            </div>
-
-            <!-- Details Row (Map and Card) -->
-            <div class="contact-details-row" style="max-width: 1200px; margin: 0 auto; display: flex; gap: 4rem; align-items: stretch; flex-wrap: wrap;">
+            <!-- Details Row (Text and Card) -->
+            <div class="contact-details-row" style="max-width: 1200px; margin: 0 auto; display: flex; gap: 4rem; align-items: flex-start; flex-wrap: wrap;">
                 
-                <!-- Map Column -->
-                <div class="map-embed-wrapper" style="flex: 1.2; min-width: 300px; display: flex; flex-direction: column;">
-                    <div class="map-embed" style="width: 100%; height: 100%; min-height: 450px; background-color: #ddd;">
-                        <iframe src="https://maps.google.com/maps?q=Lamfuz%2C%20Turesensgade%206%2C%201368%20K%C3%B8benhavn&t=&z=17&ie=UTF8&iwloc=&output=embed" width="100%" height="100%" style="border:0; filter: grayscale(30%) opacity(0.9);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <!-- Text Column -->
+                <div class="contact-text-column" style="flex: 1.2; min-width: 300px; color: #b2512b;">
+                    <div class="show-da">
+                        <p style="margin-bottom: 1.5rem; font-family: var(--font-body); line-height: 1.8; font-size: 17px;">Velkommen til Lamfuz – hvor smag, hygge og gæstfrihed går hånd i hånd. Har du spørgsmål, vil du reservere bord, bestille take-away eller høre mere om vores catering? Så er du altid velkommen til at tage fat i os – vi elsker at høre fra dig!</p>
+                        <p style="margin-bottom: 2rem; font-family: var(--font-body); line-height: 1.8; font-size: 17px;">Uanset om du skriver, ringer eller kigger forbi, står vi klar med åbne arme og duften af frisklavet nepalesisk mad.</p>
+                    </div>
+                    <div class="show-en notranslate">
+                        <p style="margin-bottom: 1.5rem; font-family: var(--font-body); line-height: 1.8; font-size: 17px;">Welcome to Lamfuz, where flavour, hygge and hospitality go hand in hand. Whether you have a question, want to reserve a table, order takeaway, or ask about catering for your next event, we would love to hear from you.</p>
+                        <p style="margin-bottom: 2rem; font-family: var(--font-body); line-height: 1.8; font-size: 17px;">Whether you write, call, or simply walk in, we are always ready to welcome you with open arms and the smell of freshly cooked Nepalese food.</p>
+                    </div>
+                    
+                    <div style="margin-top: 2.5rem;">
+                        <a href="<?php echo home_url('/book-et-bord'); ?>" class="btn-hero-red" style="font-size: 0.85rem; padding: 1rem 2.5rem; display: inline-block;">
+                            <span class="show-da">BOOK ET BORD</span>
+                            <span class="show-en notranslate">BOOK A TABLE</span>
+                        </a>
                     </div>
                 </div>
 
@@ -145,6 +116,11 @@ get_header();
                     </div>
                 </div>
             </div>
+        </section>
+
+        <!-- Map Section -->
+        <section class="contact-map-section" style="width: 100%; height: 500px; background-color: #ddd;">
+            <iframe src="https://maps.google.com/maps?q=Lamfuz%2C%20Turesensgade%206%2C%201368%20K%C3%B8benhavn&t=&z=17&ie=UTF8&iwloc=&output=embed" width="100%" height="100%" style="border:0; filter: grayscale(30%) opacity(0.9); display: block;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
 
     </main>
