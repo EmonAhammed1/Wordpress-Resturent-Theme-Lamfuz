@@ -243,19 +243,21 @@ get_header();
         </div>
     </section>
 
-    <!-- Instagram Section -->
-    <section class="instagram-section" style="background-color: #fff8e6; padding: 5rem 1.25rem; text-align: center;">
-        <div class="instagram-container" style="max-width: 1200px; margin: 0 auto;">
-            <div class="instagram-feed-wrapper" style="min-height: 100px;">
-                <?php echo do_shortcode('[instagram-feed]'); ?>
+    <!-- Combined Instagram & Map Section -->
+    <section class="insta-map-section">
+        <div class="insta-map-container">
+            <!-- Left Column: Instagram Feed (2 columns) -->
+            <div class="insta-column">
+                <div class="instagram-feed-wrapper" style="min-height: 100px;">
+                    <?php echo do_shortcode('[instagram-feed cols=2 num=4]'); ?>
+                </div>
             </div>
-        </div>
-    </section>
-
-    <!-- Map Section -->
-    <section class="map-section" style="background-color: #fff8e6; padding-bottom: 5rem; padding-left: 1.25rem; padding-right: 1.25rem;">
-        <div class="map-container" style="max-width: 1200px; margin: 0 auto; height: 450px; overflow: hidden; border: 1px solid rgba(179, 82, 42, 0.2);">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.198305886987!2d12.56201387693952!3d55.68114499757657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4652531065e1bc35%3A0x6e88e894086e7a2b!2sTuresensgade%206%2C%201368%20K%C3%B8benhavn!5e0!3m2!1sen!2sdk!4v1700000000000!5m2!1sen!2sdk" width="100%" height="100%" style="border:0; filter: grayscale(30%) contrast(110%) opacity(0.9);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <!-- Right Column: Map -->
+            <div class="map-column">
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.198305886987!2d12.56201387693952!3d55.68114499757657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4652531065e1bc35%3A0x6e88e894086e7a2b!2sTuresensgade%206%2C%201368%20K%C3%B8benhavn!5e0!3m2!1sen!2sdk!4v1700000000000!5m2!1sen!2sdk" width="100%" height="100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
         </div>
     </section>
 
