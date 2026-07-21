@@ -3498,10 +3498,25 @@ body.lang-en span.show-da, body.lang-en a.show-da {
     height: 100%;
 }
 
+.map-title {
+    font-family: var(--font-heading);
+    font-size: clamp(22px, 4vw, 28px);
+    font-weight: 600;
+    line-height: 1.2;
+    color: #b3522a;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    min-height: 52px; /* Set a min-height to match/align with the Instagram feed's profile header height */
+    display: flex;
+    align-items: center;
+}
+
 .insta-map-container .map-container {
     width: 100%;
     height: 100%;
-    min-height: 480px;
+    min-height: 400px;
     overflow: hidden;
     border: 1px solid rgba(179, 82, 42, 0.2);
 }
@@ -3527,6 +3542,11 @@ body.lang-en span.show-da, body.lang-en a.show-da {
     margin: 0 !important;
 }
 
+/* Hide any instagram photos beyond the first 4 */
+.insta-map-section #sb_instagram #sbi_images .sbi_item:nth-child(n+5) {
+    display: none !important;
+}
+
 @media (max-width: 900px) {
     .insta-map-section {
         padding: 4rem 0;
@@ -3535,6 +3555,12 @@ body.lang-en span.show-da, body.lang-en a.show-da {
     .insta-map-container {
         grid-template-columns: 1fr;
         gap: 3rem;
+    }
+    
+    .map-title {
+        min-height: auto;
+        justify-content: center;
+        margin-bottom: 1rem;
     }
     
     .insta-map-container .map-container {
