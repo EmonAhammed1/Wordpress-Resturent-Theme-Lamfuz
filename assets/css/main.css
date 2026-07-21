@@ -2957,7 +2957,7 @@ body.lang-en span.show-da, body.lang-en a.show-da {
 
 /* Contact Info Card Visual Enhancements */
 .contact-info-item {
-    margin-bottom: 2rem;
+    margin-bottom: 1.25rem;
     display: flex;
     align-items: center;
     gap: 1.25rem;
@@ -2992,14 +2992,14 @@ body.lang-en span.show-da, body.lang-en a.show-da {
 .contact-card-divider {
     border: none;
     border-top: 1.5px solid rgba(178, 81, 43, 0.8);
-    margin: 2.5rem 0;
+    margin: 1.5rem 0;
 }
 .contact-hours-title {
     font-family: var(--font-heading);
     font-size: 1.3rem;
     font-weight: 700;
     color: #b2512b;
-    margin-bottom: 1.75rem;
+    margin-bottom: 1rem;
     display: flex;
     align-items: center;
     gap: 0.75rem;

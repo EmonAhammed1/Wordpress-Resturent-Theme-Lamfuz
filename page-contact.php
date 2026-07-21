@@ -30,21 +30,19 @@ get_header();
             </h2>
 
             <!-- Details Row (Text and Card) -->
-            <div class="contact-details-row" style="max-width: 1000px; margin: 0 auto; display: flex; gap: 4rem; align-items: stretch; flex-wrap: wrap;">
+            <div class="contact-details-row" style="max-width: 1000px; margin: 0 auto; display: flex; gap: 4rem; align-items: flex-start; flex-wrap: wrap;">
                 
                 <!-- Text Column -->
-                <div class="contact-text-column" style="flex: 1.2; min-width: 300px; color: #b2512b; display: flex; flex-direction: column; justify-content: space-between;">
-                    <div>
-                        <div class="show-da">
-                            <p style="margin-bottom: 2rem; font-family: var(--font-body); line-height: 1.8; font-size: 18px;">Velkommen til Lamfuz – hvor smag, hygge og gæstfrihed går hånd i hånd. Har du spørgsmål, vil du reservere bord, bestille take-away eller høre mere om vores catering? Så er du altid velkommen til at tage fat i os – vi elsker at høre fra dig!</p>
-                            <p style="margin-bottom: 0; font-family: var(--font-body); line-height: 1.8; font-size: 18px;">Uanset om du skriver, ringer eller kigger forbi, står vi klar med åbne arme og duften af frisklavet nepalesisk mad.</p>
-                        </div>
-                        <div class="show-en notranslate">
-                            <p style="margin-bottom: 2rem; font-family: var(--font-body); line-height: 1.8; font-size: 18px;">Welcome to Lamfuz, where flavour, hygge and hospitality go hand in hand. Whether you have a question, want to reserve a table, order takeaway, or ask about catering for your next event, we would love to hear from you.</p>
-                            <p style="margin-bottom: 0; font-family: var(--font-body); line-height: 1.8; font-size: 18px;">Whether you write, call, or simply walk in, we are always ready to welcome you with open arms and the smell of freshly cooked Nepalese food.</p>
-                        </div>
+                <div class="contact-text-column" style="flex: 1.2; min-width: 300px; color: #b2512b;">
+                    <div class="show-da">
+                        <p style="margin-bottom: 1.5rem; font-family: var(--font-body); line-height: 1.8; font-size: 17px;">Velkommen til Lamfuz – hvor smag, hygge og gæstfrihed går hånd i hånd. Har du spørgsmål, vil du reservere bord, bestille take-away eller høre mere om vores catering? Så er du altid velkommen til at tage fat i os – vi elsker at høre fra dig!</p>
+                        <p style="margin-bottom: 0; font-family: var(--font-body); line-height: 1.8; font-size: 17px;">Uanset om du skriver, ringer eller kigger forbi, står vi klar med åbne arme og duften af frisklavet nepalesisk mad.</p>
                     </div>
-                    <div style="margin-top: 2.5rem; text-align: center;">
+                    <div class="show-en notranslate">
+                        <p style="margin-bottom: 1.5rem; font-family: var(--font-body); line-height: 1.8; font-size: 17px;">Welcome to Lamfuz, where flavour, hygge and hospitality go hand in hand. Whether you have a question, want to reserve a table, order takeaway, or ask about catering for your next event, we would love to hear from you.</p>
+                        <p style="margin-bottom: 0; font-family: var(--font-body); line-height: 1.8; font-size: 17px;">Whether you write, call, or simply walk in, we are always ready to welcome you with open arms and the smell of freshly cooked Nepalese food.</p>
+                    </div>
+                    <div style="margin-top: 2rem; text-align: center;">
                         <a href="<?php echo home_url('/book-et-bord'); ?>" class="btn-hero-red" style="font-size: 0.85rem; padding: 1rem 2.5rem; display: inline-block;">
                             <span class="show-da">BOOK ET BORD</span>
                             <span class="show-en notranslate">BOOK A TABLE</span>
@@ -54,7 +52,7 @@ get_header();
 
                 <!-- Card Column -->
                 <div class="contact-card-area" style="flex: 1; min-width: 300px;">
-                    <div class="contact-card" style="background-color: #fff; padding: 3.5rem; box-shadow: 0 15px 45px rgba(0,0,0,0.06); height: 100%; border-radius: 0; border: 1px solid rgba(178, 81, 43, 0.1);">
+                    <div class="contact-card" style="background-color: #fff; padding: 2.2rem 2.5rem; box-shadow: 0 15px 45px rgba(0,0,0,0.06); border-radius: 0; border: 1px solid rgba(178, 81, 43, 0.1);">
                         
                         <div class="contact-info-item">
                             <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
