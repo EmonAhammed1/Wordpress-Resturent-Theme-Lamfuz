@@ -3233,7 +3233,7 @@ body.lang-en span.show-da, body.lang-en a.show-da {
 
 .signature-dishes-image-column {
     position: relative;
-    border-radius: 8px;
+    border-radius: 0;
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(179, 82, 42, 0.08);
     height: 100%;
