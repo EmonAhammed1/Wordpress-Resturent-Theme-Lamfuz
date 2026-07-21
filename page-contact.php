@@ -133,7 +133,7 @@ get_header();
                 </div>
 
                 <!-- Right Column: Content & Booking Button -->
-                <div class="contact-content-column" style="flex: 1; min-width: 320px; max-width: 500px; color: #b2512b; display: flex; flex-direction: column; justify-content: space-between;">
+                <div class="contact-content-column" style="flex: 1; min-width: 320px; max-width: 500px; color: #b2512b; display: flex; flex-direction: column; justify-content: center; gap: 1.5rem;">
                     <div>
                         <h2 style="font-family: var(--font-heading); font-size: clamp(22px, 3.5vw, 32px); color: #b2512b; margin-top: 0; margin-bottom: 1.5rem; text-transform: uppercase; letter-spacing: 1px;">
                             <span class="show-da">FIND OS HER</span>
@@ -142,16 +142,16 @@ get_header();
 
                         <div class="show-da">
                             <p style="margin-bottom: 1.2rem; font-family: var(--font-body); line-height: 1.8; font-size: 16px;">Du finder Lamfuz i hjertet af København på Turesensgade 6. Vores hyggelige restaurant ligger perfekt placeret til en skøn middag med venner, familie eller kolleger.</p>
-                            <p style="margin-bottom: 1.5rem; font-family: var(--font-body); line-height: 1.8; font-size: 16px;">Kom forbi og oplev vores autentiske nepalesisk mad, god stemning og varme gæstfrihed.</p>
+                            <p style="margin-bottom: 0; font-family: var(--font-body); line-height: 1.8; font-size: 16px;">Kom forbi og oplev vores autentiske nepalesisk mad, god stemning og varme gæstfrihed.</p>
                         </div>
                         <div class="show-en notranslate">
                             <p style="margin-bottom: 1.2rem; font-family: var(--font-body); line-height: 1.8; font-size: 16px;">You will find Lamfuz in the heart of Copenhagen at Turesensgade 6. Our cozy restaurant is perfectly located for a wonderful dinner with friends, family, or colleagues.</p>
-                            <p style="margin-bottom: 1.5rem; font-family: var(--font-body); line-height: 1.8; font-size: 16px;">Drop by and experience our authentic Nepalese dishes, great atmosphere, and warm hospitality.</p>
+                            <p style="margin-bottom: 0; font-family: var(--font-body); line-height: 1.8; font-size: 16px;">Drop by and experience our authentic Nepalese dishes, great atmosphere, and warm hospitality.</p>
                         </div>
                     </div>
 
                     <!-- Book Table Button -->
-                    <div style="margin-top: 1.5rem;">
+                    <div style="margin-top: 0.5rem;">
                         <a href="<?php echo home_url('/book-et-bord'); ?>" class="btn-hero-red" style="font-size: 0.9rem; padding: 1rem 2.5rem; display: inline-block;">
                             <span class="show-da">BOOK ET BORD</span>
                             <span class="show-en notranslate">BOOK A TABLE</span>
