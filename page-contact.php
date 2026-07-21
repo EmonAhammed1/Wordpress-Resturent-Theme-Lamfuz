@@ -11,7 +11,7 @@ get_header();
 <main id="primary" class="site-main">
         
         <!-- Hero Banner -->
-        <section class="hero-section hero-about" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/Space-1_16-9_Side.webp'); height: 60vh; min-height: 400px; display: flex; align-items: flex-end; padding: 4rem 0;">
+        <section class="hero-section hero-about" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/Space-1_16-9_Side.webp'); background-position: center center; background-size: cover; height: 60vh; min-height: 400px; display: flex; align-items: flex-end; padding: 4rem 0;">
             <div class="hero-overlay"></div>
             <div class="about-container" style="width: 100%; position: relative; z-index: 10;">
                 <div class="about-hero-content">
