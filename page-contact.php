@@ -30,17 +30,19 @@ get_header();
             </h2>
 
             <!-- Details Row (Text and Card) -->
-            <div class="contact-details-row" style="max-width: 1200px; margin: 0 auto; display: flex; gap: 4rem; align-items: flex-start; flex-wrap: wrap;">
+            <div class="contact-details-row" style="max-width: 1000px; margin: 0 auto; display: flex; gap: 4rem; align-items: stretch; flex-wrap: wrap;">
                 
                 <!-- Text Column -->
-                <div class="contact-text-column" style="flex: 1.2; min-width: 300px; color: #b2512b;">
-                    <div class="show-da">
-                        <p style="margin-bottom: 2rem; font-family: var(--font-body); line-height: 1.85; font-size: 20px;">Velkommen til Lamfuz – hvor smag, hygge og gæstfrihed går hånd i hånd. Har du spørgsmål, vil du reservere bord, bestille take-away eller høre mere om vores catering? Så er du altid velkommen til at tage fat i os – vi elsker at høre fra dig!</p>
-                        <p style="margin-bottom: 2.5rem; font-family: var(--font-body); line-height: 1.85; font-size: 20px;">Uanset om du skriver, ringer eller kigger forbi, står vi klar med åbne arme og duften af frisklavet nepalesisk mad.</p>
-                    </div>
-                    <div class="show-en notranslate">
-                        <p style="margin-bottom: 2rem; font-family: var(--font-body); line-height: 1.85; font-size: 20px;">Welcome to Lamfuz, where flavour, hygge and hospitality go hand in hand. Whether you have a question, want to reserve a table, order takeaway, or ask about catering for your next event, we would love to hear from you.</p>
-                        <p style="margin-bottom: 2.5rem; font-family: var(--font-body); line-height: 1.85; font-size: 20px;">Whether you write, call, or simply walk in, we are always ready to welcome you with open arms and the smell of freshly cooked Nepalese food.</p>
+                <div class="contact-text-column" style="flex: 1.2; min-width: 300px; color: #b2512b; display: flex; flex-direction: column; justify-content: space-between;">
+                    <div>
+                        <div class="show-da">
+                            <p style="margin-bottom: 2rem; font-family: var(--font-body); line-height: 1.85; font-size: 20px;">Velkommen til Lamfuz – hvor smag, hygge og gæstfrihed går hånd i hånd. Har du spørgsmål, vil du reservere bord, bestille take-away eller høre mere om vores catering? Så er du altid velkommen til at tage fat i os – vi elsker at høre fra dig!</p>
+                            <p style="margin-bottom: 0; font-family: var(--font-body); line-height: 1.85; font-size: 20px;">Uanset om du skriver, ringer eller kigger forbi, står vi klar med åbne arme og duften af frisklavet nepalesisk mad.</p>
+                        </div>
+                        <div class="show-en notranslate">
+                            <p style="margin-bottom: 2rem; font-family: var(--font-body); line-height: 1.85; font-size: 20px;">Welcome to Lamfuz, where flavour, hygge and hospitality go hand in hand. Whether you have a question, want to reserve a table, order takeaway, or ask about catering for your next event, we would love to hear from you.</p>
+                            <p style="margin-bottom: 0; font-family: var(--font-body); line-height: 1.85; font-size: 20px;">Whether you write, call, or simply walk in, we are always ready to welcome you with open arms and the smell of freshly cooked Nepalese food.</p>
+                        </div>
                     </div>
                     <div style="margin-top: 2.5rem; text-align: center;">
                         <a href="<?php echo home_url('/book-et-bord'); ?>" class="btn-hero-red" style="font-size: 0.85rem; padding: 1rem 2.5rem; display: inline-block;">
