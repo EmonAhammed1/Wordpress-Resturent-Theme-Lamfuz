@@ -3326,6 +3326,16 @@ body.lang-en span.show-da, body.lang-en a.show-da {
     gap: 1.5rem;
 }
 
+.signature-dishes-actions .btn-hero-outline {
+    border: 2px solid #b3522a !important;
+    color: #b3522a !important;
+}
+
+.signature-dishes-actions .btn-hero-outline:hover {
+    background-color: #b3522a !important;
+    color: #ffffff !important;
+}
+
 
 @media (max-width: 1024px) {
     .signature-dishes-grid-layout {
