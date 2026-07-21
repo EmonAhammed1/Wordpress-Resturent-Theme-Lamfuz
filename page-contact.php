@@ -123,6 +123,12 @@ get_header();
         <!-- Section 2: Find Us Here (Map Left | Text & Booking Right) -->
         <section class="find-us-section" style="background-color: #fff8e6; padding: 2rem 2rem 5rem 2rem;">
 
+            <!-- Mobile Title (Appears above map on mobile) -->
+            <h2 class="find-us-mobile-title" style="font-family: var(--font-heading); font-size: clamp(22px, 3.5vw, 32px); color: #b2512b; margin-top: 0; text-transform: uppercase; letter-spacing: 1px; text-align: center;">
+                <span class="show-da">FIND OS HER</span>
+                <span class="show-en notranslate">FIND US HERE</span>
+            </h2>
+
             <div class="contact-grid-container" style="max-width: 1050px; margin: 0 auto; display: flex; gap: 3.5rem; align-items: stretch; justify-content: center; flex-wrap: wrap;">
                 
                 <!-- Left Column: Google Map -->
@@ -135,7 +141,8 @@ get_header();
                 <!-- Right Column: Content & Booking Button -->
                 <div class="contact-content-column" style="flex: 1; min-width: 320px; max-width: 500px; color: #b2512b; display: flex; flex-direction: column; justify-content: center; gap: 1.5rem;">
                     <div>
-                        <h2 style="font-family: var(--font-heading); font-size: clamp(22px, 3.5vw, 32px); color: #b2512b; margin-top: 0; margin-bottom: 1.5rem; text-transform: uppercase; letter-spacing: 1px;">
+                        <!-- Desktop Title (Hidden on mobile) -->
+                        <h2 class="find-us-desktop-title" style="font-family: var(--font-heading); font-size: clamp(22px, 3.5vw, 32px); color: #b2512b; margin-top: 0; margin-bottom: 1.5rem; text-transform: uppercase; letter-spacing: 1px;">
                             <span class="show-da">FIND OS HER</span>
                             <span class="show-en notranslate">FIND US HERE</span>
                         </h2>
@@ -151,7 +158,7 @@ get_header();
                     </div>
 
                     <!-- Book Table Button -->
-                    <div style="margin-top: 0.5rem;">
+                    <div style="margin-top: 0.5rem;" class="find-us-button-wrapper">
                         <a href="<?php echo home_url('/book-et-bord'); ?>" class="btn-hero-red" style="font-size: 0.9rem; padding: 1rem 2.5rem; display: inline-block;">
                             <span class="show-da">BOOK ET BORD</span>
                             <span class="show-en notranslate">BOOK A TABLE</span>

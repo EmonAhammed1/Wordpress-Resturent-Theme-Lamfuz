@@ -3050,7 +3050,22 @@ body.lang-en span.show-da, body.lang-en a.show-da {
     flex-direction: column;
 }
 
+.find-us-mobile-title {
+    display: none;
+}
+
 @media (max-width: 768px) {
+    .find-us-mobile-title {
+        display: block !important;
+        margin-bottom: 2rem !important;
+    }
+    .find-us-desktop-title {
+        display: none !important;
+    }
+    .find-us-button-wrapper {
+        text-align: center !important;
+    }
+
     .contact-info-section {
         padding: 3rem 1.25rem !important;
     }
