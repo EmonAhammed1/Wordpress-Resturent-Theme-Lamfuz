@@ -229,11 +229,11 @@ get_header();
                     </p>
 
                     <div class="signature-dishes-actions">
-                        <a href="<?php echo lamfuz_get_page_url('menu'); ?>" class="btn-sig-menu-link">
-                            <span class="show-da">[Se hele menukortet →]</span>
-                            <span class="show-en notranslate">[View Full Menu →]</span>
+                        <a href="<?php echo lamfuz_get_page_url('menu'); ?>" class="btn-hero-red">
+                            <span class="show-da">Se hele menukortet</span>
+                            <span class="show-en notranslate">View Full Menu</span>
                         </a>
-                        <a href="<?php echo lamfuz_get_page_url(array('book-et-bord', 'book-table')); ?>" class="btn-hero-red btn-sig-book">
+                        <a href="<?php echo lamfuz_get_page_url(array('book-et-bord', 'book-table')); ?>" class="btn-hero-outline">
                             <span class="show-da">Book et bord</span>
                             <span class="show-en notranslate">Book a table</span>
                         </a>

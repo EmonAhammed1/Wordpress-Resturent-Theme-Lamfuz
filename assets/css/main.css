@@ -3323,26 +3323,17 @@ body.lang-en span.show-da, body.lang-en a.show-da {
 .signature-dishes-actions {
     display: flex;
     align-items: center;
-    gap: 3rem;
+    gap: 1.5rem;
 }
 
-.btn-sig-menu-link {
-    font-family: var(--font-body);
-    color: #b3522a;
-    font-size: 1.05rem;
-    font-weight: 600;
-    text-decoration: none;
-    transition: opacity 0.3s ease;
+.signature-dishes-actions .btn-hero-outline {
+    border: 2px solid #b3522a !important;
+    color: #b3522a !important;
 }
 
-.btn-sig-menu-link:hover {
-    opacity: 0.8;
-}
-
-.btn-sig-book {
-    padding: 0.9rem 2rem;
-    font-size: 0.9rem;
-    text-transform: uppercase;
+.signature-dishes-actions .btn-hero-outline:hover {
+    background-color: #b3522a !important;
+    color: #ffffff !important;
 }
 
 @media (max-width: 1024px) {
