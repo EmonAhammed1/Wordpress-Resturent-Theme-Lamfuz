@@ -246,13 +246,6 @@ get_header();
     <!-- Instagram Section -->
     <section class="instagram-section" style="background-color: #fff8e6; padding: 5rem 1.25rem; text-align: center;">
         <div class="instagram-container" style="max-width: 1200px; margin: 0 auto;">
-            <h4 class="instagram-subtitle" style="font-family: var(--font-body); font-size: 0.9rem; letter-spacing: 0.2em; color: #b2512b; text-transform: uppercase; margin-bottom: 0.5rem; font-weight: 600;">
-                <span class="show-da">FØLG OS PÅ INSTAGRAM</span>
-                <span class="show-en notranslate">FOLLOW US ON INSTAGRAM</span>
-            </h4>
-            <h2 class="instagram-title" style="font-family: var(--font-heading); font-size: clamp(22px, 5vw, 32px); font-weight: 400; color: #b2512b; margin-top: 0; margin-bottom: 2.5rem; text-transform: uppercase; letter-spacing: 0.05em;">
-                <a href="https://www.instagram.com/lamfuz.dk/" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">@lamfuz.dk</a>
-            </h2>
             <div class="instagram-feed-wrapper" style="min-height: 100px;">
                 <?php echo do_shortcode('[instagram-feed]'); ?>
             </div>
