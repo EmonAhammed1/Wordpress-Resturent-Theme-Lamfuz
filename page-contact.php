@@ -30,10 +30,10 @@ get_header();
             </h2>
 
             <!-- Details Row (Text and Card) -->
-            <div class="contact-details-row" style="max-width: 900px; margin: 0 auto; display: flex; gap: 3.5rem; align-items: stretch; justify-content: center; flex-wrap: wrap;">
+            <div class="contact-details-row" style="max-width: 1050px; margin: 0 auto; display: flex; gap: 3.5rem; align-items: stretch; justify-content: center; flex-wrap: wrap;">
                 
                 <!-- Text Column -->
-                <div class="contact-text-column" style="flex: 0 1 350px; max-width: 350px; min-width: 280px; color: #b2512b; display: flex; flex-direction: column; justify-content: center; gap: 1.5rem;">
+                <div class="contact-text-column" style="flex: 1; max-width: 500px; min-width: 320px; color: #b2512b; display: flex; flex-direction: column; justify-content: center; gap: 1.5rem;">
                     <div>
                         <div class="show-da">
                             <p style="margin-bottom: 1.2rem; font-family: var(--font-body); line-height: 1.8; font-size: 17px;">Velkommen til Lamfuz – hvor smag, hygge og gæstfrihed går hånd i hånd. Har du spørgsmål, vil du reservere bord, bestille take-away eller høre mere om vores catering? Så er du altid velkommen til at tage fat i os – vi elsker at høre fra dig!</p>
@@ -53,7 +53,7 @@ get_header();
                 </div>
 
                 <!-- Card Column -->
-                <div class="contact-card-area" style="flex: 0 1 410px; max-width: 410px; min-width: 280px;">
+                <div class="contact-card-area" style="flex: 1; max-width: 500px; min-width: 320px;">
                     <div class="contact-card" style="background-color: #fff; padding: 2.2rem 2.5rem; box-shadow: 0 15px 45px rgba(0,0,0,0.06); border-radius: 0; border: 1px solid rgba(178, 81, 43, 0.1); height: 100%; box-sizing: border-box;">
                         
                         <div class="contact-info-item">
