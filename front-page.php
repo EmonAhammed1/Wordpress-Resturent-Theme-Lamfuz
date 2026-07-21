@@ -504,7 +504,7 @@ get_header();
             padding: 0 1.5rem 1.5rem;
             font-size: 0.95rem;
             line-height: 1.8;
-            color: #5b4b3e;
+            color: #b2512b;
             border-top: 1px solid rgba(179, 82, 42, 0.08);
             padding-top: 1.25rem;
         }
