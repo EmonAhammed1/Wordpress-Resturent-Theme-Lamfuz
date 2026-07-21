@@ -3030,9 +3030,6 @@ body.lang-en span.show-da, body.lang-en a.show-da {
     color: #b2512b;
     flex-shrink: 0;
 }
-.contact-hours-day::after {
-    content: ":";
-}
 .contact-hours-time {
     color: #b2512b;
     font-weight: 600;

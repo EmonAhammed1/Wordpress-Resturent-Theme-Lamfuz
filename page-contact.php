@@ -82,29 +82,29 @@ get_header();
                             <ul class="contact-hours-list">
                                 <li class="contact-hours-row">
                                     <span class="contact-hours-day">
-                                        <span class="show-da">Mandag – Torsdag</span>
-                                        <span class="show-en notranslate">Monday – Thursday</span>
+                                        <span class="show-da">Mandag – Torsdag:</span>
+                                        <span class="show-en notranslate">Monday – Thursday:</span>
                                     </span>
                                     <span class="contact-hours-time">16:00 – 23:00</span>
                                 </li>
                                 <li class="contact-hours-row">
                                     <span class="contact-hours-day">
-                                        <span class="show-da">Fredag – Lørdag</span>
-                                        <span class="show-en notranslate">Friday – Saturday</span>
+                                        <span class="show-da">Fredag – Lørdag:</span>
+                                        <span class="show-en notranslate">Friday – Saturday:</span>
                                     </span>
                                     <span class="contact-hours-time">16:00 – 24:00</span>
                                 </li>
                                 <li class="contact-hours-row">
                                     <span class="contact-hours-day">
-                                        <span class="show-da">Sidste ankomst</span>
-                                        <span class="show-en notranslate">Last arrival</span>
+                                        <span class="show-da">Sidste ankomst:</span>
+                                        <span class="show-en notranslate">Last arrival:</span>
                                     </span>
                                     <span class="contact-hours-time">21:30</span>
                                 </li>
                                 <li class="contact-hours-row">
                                     <span class="contact-hours-day">
-                                        <span class="show-da">Søndag</span>
-                                        <span class="show-en notranslate">Sunday</span>
+                                        <span class="show-da">Søndag:</span>
+                                        <span class="show-en notranslate">Sunday:</span>
                                     </span>
                                     <span class="contact-hours-time" style="color: #c0392b;">
                                         <span class="show-da">Lukket</span>
