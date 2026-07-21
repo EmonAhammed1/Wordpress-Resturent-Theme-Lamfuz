@@ -3090,7 +3090,7 @@ body.lang-en span.show-da, body.lang-en a.show-da {
     display: grid;
     grid-template-columns: 0.9fr 1.1fr;
     gap: 5rem;
-    align-items: center;
+    align-items: stretch;
 }
 
 .home-about-content {
@@ -3138,11 +3138,12 @@ body.lang-en span.show-da, body.lang-en a.show-da {
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    height: 100%;
 }
 
 .home-about-img {
     width: 100%;
-    height: auto;
+    height: 100%;
     display: block;
     object-fit: cover;
     transition: transform 0.6s ease;
@@ -3189,6 +3190,14 @@ body.lang-en span.show-da, body.lang-en a.show-da {
 
     .home-about-text p.tagline-text {
         font-size: 1.05rem;
+    }
+
+    .home-about-image-wrapper {
+        height: auto;
+    }
+
+    .home-about-img {
+        height: auto;
     }
 }
 
