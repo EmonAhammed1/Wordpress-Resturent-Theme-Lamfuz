@@ -3515,7 +3515,7 @@ body.lang-en span.show-da, body.lang-en a.show-da {
 
 .insta-map-container .map-container {
     width: 100%;
-    height: 100%;
+    flex: 1;
     min-height: 400px;
     overflow: hidden;
     border: 1px solid rgba(179, 82, 42, 0.2);
