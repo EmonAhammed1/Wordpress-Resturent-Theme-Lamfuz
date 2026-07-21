@@ -81,13 +81,9 @@ get_header();
     <section class="gallery-section" id="gallery">
         <div class="gallery-container">
             <div class="gallery-content">
-                <h4 class="gallery-subtitle">
-                    <span class="show-da">HVORFOR VÆLGE OS</span>
-                    <span class="show-en notranslate">WHY CHOOSE US</span>
-                </h4>
                 <h2 class="gallery-title">
-                    <span class="show-da">Hvorfor vælge Lamfuz?</span>
-                    <span class="show-en notranslate">Why Choose Lamfuz?</span>
+                    <span class="show-da">Hvorfor vælge os</span>
+                    <span class="show-en notranslate">Why Choose Us</span>
                 </h2>
                 
                 <div class="gallery-reasons-list">
