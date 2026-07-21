@@ -33,8 +33,14 @@ get_header();
 
         <!-- Bottom Action Buttons (Left Side on Desktop / Stacked on Mobile) -->
         <div class="hero-bottom-actions">
-            <a href="#book" class="btn-hero-red">BOOK ET BORD</a>
-            <a href="#menu" class="btn-hero-outline">VORES MENU</a>
+            <a href="<?php echo home_url('/book-et-bord'); ?>" class="btn-hero-red">
+                <span class="show-da">BOOK ET BORD</span>
+                <span class="show-en notranslate">BOOK A TABLE</span>
+            </a>
+            <a href="<?php echo lamfuz_get_page_url('menu'); ?>" class="btn-hero-outline">
+                <span class="show-da">VORES MENU</span>
+                <span class="show-en notranslate">OUR MENU</span>
+            </a>
         </div>
     </section>
 
