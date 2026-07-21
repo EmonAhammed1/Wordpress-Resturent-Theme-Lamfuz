@@ -76,7 +76,7 @@ get_header();
                 <!-- Map Column -->
                 <div class="map-embed-wrapper" style="flex: 1.2; min-width: 300px; display: flex; flex-direction: column;">
                     <div class="map-embed" style="width: 100%; height: 100%; min-height: 450px; background-color: #ddd;">
-                        <iframe src="https://maps.google.com/maps?q=MHJ7%2BHJ%20Copenhagen%20Municipality&t=&z=17&ie=UTF8&iwloc=&output=embed" width="100%" height="100%" style="border:0; filter: grayscale(30%) opacity(0.9);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe src="https://maps.google.com/maps?q=Lamfuz%2C%20Turesensgade%206%2C%201368%20K%C3%B8benhavn&t=&z=17&ie=UTF8&iwloc=&output=embed" width="100%" height="100%" style="border:0; filter: grayscale(30%) opacity(0.9);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
 
