@@ -142,14 +142,14 @@ get_header(); ?>
 
     <!-- CALL TO ACTION SECTION -->
     <section class="about-cta-section" style="background-color: #fff8e6; padding: 4rem 0 6rem 0; border-top: 1px solid rgba(168, 144, 102, 0.2);">
-        <div class="about-container">
+        <div class="about-container" style="max-width: 800px;">
             <div class="about-cta-row">
-                <div class="about-cta-text" style="font-family: var(--font-heading, 'Cinzel', serif); font-size: 1.6rem; font-weight: 600; color: #b3522a;">
-                    <span class="show-da">Besøg Lamfuz på Turesensgade 6 i dag</span>
-                    <span class="show-en notranslate">Visit Lamfuz at Turesensgade 6 today</span>
+                <div class="about-cta-text" style="font-family: var(--font-heading, 'Cinzel', serif); font-size: 1.6rem; font-weight: 600; color: #b3522a; line-height: 1.4;">
+                    <span class="show-da">Besøg Lamfuz på<br>Turesensgade 6 i dag</span>
+                    <span class="show-en notranslate">Visit Lamfuz at<br>Turesensgade 6 today</span>
                 </div>
                 <div>
-                    <a href="<?php echo home_url('/book-et-bord'); ?>" class="about-cta-link">
+                    <a href="<?php echo home_url('/book-et-bord'); ?>" class="btn-hero-red">
                         <span class="show-da">Reserver et bord</span>
                         <span class="show-en notranslate">Book a Table</span>
                     </a>
