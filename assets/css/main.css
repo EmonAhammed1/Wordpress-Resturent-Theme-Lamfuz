@@ -2296,7 +2296,7 @@ body { top: 0 !important; }
 .menu-card-icon {
     width: 64px;
     height: 64px;
-    border: 1.5px solid var(--primary-color);
+    border: 1.5px solid #b3522a;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -2306,7 +2306,7 @@ body { top: 0 !important; }
 }
 
 .menu-card-icon svg {
-    stroke: var(--primary-color);
+    stroke: #b3522a;
 }
 
 .menu-card-title {
@@ -2334,7 +2334,7 @@ body { top: 0 !important; }
     font-size: 0.95rem;
     line-height: 1.4;
     font-family: var(--font-body);
-    color: #333333;
+    color: #b3522a;
 }
 
 .menu-item-row:last-child {
@@ -2343,13 +2343,13 @@ body { top: 0 !important; }
 
 .item-name {
     font-weight: 500;
-    color: #2c2c2c;
+    color: #b3522a;
     max-width: 70%;
 }
 
 .item-spacer {
     flex: 1;
-    border-bottom: 1px dotted rgba(168, 144, 102, 0.6);
+    border-bottom: 1px dotted rgba(179, 82, 42, 0.4);
     margin: 0 0.8rem 0.25rem;
     min-width: 8px;
 }
@@ -2395,7 +2395,7 @@ body { top: 0 !important; }
 
 .item-description {
     font-size: 0.82rem;
-    color: #666666;
+    color: rgba(179, 82, 42, 0.85);
     font-style: italic;
     line-height: 1.4;
     text-align: left;
