@@ -508,6 +508,11 @@ get_header();
     </section>
 
     <style>
+        @media (max-width: 768px) {
+            .faq-section {
+                padding-bottom: 2rem !important;
+            }
+        }
         .faq-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
