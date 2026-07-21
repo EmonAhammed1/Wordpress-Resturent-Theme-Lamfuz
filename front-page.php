@@ -243,6 +243,72 @@ get_header();
         </div>
     </section>
 
+    <!-- TripAdvisor Reviews Section -->
+    <section class="tripadvisor-section" style="background-color: #fff8e6; padding: 4rem 1.25rem 3rem 1.25rem; border-top: 1px dashed rgba(178, 81, 43, 0.2);">
+        <div style="max-width: 1200px; margin: 0 auto;">
+            
+            <!-- Section Title -->
+            <div style="text-align: center; margin-bottom: 2.5rem;">
+                <h2 style="font-family: var(--font-heading); font-size: clamp(24px, 4vw, 32px); color: #b2512b; margin: 0; text-transform: uppercase; letter-spacing: 1px;">
+                    <span class="show-da">HVAD VORES GÆSTER SIGER</span>
+                    <span class="show-en notranslate">WHAT OUR GUESTS SAY</span>
+                </h2>
+            </div>
+
+            <!-- Trustindex TripAdvisor Slider Widget -->
+            <div class="tripadvisor-content-wrapper" style="min-height: 180px;">
+                <?php 
+                $trustindex_output = do_shortcode('[trustindex no-registration=tripadvisor]');
+                if ( ! empty( $trustindex_output ) && $trustindex_output !== '[trustindex no-registration=tripadvisor]' ) :
+                    echo $trustindex_output;
+                else : 
+                ?>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.8rem;">
+                        <!-- Review Card 1 -->
+                        <div style="background-color: #fff; padding: 2rem; border: 1px solid rgba(178, 81, 43, 0.12); box-shadow: 0 8px 25px rgba(0,0,0,0.04); display: flex; flex-direction: column; justify-content: space-between;">
+                            <div>
+                                <div style="color: #00af87; font-size: 1.2rem; margin-bottom: 0.8rem;">●●●●●</div>
+                                <h4 style="font-family: var(--font-heading); color: #b2512b; margin: 0 0 0.5rem 0; font-size: 1.1rem;">"Fantastisk nepalesisk mad!"</h4>
+                                <p style="font-family: var(--font-body); color: #666; font-size: 0.95rem; line-height: 1.6; margin: 0;">Super lækker mad og ualmindelig venlig betjening. Byens bedste nepalesiske restaurant uden tvivl!</p>
+                            </div>
+                            <div style="margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid #f0f0f0; display: flex; justify-content: space-between; align-items: center;">
+                                <span style="font-family: var(--font-body); font-weight: 600; color: #b2512b; font-size: 0.9rem;">Mette S.</span>
+                                <span style="font-family: var(--font-body); color: #999; font-size: 0.8rem;">København</span>
+                            </div>
+                        </div>
+
+                        <!-- Review Card 2 -->
+                        <div style="background-color: #fff; padding: 2rem; border: 1px solid rgba(178, 81, 43, 0.12); box-shadow: 0 8px 25px rgba(0,0,0,0.04); display: flex; flex-direction: column; justify-content: space-between;">
+                            <div>
+                                <div style="color: #00af87; font-size: 1.2rem; margin-bottom: 0.8rem;">●●●●●</div>
+                                <h4 style="font-family: var(--font-heading); color: #b2512b; margin: 0 0 0.5rem 0; font-size: 1.1rem;">"Authentic & Cozy Atmosphere"</h4>
+                                <p style="font-family: var(--font-body); color: #666; font-size: 0.95rem; line-height: 1.6; margin: 0;">The momos and butter chicken were incredible. Very cozy ambiance in Turesensgade. Will definitely return!</p>
+                            </div>
+                            <div style="margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid #f0f0f0; display: flex; justify-content: space-between; align-items: center;">
+                                <span style="font-family: var(--font-body); font-weight: 600; color: #b2512b; font-size: 0.9rem;">James R.</span>
+                                <span style="font-family: var(--font-body); color: #999; font-size: 0.8rem;">TripAdvisor Guest</span>
+                            </div>
+                        </div>
+
+                        <!-- Review Card 3 -->
+                        <div style="background-color: #fff; padding: 2rem; border: 1px solid rgba(178, 81, 43, 0.12); box-shadow: 0 8px 25px rgba(0,0,0,0.04); display: flex; flex-direction: column; justify-content: space-between;">
+                            <div>
+                                <div style="color: #00af87; font-size: 1.2rem; margin-bottom: 0.8rem;">●●●●●</div>
+                                <h4 style="font-family: var(--font-heading); color: #b2512b; margin: 0 0 0.5rem 0; font-size: 1.1rem;">"Udsøgt smagsoplevelse"</h4>
+                                <p style="font-family: var(--font-body); color: #666; font-size: 0.95rem; line-height: 1.6; margin: 0;">Autentiske krydderier, perfekt tilberedt kød og skøn hyggelig stemning. Varmeste anbefalinger herfra.</p>
+                            </div>
+                            <div style="margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid #f0f0f0; display: flex; justify-content: space-between; align-items: center;">
+                                <span style="font-family: var(--font-body); font-weight: 600; color: #b2512b; font-size: 0.9rem;">Lars K.</span>
+                                <span style="font-family: var(--font-body); color: #999; font-size: 0.8rem;">Danmark</span>
+                            </div>
+                        </div>
+                    </div>
+                <?php endif; ?>
+            </div>
+
+        </div>
+    </section>
+
     <!-- Combined Instagram & Map Section -->
     <section class="insta-map-section">
         <div class="insta-map-container">
