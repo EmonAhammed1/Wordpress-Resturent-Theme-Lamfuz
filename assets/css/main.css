@@ -3050,23 +3050,11 @@ body.lang-en span.show-da, body.lang-en a.show-da {
     flex-direction: column;
 }
 
-.hero-section {
-    background-position: center center;
-    background-size: cover;
-}
-
 .find-us-mobile-title {
     display: none;
 }
 
 @media (max-width: 768px) {
-    .hero-section {
-        height: 35vh !important;
-        min-height: 250px !important;
-        background-position: center center !important;
-        background-size: cover !important;
-        padding: 2rem 0 !important;
-    }
 
     .find-us-mobile-title {
         display: block !important;

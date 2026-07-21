@@ -11,11 +11,17 @@ get_header();
 <main id="primary" class="site-main">
         
         <!-- Hero Banner -->
-        <section class="hero-section hero-about" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/Space-1_16-9_Side.webp'); background-position: center center; background-size: cover; height: 60vh; min-height: 400px; display: flex; align-items: flex-end; padding: 4rem 0;">
-            <div class="hero-overlay"></div>
+        <section class="about-hero-section menu-hero-section">
+            <div class="about-hero-bg">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Space-1_16-9_Side.webp" alt="Kontakt">
+                <div class="about-hero-overlay menu-hero-overlay"></div>
+            </div>
             <div class="about-container" style="width: 100%; position: relative; z-index: 10;">
                 <div class="about-hero-content">
-                    <h1 class="about-hero-title">KONTAKT</h1>
+                    <h1 class="about-hero-title">
+                        <span class="show-da">KONTAKT</span>
+                        <span class="show-en notranslate">CONTACT</span>
+                    </h1>
                 </div>
             </div>
         </section>
