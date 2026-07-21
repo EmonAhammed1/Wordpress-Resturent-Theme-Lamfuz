@@ -33,7 +33,7 @@ get_header();
             <div class="contact-details-row" style="max-width: 1000px; margin: 0 auto; display: flex; gap: 4rem; align-items: stretch; justify-content: center; flex-wrap: wrap;">
                 
                 <!-- Text Column -->
-                <div class="contact-text-column" style="flex: 0 1 310px; max-width: 310px; min-width: 250px; color: #b2512b; display: flex; flex-direction: column; justify-content: center; gap: 1.5rem;">
+                <div class="contact-text-column" style="flex: 0 1 350px; max-width: 350px; min-width: 280px; color: #b2512b; display: flex; flex-direction: column; justify-content: center; gap: 1.5rem;">
                     <div>
                         <div class="show-da">
                             <p style="margin-bottom: 1.2rem; font-family: var(--font-body); line-height: 1.8; font-size: 17px;">Velkommen til Lamfuz – hvor smag, hygge og gæstfrihed går hånd i hånd. Har du spørgsmål, vil du reservere bord, bestille take-away eller høre mere om vores catering? Så er du altid velkommen til at tage fat i os – vi elsker at høre fra dig!</p>
