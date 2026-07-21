@@ -30,7 +30,7 @@ get_header();
             </h2>
 
             <!-- Details Row (Text and Card) -->
-            <div class="contact-details-row" style="max-width: 1000px; margin: 0 auto; display: flex; gap: 4rem; align-items: stretch; justify-content: center; flex-wrap: wrap;">
+            <div class="contact-details-row" style="max-width: 850px; margin: 0 auto; display: flex; gap: 3.5rem; align-items: stretch; justify-content: center; flex-wrap: wrap;">
                 
                 <!-- Text Column -->
                 <div class="contact-text-column" style="flex: 0 1 350px; max-width: 350px; min-width: 280px; color: #b2512b; display: flex; flex-direction: column; justify-content: center; gap: 1.5rem;">
@@ -53,8 +53,8 @@ get_header();
                 </div>
 
                 <!-- Card Column -->
-                <div class="contact-card-area" style="flex: 1; min-width: 300px;">
-                    <div class="contact-card" style="background-color: #fff; padding: 2.2rem 2.5rem; box-shadow: 0 15px 45px rgba(0,0,0,0.06); border-radius: 0; border: 1px solid rgba(178, 81, 43, 0.1); height: 100%; box-sizing: border-box;">
+                <div class="contact-card-area" style="flex: 0 1 380px; max-width: 380px; min-width: 280px;">
+                    <div class="contact-card" style="background-color: #fff; padding: 2.2rem; box-shadow: 0 15px 45px rgba(0,0,0,0.06); border-radius: 0; border: 1px solid rgba(178, 81, 43, 0.1); height: 100%; box-sizing: border-box;">
                         
                         <div class="contact-info-item">
                             <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
