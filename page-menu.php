@@ -448,7 +448,7 @@ get_header(); ?>
                                     <span class="item-spacer"></span>
                                     <span class="item-price">129 / 145 kr.</span>
                                 </div>
-                                <div class="item-description">Chicken/Vegan: DKK 129 | King Prawn: DKK 145. Noodles stir-fried with green chili, garlic, seasons greens, spring onion & coriander (add Fried Egg +20).</div>
+                                <div class="item-description notranslate">Chicken/Vegan: DKK 129 | King Prawn: DKK 145. Noodles stir-fried with green chili, garlic, <span class="notranslate">seasons</span> greens, spring onion & coriander (add Fried Egg +20).</div>
                             </li>
                             <li class="menu-item-row-with-desc">
                                 <div class="menu-item-row">
@@ -456,7 +456,7 @@ get_header(); ?>
                                     <span class="item-spacer"></span>
                                     <span class="item-price">129 / 145 kr.</span>
                                 </div>
-                                <div class="item-description">Chicken/Vegan: DKK 129 | King Prawn: DKK 145. Fragrant rice stir-fried with Nepali spices, seasons greens, chili, spring onion & coriander (add Fried Egg DKK 20).</div>
+                                <div class="item-description notranslate">Chicken/Vegan: DKK 129 | King Prawn: DKK 145. Fragrant rice stir-fried with Nepali spices, <span class="notranslate">seasons</span> greens, chili, spring onion & coriander (add Fried Egg DKK 20).</div>
                             </li>
                         </ul>
                     </div>
