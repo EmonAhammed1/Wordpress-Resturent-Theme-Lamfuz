@@ -166,35 +166,35 @@ get_header();
                 <div class="signature-dishes-content-column">
                     <h2 class="signature-dishes-main-title">
                         <span class="show-da">Vores signaturretter fra Nepal</span>
-                        <span class="show-en notranslate">Our Signature Nepalese Dishes</span>
+                        <span class="show-en notranslate">Our Signature Nepali Dishes</span>
                     </h2>
                     <p class="signature-dishes-main-subtitle">
-                        <span class="show-da">Autentiske nepalesiske smage, skabt ud fra familieopskrifter med et moderne tvist. Med vegetariske og veganske muligheder overalt på vores menukort, er der noget for enhver smag.</span>
-                        <span class="show-en notranslate">Authentic Nepalese flavours, crafted from family recipes with a modern twist. With vegetarian and vegan options available across our menu, there's something for everyone to enjoy.</span>
+                        <span class="show-da">Lamfuz bringer dig smagen af Nepal, skabt ud fra familieopskrifter med et moderne tvist og de friskeste råvarer fra det lokale marked. Med lækre retter med kød, vegetariske og veganske muligheder er der noget for enhver smag. Kom for momoen. Bliv for oplevelsen.</span>
+                        <span class="show-en notranslate">Lamfuz brings you the flavours of Nepal, crafted from family recipes with a modern twist and the freshest produce from the local market. With delicious meat, vegetarian, and vegan dishes, there's something for everyone. Come for the momo. Stay for the experience.</span>
                     </p>
 
                     <div class="signature-dishes-list">
                         <!-- Item 1 -->
                         <div class="sig-dish-item">
                             <h3 class="sig-dish-name">
-                                <span class="show-da">Dal Bhat</span>
-                                <span class="show-en notranslate">Dal Bhat</span>
+                                <span class="show-da">Daal Bhat</span>
+                                <span class="show-en notranslate">Daal Bhat</span>
                             </h3>
                             <p class="sig-dish-description">
-                                <span class="show-da">Nepals hverdagsfavorit. Velduftende ris, langtidskogte linser, sæsonens tilbehør og dit valg af lam, kylling, vegetar eller vegansk.</span>
-                                <span class="show-en notranslate">Nepal's everyday favourite. Fragrant rice, slow-cooked lentils, seasonal sides, and your choice of lamb, chicken, vegetarian, or vegan.</span>
+                                <span class="show-da">Nepals hverdagsfavorit. Velduftende ris, langtidskogte linser, sæsonens tilbehør og dit valg af lam, kylling, vegetar eller vegansk. Vi serverer vores på samme måde, som den nydes i hele Nepal. Et måltid, der har samlet nepalesiske familier i generationer – Dal Bhat er Nepals nationalret, fordi enhver familie har sin egen elskede version.</span>
+                                <span class="show-en notranslate">Nepal's everyday favourite. Fragrant rice, slow-cooked lentils, seasonal sides, and your choice of lamb, chicken, vegetarian, or vegan. We serve ours the same way it's enjoyed across Nepal. A meal that has brought Nepali families together for generations, Dal Bhat is Nepal's national dish because every family has its own cherished version.</span>
                             </p>
                         </div>
 
                         <!-- Item 2 -->
                         <div class="sig-dish-item">
                             <h3 class="sig-dish-name">
-                                <span class="show-da">Friske Momos</span>
-                                <span class="show-en notranslate">Fresh Momo</span>
+                                <span class="show-da">Momo-fest</span>
+                                <span class="show-en notranslate">Momo Feast</span>
                             </h3>
                             <p class="sig-dish-description">
-                                <span class="show-da">Håndfoldet dagligt og serveret med vores signatur-sesam- og tomat-chutney. Prøv vores <strong>Jhol Momo</strong> for et ekstra spark.</span>
-                                <span class="show-en notranslate">Hand-folded daily and served with our signature sesame & tomato chutney. Try our <strong>Jhol Momo</strong> for an extra kick.</span>
+                                <span class="show-da">Momo nydes overalt i Nepal, fra ydmyge gadeboder til eksklusive restauranter, og er landets foretrukne comfort food. Vores håndfoldes dagligt og serveres med vores signatur-sesam- og tomat-chutney. Prøv vores <strong>Jhol Momo</strong> for et ekstra spark.</span>
+                                <span class="show-en notranslate">Enjoyed everywhere in Nepal, from humble street stalls to high-end restaurants, momo is the country's favourite comfort food. Ours are hand-folded daily and served with our signature sesame & tomato chutney. Try our <strong>Jhol Momo</strong> for an extra kick.</span>
                             </p>
                         </div>
 
@@ -205,8 +205,8 @@ get_header();
                                 <span class="show-en notranslate">From the Grill</span>
                             </h3>
                             <p class="sig-dish-description">
-                                <span class="show-da">Røget <strong>Sekuwa</strong> eller krydret <strong>Choila</strong> – dristig, autentisk smag og fuld af kraft.</span>
-                                <span class="show-en notranslate">Smoky <strong>Sekuwa</strong> or spicy <strong>Choila</strong>—bold, authentic taste and full of flavour.</span>
+                                <span class="show-da">Røget <strong>Sekuwa</strong> eller krydret <strong>Choila</strong> – dristig, autentisk og fuld af smag.</span>
+                                <span class="show-en notranslate">Smoky <strong>Sekuwa</strong> or spicy <strong>Choila</strong> - bold, authentic, and full of flavour.</span>
                             </p>
                         </div>
 
@@ -217,16 +217,11 @@ get_header();
                                 <span class="show-en notranslate">Wok-Fired Favourites</span>
                             </h3>
                             <p class="sig-dish-description">
-                                <span class="show-da">Frisktilberedt chow mein og stegte ris med dit valg af kylling, kæmperejer eller vegansk.</span>
-                                <span class="show-en notranslate">Freshly cooked chow mein and fried rice with your choice of chicken, king prawn, or vegan.</span>
+                                <span class="show-da">Frisk fra wokken – røget chow mein og velduftende stegte ris, serveret med dit valg af kylling, kæmperejer eller vegansk.</span>
+                                <span class="show-en notranslate">Fresh from the wok - smoky chow mein and fragrant fried rice, served with your choice of chicken, king prawn, or vegan.</span>
                             </p>
                         </div>
                     </div>
-
-                    <p class="signature-dishes-note">
-                        <span class="show-da">Uanset om du er kødelsker, vegetar eller veganer, er hver ret lavet til at bringe dig de autentiske smage af Nepal. Kom for momoen. Bliv for oplevelsen.</span>
-                        <span class="show-en notranslate">Whether you're a meat lover, vegetarian, or vegan, every dish is made to bring you the authentic flavours of Nepal. Come for the momo. Stay for the experience.</span>
-                    </p>
 
                     <div class="signature-dishes-actions">
                         <a href="<?php echo lamfuz_get_page_url('menu'); ?>" class="btn-hero-red">
