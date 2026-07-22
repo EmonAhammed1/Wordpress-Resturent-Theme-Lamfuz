@@ -456,7 +456,7 @@ get_header(); ?>
                                     <span class="item-spacer"></span>
                                     <span class="item-price">129 / 145 kr.</span>
                                 </div>
-                                <div class="item-description">Chicken/Vegan: 129 kr. | King Prawn: 145 kr. Fragrant rice stir-fried with Nepali spices, sesame greens, chili, spring onion & coriander (add Fried Egg 20 kr.).</div>
+                                <div class="item-description">Chicken/Vegan: DKK 129 | King Prawn: DKK 145. Fragrant rice stir-fried with Nepali spices, seasons greens, chili, spring onion & coriander (add Fried Egg DKK 20).</div>
                             </li>
                         </ul>
                     </div>
