@@ -1175,16 +1175,18 @@ body {
 }
 
 .gallery-content {
-    flex: 0 0 420px;
+    flex: 0 0 480px;
+    max-width: 480px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: flex-start;
+    height: auto !important;
 }
 
 @media (min-width: 901px) {
     .gallery-content {
-        height: 650px !important;
+        height: auto !important;
     }
 }
 
@@ -1199,7 +1201,7 @@ body {
 }
 
 .gallery-reason-item {
-    border-left: 2px solid rgba(168, 144, 102, 0.3);
+    border-left: 2px solid rgba(168, 144, 102, 0.4);
     padding-left: 1rem;
 }
 
@@ -1218,7 +1220,7 @@ body {
     font-size: 0.95rem;
     line-height: 1.6;
     color: #b3522a;
-    opacity: 0.85;
+    opacity: 0.9;
     margin: 0;
 }
 
@@ -1245,7 +1247,7 @@ body {
 }
 
 .gallery-img {
-    height: 750px;
+    height: 820px;
     width: 100%;
     object-fit: cover;
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
@@ -1294,39 +1296,40 @@ body {
     }
     .gallery-container {
         flex-direction: column-reverse;
-        text-align: center;
-        gap: 1.5rem;
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
+        text-align: left;
+        gap: 2rem;
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
     }
     .gallery-content {
-        align-items: center;
+        align-items: flex-start;
         flex: auto;
+        max-width: 100%;
+        height: auto !important;
     }
     .gallery-text {
-        text-align: center;
-        margin: 0 auto 1.5rem;
+        text-align: left;
+        margin: 0 0 1.5rem;
     }
     .gallery-swiper {
         width: 100%;
     }
     .gallery-img {
-        height: 280px;
+        height: 340px;
     }
     .gallery-swiper .swiper-slide {
-        width: 58%;
+        width: 70%;
     }
 
     .gallery-reasons-list {
-        text-align: center;
+        text-align: left;
         margin: 1.5rem 0;
     }
 
     .gallery-reason-item {
-        border-left: none;
-        border-top: 1px dashed rgba(168, 144, 102, 0.25);
-        padding-left: 0;
-        padding-top: 1.2rem;
+        border-left: 2px solid rgba(168, 144, 102, 0.4);
+        padding-left: 1rem;
+        padding-top: 0;
     }
 
     .gallery-reason-item:first-child {
