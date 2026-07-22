@@ -82,42 +82,42 @@ get_header();
         <div class="gallery-container">
             <div class="gallery-content">
                 <h2 class="gallery-title">
-                    <span class="show-da">Hvorfor vælge os?</span>
-                    <span class="show-en notranslate">Why Choose Us?</span>
+                    <span class="show-da">Hvorfor Lamfuz?</span>
+                    <span class="show-en notranslate">Why Lamfuz?</span>
                 </h2>
                 
                 <div class="gallery-reasons-list">
                     <!-- Item 1 -->
                     <div class="gallery-reason-item">
                         <h3 class="gallery-reason-title">
-                            <span class="show-da">Autentisk nepalesisk kulturarv</span>
-                            <span class="show-en notranslate">Authentic Nepalese Heritage</span>
+                            <span class="show-da">Afslappede rammer & varm gæstfrihed</span>
+                            <span class="show-en notranslate">Relaxed Space & Warm Hospitality</span>
                         </h3>
                         <p class="gallery-reason-text">
-                            <span class="show-da">Traditionelle opskrifter og tidstypisk madlavning, der bringer de ægte smage af Nepal til København.</span>
-                            <span class="show-en notranslate">Traditional recipes and time-honoured cooking, bringing the true flavours of Nepal to Copenhagen.</span>
+                            <span class="show-da">Et varmt, hyggeligt og afslappet rum med rustikt interiør, naturligt træ, dæmpet musik og ægte nepalesisk gæstfrihed. Oplev glimt af vores kokke i arbejdet, hør lyden fra køkkenet og nyd aromaen af friskristede og malede krydderier. For en mere stille oplevelse rummer vores andet spiselokale op til 10 gæster. Oplev den hjertelige velkomst og venlige service, som nepalesisk kultur er kendt for, så du føler dig helt hjemme.</span>
+                            <span class="show-en notranslate">A warm, cozy, and relaxed space with rustic interiors, natural wood, chilled music, and genuine Nepali hospitality. Catch glimpses of our chefs at work, hear the sounds of the kitchen, and enjoy the aroma of spices freshly toasted and ground in-house. For a quieter experience, our second dining room seats up to 10 guests. Experience the heartfelt welcome and friendly service that Nepali culture is known for, making you feel right at home.</span>
                         </p>
                     </div>
                     <!-- Item 2 -->
+                    <div class="gallery-reason-item">
+                        <h3 class="gallery-reason-title">
+                            <span class="show-da">Autentisk nepalesisk kulturarv</span>
+                            <span class="show-en notranslate">Authentic Nepali Heritage</span>
+                        </h3>
+                        <p class="gallery-reason-text">
+                            <span class="show-da">Hos Lamfuz fejrer vi Nepals rige kulinariske kulturarv gennem familieopskrifter, traditionelle tilberedningsteknikker og retter lavet med omhu. Hvert måltid er en smag af Nepal, der bringer livlige smagsoplevelser, kultur og varm gæstfrihed til hjertet af København.</span>
+                            <span class="show-en notranslate">At Lamfuz, we celebrate Nepal's rich culinary heritage through family recipes, traditional cooking techniques, and dishes made with care. Every meal is a taste of Nepal, bringing vibrant flavours, culture, and warm hospitality to the heart of Copenhagen.</span>
+                        </p>
+                    </div>
+                    <!-- Item 3 -->
                     <div class="gallery-reason-item">
                         <h3 class="gallery-reason-title">
                             <span class="show-da">Frisktilberedt</span>
                             <span class="show-en notranslate">Freshly Prepared</span>
                         </h3>
                         <p class="gallery-reason-text">
-                            <span class="show-da">Hver ret tilberedes efter bestilling med ingredienser af god kvalitet og vores egne hjemmelavede krydderiblandinger.</span>
-                            <span class="show-en notranslate">Every dish is cooked to order using good quality ingredients and our own house-made spice blends.</span>
-                        </p>
-                    </div>
-                    <!-- Item 3 -->
-                    <div class="gallery-reason-item">
-                        <h3 class="gallery-reason-title">
-                            <span class="show-da">Varm gæstfrihed</span>
-                            <span class="show-en notranslate">Warm Hospitality</span>
-                        </h3>
-                        <p class="gallery-reason-text">
-                            <span class="show-da">Oplev den ægte velkomst og venlige service, som nepalesisk kultur er kendt for.</span>
-                            <span class="show-en notranslate">Experience the genuine welcome and friendly service that Nepalese culture is known for.</span>
+                            <span class="show-da">Hver ret tilberedes efter bestilling med ingredienser af god kvalitet hentet på det lokale marked, sammen med vores egne hjemmelavede krydderiblandinger. Friskhed, kvalitet og omhu er kernen i hvert måltid.</span>
+                            <span class="show-en notranslate">Every dish is cooked to order using good quality produce sourced on the local market, together with our own house made spice blends. Freshness, quality, and care are at the heart of every meal.</span>
                         </p>
                     </div>
                     <!-- Item 4 -->
