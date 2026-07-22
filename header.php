@@ -14,6 +14,20 @@ if ( ! defined( 'ABSPATH' ) ) {
     <link rel="preload" href="<?php echo get_template_directory_uri(); ?>/assets/fonts/Amagro-bold.ttf" as="font" type="font/ttf" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <script>
+        (function() {
+            var lang = localStorage.getItem('selectedLanguage');
+            if (!lang) {
+                lang = 'en';
+                localStorage.setItem('selectedLanguage', 'en');
+            }
+            if (lang === 'en') {
+                document.documentElement.classList.add('lang-en');
+            } else {
+                document.documentElement.classList.add('lang-da');
+            }
+        })();
+    </script>
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
@@ -48,9 +62,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 
             <div class="hero-header-right">
                 <div class="lang-selector notranslate">
-                    <span class="lang-da-btn active">DA</span>
+                    <span class="lang-da-btn">DA</span>
                     <span class="lang-or">/</span>
-                    <span class="lang-en-btn">EN</span>
+                    <span class="lang-en-btn active">EN</span>
                 </div>
                 <a href="<?php echo home_url('/book-et-bord'); ?>" class="btn-header-book">
                     <span class="show-da">BOOK ET BORD</span>
@@ -101,9 +115,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 
         <div class="mobile-nav-footer">
             <div class="mobile-lang-selector">
-                <span class="lang-da-btn active">DA</span>
+                <span class="lang-da-btn">DA</span>
                 <span class="lang-or">/</span>
-                <span class="lang-en-btn">EN</span>
+                <span class="lang-en-btn active">EN</span>
             </div>
             <a href="<?php echo home_url('/book-et-bord'); ?>" class="btn-mobile-book">
                 <span class="show-da">BOOK ET BORD</span>

@@ -161,14 +161,14 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 
-    // Determine active language: check localStorage, fallback to cookie, fallback to default 'da'
+    // Determine active language: check localStorage, fallback to cookie, fallback to default 'en'
     let currentLang = localStorage.getItem('selectedLanguage');
     if (!currentLang) {
         const googtrans = getCookie('googtrans');
-        if (googtrans && googtrans.endsWith('/en')) {
-            currentLang = 'en';
-        } else {
+        if (googtrans && googtrans.endsWith('/da')) {
             currentLang = 'da';
+        } else {
+            currentLang = 'en';
         }
         localStorage.setItem('selectedLanguage', currentLang);
     }
@@ -179,10 +179,14 @@ document.addEventListener("DOMContentLoaded", function() {
     // Set initial body classes
     if (currentLang === 'en') {
         document.body.classList.add('lang-en');
+        document.documentElement.classList.add('lang-en');
         document.body.classList.remove('lang-da');
+        document.documentElement.classList.remove('lang-da');
     } else {
         document.body.classList.add('lang-da');
+        document.documentElement.classList.add('lang-da');
         document.body.classList.remove('lang-en');
+        document.documentElement.classList.remove('lang-en');
     }
 
     function doTranslate(langCode) {
