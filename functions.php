@@ -40,39 +40,43 @@ add_action( 'after_setup_theme', 'cmc_theme_setup' );
 
 
 function cmc_force_page_templates($template) {
-    if (is_page('contact') || is_page('kontakt')) {
+    $request_uri = isset($_SERVER['REQUEST_URI']) ? trim(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH), '/') : '';
+
+    if (is_page('contact') || is_page('kontakt') || $request_uri === 'contact' || $request_uri === 'kontakt') {
         $new_template = locate_template(array('page-contact.php'));
         if ('' != $new_template) {
             return $new_template;
         }
     }
-    if (is_page('about') || is_page('om-lamfuz')) {
+    if (is_page('about') || is_page('om-lamfuz') || $request_uri === 'about' || $request_uri === 'om-lamfuz') {
         $new_template = locate_template(array('page-about.php'));
         if ('' != $new_template) {
             return $new_template;
         }
     }
-    if (is_page('menu')) {
+    if (is_page('menu') || $request_uri === 'menu') {
         $new_template = locate_template(array('page-menu.php'));
         if ('' != $new_template) {
             return $new_template;
         }
     }
-    if (is_page('blog')) {
+    if (is_page('blog') || $request_uri === 'blog') {
         $new_template = locate_template(array('page-blog.php'));
         if ('' != $new_template) {
             return $new_template;
         }
     }
-    if (is_page('cookiepolicy') || is_page('cookie-policy') || is_page('cookiepolitik')) {
+    if (is_page('cookiepolicy') || is_page('cookie-policy') || is_page('cookiepolitik') || in_array($request_uri, array('cookiepolicy', 'cookie-policy', 'cookiepolitik'))) {
         $new_template = locate_template(array('page-cookiepolicy.php'));
         if ('' != $new_template) {
+            status_header(200);
             return $new_template;
         }
     }
-    if (is_page('privacy-policy') || is_page('privatlivspolitik') || is_page('privacy')) {
+    if (is_page('privacy-policy') || is_page('privatlivspolitik') || is_page('privacy') || in_array($request_uri, array('privacy-policy', 'privatlivspolitik', 'privacy'))) {
         $new_template = locate_template(array('page-privatlivspolitik.php'));
         if ('' != $new_template) {
+            status_header(200);
             return $new_template;
         }
     }
