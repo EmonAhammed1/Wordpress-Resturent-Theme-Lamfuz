@@ -30,16 +30,16 @@ get_header(); ?>
             <!-- MENU INTRO / SEO SECTION -->
             <div class="menu-intro-section">
                 <h2 class="menu-intro-title">
-                    <span class="show-da">Lamfuz-menuen: Autentisk nepalesisk mad i København</span>
-                    <span class="show-en notranslate">The Lamfuz Menu: Authentic Nepalese Food in Copenhagen</span>
+                    <span class="show-da">Vores menu: Autentisk nepalesisk mad i København</span>
+                    <span class="show-en notranslate">Our Menu: Authentic Nepali Food in Copenhagen</span>
                 </h2>
                 <p class="menu-intro-seo-subtitle visually-hidden">
                     <span class="show-da">SEO-sidetitel: Nepalesisk menu København | Momo, Dal Bhat og Chow Mein priser - Lamfuz</span>
                     <span class="show-en notranslate">SEO Page Title: Nepalese Menu Copenhagen | Momo, Dal Bhat &amp; Chow Mein Prices - Lamfuz</span>
                 </p>
                 <p class="menu-intro-desc">
-                    <span class="show-da">Udforsk vores fulde menu med autentiske nepalesiske retter, frisk tilberedt i vores køkken hver dag. Se vores mad, drikkevarer og aktuelle priser nedenfor. Veganske og glutenfrie muligheder er tilgængelige på de fleste retter.</span>
-                    <span class="show-en notranslate">Explore our full menu of authentic Nepalese dishes, freshly prepared in our kitchen every day. View our food, drinks, and current prices below. Vegan and gluten-free options are available on most of the dishes.</span>
+                    <span class="show-da">Opdag vores menu af nepalesiske favoritter, frisk tilberedt hver dag med omhu. Udforsk vores mad, drikkevarer og aktuelle priser nedenfor med veganske og glutenfrie muligheder overalt på vores menukort.</span>
+                    <span class="show-en notranslate">Discover our menu of Nepali favourites, freshly prepared every day with care. Explore our food, drinks, and current prices below, with vegan and gluten-free options available across our menu.</span>
                 </p>
             </div>
 
@@ -607,8 +607,8 @@ get_header(); ?>
             <div class="menu-page-container">
                 <div class="menu-food-footer" style="margin-top: 0;">
                     <p class="menu-intro-desc" style="margin-top: 0;">
-                        <span class="show-da">Uanset om du spiser hos os til middag, bestiller takeaway eller planlægger et særligt arrangement, glæder vi os til at dele Nepals smage med dig. Har du brug for anbefalinger eller har du særlige kostbehov, hjælper vores team dig altid gerne.</span>
-                        <span class="show-en notranslate">Whether you're joining us for dinner, ordering takeaway, or planning a special event, we look forward to sharing the flavours of Nepal with you. If you need recommendations or have dietary requirements, our team is always happy to help.</span>
+                        <span class="show-da">Vi glæder os til at dele Nepals smage med dig. Vores team hjælper altid gerne med anbefalinger eller ønsker til kostbehov.</span>
+                        <span class="show-en notranslate">We look forward to sharing the flavours of Nepal with you. Our team is always happy to help with recommendations or dietary requests.</span>
                     </p>
                 </div>
             </div>
