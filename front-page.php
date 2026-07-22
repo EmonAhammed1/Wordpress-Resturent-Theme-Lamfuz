@@ -337,13 +337,13 @@ get_header();
                     <!-- FAQ 1 -->
                     <details class="faq-item">
                         <summary>
-                            <span class="show-da">Hvornår kan jeg komme, og skal jeg skynde mig inden lukketid?</span>
-                            <span class="show-en notranslate">What time can I come in, and do I need to rush before closing?</span>
+                            <span class="show-da">Hvad er jeres åbningstider?</span>
+                            <span class="show-en notranslate">What are your opening hours?</span>
                             <span class="faq-icon">+</span>
                         </summary>
                         <div class="faq-content">
-                            <p class="show-da">Vi har åbent mandag til torsdag kl. 16:00 - 23:00, og fredag til lørdag kl. 16:00 - 23:30. Køkkenet lukker for bestillinger lidt før lukketid, så hvis du planlægger en sen middag på en travl aften, kan det betale sig at komme lidt tidligere for at få hele oplevelsen med.</p>
-                            <p class="show-en notranslate">We're open Monday to Thursday, 16:00 to 23:00, and Friday to Saturday, 16:00 to 23:30. The kitchen does stop taking orders a little before we close, so if you're planning a later dinner on a busy night, it's worth arriving a bit earlier to make sure you get the full experience.</p>
+                            <p class="show-da">Vi har åbent mandag – torsdag: 16:00 – 23:00 og fredag – lørdag: 16:00 – 23:30. Vores køkken modtager de sidste madbestillinger kl. 22:00, så vi anbefaler at komme inden da for at nyde den fulde Lamfuz-oplevelse.</p>
+                            <p class="show-en notranslate">We're open Monday - Thursday: 16:00 - 23:00 and Friday - Saturday: 16:00 - 23:30. Our kitchen takes the last food orders at 22:00, so we recommend arriving before then to enjoy the full Lamfuz experience.</p>
                         </div>
                     </details>
 
@@ -351,12 +351,12 @@ get_header();
                     <details class="faq-item">
                         <summary>
                             <span class="show-da">Kan jeg bestille bord i forvejen?</span>
-                            <span class="show-en notranslate">Can I book a table ahead of time?</span>
+                            <span class="show-en notranslate">Can I book a table in advance?</span>
                             <span class="faq-icon">+</span>
                         </summary>
                         <div class="faq-content">
-                            <p class="show-da">Helt bestemt. Du kan reservere online via booking-knappen på vores hjemmeside, eller ringe til os på +45 70 60 56 57, hvis du foretrækker at tale med os direkte – især praktisk, hvis I kommer som en større gruppe.</p>
-                            <p class="show-en notranslate">Definitely. You can reserve online through the booking button on our site, or give us a call on +45 70 60 56 57 if you'd rather chat with someone directly — especially handy if you're coming as a larger group.</p>
+                            <p class="show-da">Helt sikkert. Reserver dit bord online via vores bookingsystem eller ring til os på +45 70 60 56 57. Hvis du booker til mere end 8 gæster, bedes du sende os en e-mail, så vi kan hjælpe med at arrangere dit besøg.</p>
+                            <p class="show-en notranslate">Absolutely. Reserve your table online through our booking system or call us on +45 70 60 56 57. If you're booking for more than 8 guests, please send us an email so we can help arrange your visit.</p>
                         </div>
                     </details>
 
@@ -364,25 +364,25 @@ get_header();
                     <details class="faq-item">
                         <summary>
                             <span class="show-da">Kan jeg bestille Lamfuz som takeaway?</span>
-                            <span class="show-en notranslate">Can I order Lamfuz to take out?</span>
+                            <span class="show-en notranslate">Can I order Lamfuz for takeout?</span>
                             <span class="faq-icon">+</span>
                         </summary>
                         <div class="faq-content">
-                            <p class="show-da">Selvfølgelig. Hele vores menu er tilgængelig som takeaway fra Turesensgade 6. Ring bare i forvejen eller kig forbi, så vil vi have din mad frisklavet og klar, når du ankommer.</p>
-                            <p class="show-en notranslate">Of course. Our entire menu is available for take out from Turesensgade 6. Just call ahead or pop in, and we'll have your food freshly prepared and ready when you arrive.</p>
+                            <p class="show-da">Ja. Vores fulde menukort er tilgængeligt som takeaway. Bestil nemt online, ring til os eller kig forbi, så tilbereder vi din mad frisk til afhentning.</p>
+                            <p class="show-en notranslate">Yes. Our full menu is available for takeout. Simply order online, give us a call, or stop by, and we'll have your food freshly prepared for collection.</p>
                         </div>
                     </details>
 
                     <!-- FAQ 4 -->
                     <details class="faq-item">
                         <summary>
-                            <span class="show-da">Er nepalesisk mad meget stærk? Jeg er ikke så god til stærk mad.</span>
-                            <span class="show-en notranslate">Is Nepali food very spicy? I'm not great with heat.</span>
+                            <span class="show-da">Er nepalesisk mad meget stærk?</span>
+                            <span class="show-en notranslate">Is Nepali food very spicy?</span>
                             <span class="faq-icon">+</span>
                         </summary>
                         <div class="faq-content">
-                            <p class="show-da">Ikke nødvendigvis – nepalesisk mad handler om mange lag af smag, ikke kun styrke. Mange af vores retter, som dal bhat og momo, er milde og fyldige af natur. Hvis du vil have styrke, kan du prøve retter som choila eller jhol momo. Fortæl blot din tjener om dine præferencer for krydring, så tilpasser vi det derefter – vi vil hellere have, at du nyder hver mundfuld, end at du skal kæmpe dig igennem den.</p>
-                            <p class="show-en notranslate">Not necessarily — Nepalese food is about layers of flavour, not just heat. Many of our dishes, like dal bhat and momo, are mild and comforting by nature. If you do want some heat, dishes like choila or jhol momo bring it on. Just let your server know your spice preference and we'll adjust accordingly — we'd rather you enjoy every bite than fight through it.</p>
+                            <p class="show-da">Ikke nødvendigvis. Det nepalesiske køkken handler om afbalancerede smage, ikke kun stærk mad. Mange af vores retter er naturally milde, og vi tilpasser gerne krydderiniveauet efter din smag. Giv blot tjeneren besked ved bestilling.</p>
+                            <p class="show-en notranslate">Not necessarily. Nepali cuisine is all about balanced flavours, not just heat. Many of our dishes are naturally mild, and we're happy to adjust the spice level to suit your taste. Just let your server know when you order.</p>
                         </div>
                     </details>
 
@@ -394,7 +394,7 @@ get_header();
                             <span class="faq-icon">+</span>
                         </summary>
                         <div class="faq-content">
-                            <p class="show-da">Absolut. Nepalesisk madlavning bruger ofte disse ingredienser, medmindre andet er angivet, men vores køkken tilpasser det gerne, hvor vi kan. Nævn det blot, når du bestiller, så gør vi vores bedste for at tilberede din ret, som du ønsker det.</p>
+                            <p class="show-da">Helt sikkert. Nepalesisk madlavning bruger ofte disse ingredienser, men vores køkken tilpasser det gerne, hvor vi kan. Nævn det blot ved bestilling, så gør vi vores bedste for at tilberede din ret, som du ønsker det.</p>
                             <p class="show-en notranslate">Absolutely. Nepalese cooking uses these ingredients often, but our kitchen is happy to adapt where we can. Just mention it when ordering, and we'll do our best to prepare your dish the way you like it.</p>
                         </div>
                     </details>
@@ -403,12 +403,12 @@ get_header();
                     <details class="faq-item">
                         <summary>
                             <span class="show-da">Jeg har fødevareallergi – kan I håndtere det?</span>
-                            <span class="show-en notranslate">I have food allergies — is that something you can handle?</span>
+                            <span class="show-en notranslate">I have food allergies, is that something you can handle?</span>
                             <span class="faq-icon">+</span>
                         </summary>
                         <div class="faq-content">
-                            <p class="show-da">Ja, og vi tager det meget alvorligt. Fortæl venligst din tjener om eventuelle allergier, inden du bestiller, så vores køkken kan guide dig til sikre valg og tage de rette forholdsregler. Hvis du er i tvivl, så spørg endelig – vi gennemgår gerne ingredienserne ret for ret. Ingen af vores retter indeholder nødder.</p>
-                            <p class="show-en notranslate">Yes, and we take it seriously. Please let your server know about any allergies before ordering so our kitchen can guide you toward safe options and take the right precautions. If you're ever unsure, just ask — we're happy to talk you through ingredients dish by dish. Contains no nuts in any of our dishes.</p>
+                            <p class="show-da">Ja, og vi tager det meget alvorligt. Ingen af vores retter indeholder nødder. Oplys venligst din tjener om eventuelle allergier inden bestilling, så vi kan anbefale egnede retter og tage de nødvendige forholdsregler.</p>
+                            <p class="show-en notranslate">Yes, and we take it seriously. None of our dishes contain nuts. Please let your server know about any allergies before ordering so we can recommend suitable options and take the necessary precautions.</p>
                         </div>
                     </details>
                 </div>
@@ -423,8 +423,8 @@ get_header();
                             <span class="faq-icon">+</span>
                         </summary>
                         <div class="faq-content">
-                            <p class="show-da">Ja. Selvom vi ikke har en separat børnemenu, er mange af vores retter – såsom almindelige ris, mild dal eller simpel chow mein – gode til de små, og portionerne kan ofte tilpasses. Spørg din tjener om forslag, så hjælper vi med at finde noget, dine børn rent faktisk vil spise.</p>
-                            <p class="show-en notranslate">We do. While we don't have a separate children's menu, many of our dishes — like plain rice, mild dal, or simple chow mein — work well for little ones, and portions can often be adjusted. Just ask your server for suggestions and we'll help you put together something your kids will actually eat.</p>
+                            <p class="show-da">Ja. Vi har en børnemenu med børnevenlige retter, herunder kylling, almindelige ris, dal, grøntsager og enkel chow mein, og vi foreslår gerne gode retter til de mindste.</p>
+                            <p class="show-en notranslate">Yes. We have a children's menu with kid-friendly options, including chicken, plain rice, dal, vegetables, and simple chow mein and we're happy to suggest options suitable for little ones.</p>
                         </div>
                     </details>
 
@@ -436,8 +436,8 @@ get_header();
                             <span class="faq-icon">+</span>
                         </summary>
                         <div class="faq-content">
-                            <p class="show-da">Ja, masser faktisk. Vi har en dedikeret vegansk platte samt veganske versioner af vores momo, chow mein og stegte ris. Nepalesisk mad er i forvejen rig på linser, grøntsager og bælgfrugter, så plantebaserede gæster er rigtig godt dækket ind hos os og ikke bare en eftertanke.</p>
-                            <p class="show-en notranslate">Plenty, actually. We have a dedicated vegan platter, plus vegan versions of our momo, chow mein, and fried rice. Nepalese cuisine leans heavily on lentils, vegetables, and legumes anyway, so plant-based guests are genuinely well looked after here, not just an afterthought.</p>
+                            <p class="show-da">Helt sikkert. Vi tilbyder en dedikeret vegansk platte samt et stort udvalg af veganske og vegetariske forretter, momo, chow mein, stegte ris og andre nepalesiske favoritter.</p>
+                            <p class="show-en notranslate">Absolutely. We offer a dedicated vegan platter, plus a great selection of vegan and vegetarian appetisers, momo, chow mein, fried rice, and other Nepali favourites.</p>
                         </div>
                     </details>
 
@@ -449,8 +449,8 @@ get_header();
                             <span class="faq-icon">+</span>
                         </summary>
                         <div class="faq-content">
-                            <p class="show-da">Ja, vi leverer mad til private fester, kontorfrokoster og fejringer i hele København. Du skal bare kontakte os med jeres gruppestørrelse og de retter, I ønsker, så sammensætter vi en menu til jeres arrangement.</p>
-                            <p class="show-en notranslate">Yes, we cater private parties, office lunches, and celebrations across Copenhagen. Just reach out with your group size and any dishes you're keen on, and we'll build a menu around your event.</p>
+                            <p class="show-da">Ja. Vi leverer catering til kontorfrokoster, private fester, bryllupper og fejringer i hele København. Send os en e-mail med antal gæster og detaljer om arrangementet, så sammensætter vi en menu, der passer til jeres anledning.</p>
+                            <p class="show-en notranslate">Yes. We cater office lunches, private parties, weddings, and celebrations across Copenhagen. Send us an email with your group size and event details, and we'll create a menu to suit your occasion.</p>
                         </div>
                     </details>
 
@@ -462,8 +462,8 @@ get_header();
                             <span class="faq-icon">+</span>
                         </summary>
                         <div class="faq-content">
-                            <p class="show-da">Vores momo (dampede nepalesiske dumplings med sesam-tomat chutney) er den klare favorit og den mest bestilte ret på menuen. Lige efter kommer vores dal bhat platte, som er selve hjertet i den daglige nepalesiske madlavning i hjemmet.</p>
-                            <p class="show-en notranslate">Our momo steamed Nepalese dumplings with sesame-tomato chutney are the clear favourite and the most ordered dish on the menu. Right behind it is our dal bhat platter, the true heart of everyday Nepali home cooking.</p>
+                            <p class="show-da">Vores momo (dampede nepalesiske dumplings med sesam-tomat-chutney) er den klare favorit og den mest bestilte ret på menuen. Lige derefter kommer vores dal bhat-platte, selve hjertet i nepalesisk hverdagsmad.</p>
+                            <p class="show-en notranslate">Our momo (steamed Nepalese dumplings with sesame - tomato chutney) are the clear favourite and the most ordered dish on the menu. Right behind it is our dal bhat platter, the true heart of everyday Nepali home cooking.</p>
                         </div>
                     </details>
 
@@ -471,12 +471,12 @@ get_header();
                     <details class="faq-item">
                         <summary>
                             <span class="show-da">Jeg har aldrig fået nepalesisk mad før – er Lamfuz et godt sted at starte?</span>
-                            <span class="show-en notranslate">I've never had Nepalese food before — is Lamfuz a good place to start?</span>
+                            <span class="show-en notranslate">I've never had Nepali food before - is Lamfuz a good place to start?</span>
                             <span class="faq-icon">+</span>
                         </summary>
                         <div class="faq-content">
-                            <p class="show-da">Helt ærligt, ja, det er en af de bedste grunde til at komme. Vores team elsker at guide nybegyndere gennem menuen, uanset om det betyder at starte med en omgang momo, gå direkte efter en dal bhat-platte eller prøve noget fra vores sekuwa- og choila-udvalg. Du kan ikke vælge forkert hos os.</p>
-                            <p class="show-en notranslate">Honestly, it's one of the best reasons to come. Our team loves walking first-timers through the menu, whether that means starting with a plate of momo, going straight for a full dal bhat platter, or trying something from our sekuwa and choila selection. No wrong choices here.</p>
+                            <p class="show-da">Helt sikkert. Vores team elsker at introducere førstegangsgæster til det nepalesiske køkken. Start med vores håndlavede momo, prøv vores traditionelle dal bhat-platte, eller udforsk vores sekuwa- og choila-favoritter. Uanset hvad du vælger, hjælper vi dig med at opdage smagen af Nepal.</p>
+                            <p class="show-en notranslate">Absolutely. Our team loves introducing first-time guests to Nepali cuisine. Start with our handmade momo, try our traditional dal bhat platter, or explore our sekuwa and choila favourites. Whatever you choose, we'll help you discover the flavours of Nepal.</p>
                         </div>
                     </details>
 
@@ -484,11 +484,11 @@ get_header();
                     <details class="faq-item">
                         <summary>
                             <span class="show-da">Kan jeg holde private arrangementer hos Lamfuz?</span>
-                            <span class="show-en notranslate">Can i host our private events at Lamfuz?</span>
+                            <span class="show-en notranslate">Can I host our private events at Lamfuz?</span>
                             <span class="faq-icon">+</span>
                         </summary>
                         <div class="faq-content">
-                            <p class="show-da">Ja, du kan sagtens afholde dine private arrangementer, fødselsdage, bryllupper, frokoster, middage eller noget midt imellem hos os.</p>
+                            <p class="show-da">Ja, selvfølgelig! Du kan afholde dine private arrangementer, fødselsdage, bryllupper, frokoster eller middage hos os.</p>
                             <p class="show-en notranslate">Sure you can host your private events, birthdays, weddings, lunch or dinner or anything in between.</p>
                         </div>
                     </details>
