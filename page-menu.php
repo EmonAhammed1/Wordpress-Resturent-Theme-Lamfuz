@@ -41,10 +41,6 @@ get_header(); ?>
                     <span class="show-da">Opdag vores menu af nepalesiske favoritter, frisk tilberedt hver dag med omhu. Udforsk vores mad, drikkevarer og aktuelle priser nedenfor med veganske og glutenfrie muligheder overalt på vores menukort.</span>
                     <span class="show-en notranslate">Discover our menu of Nepali favourites, freshly prepared every day with care. Explore our food, drinks, and current prices below, with vegan and gluten-free options available across our menu.</span>
                 </p>
-                <p class="menu-intro-desc" style="margin-top: 1rem;">
-                    <span class="show-da">Vi glæder os til at dele Nepals smage med dig. Vores team hjælper altid gerne med anbefalinger eller ønsker til kostbehov.</span>
-                    <span class="show-en notranslate">We look forward to sharing the flavours of Nepal with you. Our team is always happy to help with recommendations or dietary requests.</span>
-                </p>
             </div>
 
             <!-- DRINKS SECTION -->
