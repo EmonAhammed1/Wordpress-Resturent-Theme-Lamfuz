@@ -95,8 +95,8 @@ if ( ! defined( 'ABSPATH' ) ) {
                     <a href="https://www.findsmiley.dk/1418706" target="_blank" rel="noopener noreferrer">😊 Find Smiley</a>
                 </div>
                 <div class="footer-copyright">
-                    <span class="show-da">Alle rettigheder forbeholdt &copy; 2026 Lamfuz.dk | Drevet af Blavora</span>
-                    <span class="show-en notranslate">All rights reserved &copy; 2026 Lamfuz.dk | Powered by Blavora</span>
+                    <span class="show-da">Alle rettigheder forbeholdt &copy; 2026 Lamfuz.dk</span>
+                    <span class="show-en notranslate">All rights reserved &copy; 2026 Lamfuz.dk</span>
                 </div>
             </div>
         </div>
