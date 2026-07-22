@@ -535,15 +535,22 @@ get_header();
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 1.5rem;
+            padding: 1.1rem 1.35rem;
             font-family: var(--font-heading);
-            font-size: 1.15rem;
+            font-size: 0.92rem;
             color: #b2512b;
             cursor: pointer;
             list-style: none;
             user-select: none;
             outline: none;
             font-weight: 500;
+            line-height: 1.4;
+        }
+        @media (max-width: 768px) {
+            .faq-item summary {
+                font-size: 0.85rem;
+                padding: 0.9rem 1.1rem;
+            }
         }
         .faq-item summary::-webkit-details-marker {
             display: none;
