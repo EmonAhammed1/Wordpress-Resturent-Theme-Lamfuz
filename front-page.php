@@ -51,8 +51,8 @@ get_header();
                 <!-- Left Column: Content -->
                 <div class="home-about-content">
                     <h2 class="home-about-title">
-                        <span class="show-da">Lamfuz – En nepalesisk restaurant i København</span>
-                        <span class="show-en notranslate">Lamfuz – A Nepali Restaurant in Copenhagen</span>
+                        <span class="show-da">Lamfuz – En autentisk nepalesisk restaurant i København</span>
+                        <span class="show-en notranslate">Lamfuz – An Authentic Nepali Restaurant in Copenhagen</span>
                     </h2>
                     <div class="home-about-text">
                         <p class="lead-text">
