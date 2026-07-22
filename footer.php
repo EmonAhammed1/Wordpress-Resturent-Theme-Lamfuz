@@ -88,11 +88,11 @@ if ( ! defined( 'ABSPATH' ) ) {
             <!-- Footer Bottom Section -->
             <div class="footer-bottom">
                 <div class="footer-bottom-links">
-                    <a href="#" class="show-da">Privatlivspolitik</a>
-                    <a href="#" class="show-da">Cookiepolitik</a>
-                    <a href="#" class="show-en notranslate">Privacy Policy</a>
-                    <a href="#" class="show-en notranslate">Cookie Policy</a>
-                    <a href="#">😊 Find Smiley</a>
+                    <a href="<?php echo lamfuz_get_page_url(array('privatlivspolitik', 'privacy-policy', 'privacy')); ?>" class="show-da">Privatlivspolitik</a>
+                    <a href="<?php echo lamfuz_get_page_url(array('cookiepolicy', 'cookie-policy', 'cookiepolitik')); ?>" class="show-da">Cookiepolitik</a>
+                    <a href="<?php echo lamfuz_get_page_url(array('privacy-policy', 'privatlivspolitik', 'privacy')); ?>" class="show-en notranslate">Privacy Policy</a>
+                    <a href="<?php echo lamfuz_get_page_url(array('cookiepolicy', 'cookie-policy', 'cookiepolitik')); ?>" class="show-en notranslate">Cookie Policy</a>
+                    <a href="https://www.findsmiley.dk/1418706" target="_blank" rel="noopener noreferrer">😊 Find Smiley</a>
                 </div>
                 <div class="footer-copyright">
                     <span class="show-da">Alle rettigheder forbeholdt &copy; 2026 Lamfuz.dk | Drevet af Blavora</span>

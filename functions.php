@@ -64,6 +64,12 @@ function cmc_force_page_templates($template) {
             return $new_template;
         }
     }
+    if (is_page('cookiepolicy') || is_page('cookie-policy') || is_page('cookiepolitik')) {
+        $new_template = locate_template(array('page-cookiepolicy.php'));
+        if ('' != $new_template) {
+            return $new_template;
+        }
+    }
     return $template;
 }
 add_filter('template_include', 'cmc_force_page_templates', 99);
