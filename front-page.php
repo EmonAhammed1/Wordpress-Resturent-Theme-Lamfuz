@@ -21,8 +21,11 @@ get_header();
 
 
         <!-- Vertical Sidebar Scroll Indicator (Right Side) -->
-        <a href="#about-intro" class="hero-scroll-side">
-            <span class="hero-vertical-text">OPDAG LAMFUZ</span>
+        <a href="#signature-dishes" class="hero-scroll-side">
+            <span class="hero-vertical-text">
+                <span class="show-da">OPDAG LAMFUZ</span>
+                <span class="show-en notranslate">DISCOVER LAMFUZ</span>
+            </span>
             <div class="hero-scroll-arrow">
                 <svg viewBox="0 0 24 24">
                     <line x1="12" y1="5" x2="12" y2="19"></line>
@@ -150,7 +153,7 @@ get_header();
 
 
     <!-- Signature Dishes Section -->
-    <section class="signature-dishes-section">
+    <section class="signature-dishes-section" id="signature-dishes">
         <div class="signature-dishes-container">
             <div class="signature-dishes-grid-layout">
                 <!-- Left Column: Image -->
