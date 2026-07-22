@@ -132,11 +132,6 @@ get_header();
                         </p>
                     </div>
                 </div>
-
-                <p class="gallery-outro-text">
-                    <span class="show-da">Autentiske smage. Ægte gæstfrihed. En spiseoplevelse at huske.</span>
-                    <span class="show-en notranslate">Authentic flavours. Genuine hospitality. A dining experience to remember.</span>
-                </p>
             </div>
             <!-- Swiper Slider -->
             <div class="swiper mySwiper gallery-swiper">
