@@ -1561,10 +1561,11 @@ body {
 }
 
 .footer-contact-link {
-    display: inline-flex !important;
+    display: flex !important;
     align-items: center !important;
     gap: 8px !important;
     margin-bottom: 1.2rem !important;
+    width: 100% !important;
 }
 
 .footer-contact-address {
@@ -1572,6 +1573,7 @@ body {
     align-items: flex-start !important;
     gap: 8px !important;
     margin-bottom: 1.2rem !important;
+    width: 100% !important;
 }
 
 .footer-col p {
