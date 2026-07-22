@@ -548,8 +548,8 @@ get_header();
         }
         @media (max-width: 768px) {
             .faq-item summary {
-                font-size: 0.85rem;
-                padding: 0.9rem 1.1rem;
+                font-size: 0.75rem;
+                padding: 0.75rem 0.9rem;
             }
         }
         .faq-item summary::-webkit-details-marker {
