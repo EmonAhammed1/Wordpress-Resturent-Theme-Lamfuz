@@ -326,8 +326,8 @@ get_header();
         <div class="faq-container" style="max-width: 1200px; margin: 0 auto;">
             <div class="faq-header" style="text-align: center; margin-bottom: 4rem;">
                 <h2 class="faq-title" style="font-family: var(--font-heading); font-size: clamp(28px, 5vw, 38px); font-weight: 400; color: #b2512b; margin-top: 0; text-transform: uppercase; letter-spacing: 0.05em;">
-                    <span class="show-da">Ofte stillede spørgsmål?</span>
-                    <span class="show-en notranslate">Frequently Asked Questions?</span>
+                    <span class="show-da">FAQ?</span>
+                    <span class="show-en notranslate">FAQ?</span>
                 </h2>
             </div>
             
