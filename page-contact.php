@@ -98,7 +98,7 @@ get_header();
                                         <span class="show-da">Fredag – Lørdag:</span>
                                         <span class="show-en notranslate">Friday – Saturday:</span>
                                     </span>
-                                    <span class="contact-hours-time">16:00 – 24:00</span>
+                                    <span class="contact-hours-time">16:00 – 23:30</span>
                                 </li>
                                 <li class="contact-hours-row">
                                     <span class="contact-hours-day">
