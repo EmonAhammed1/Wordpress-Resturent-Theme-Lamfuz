@@ -221,11 +221,12 @@ document.addEventListener("DOMContentLoaded", function() {
                 }
             });
         }
-    // Floating Book a Table Button Interaction (On tablet 769px-1024px: 1st tap expand, 2nd tap navigate. On mobile <= 768px: continuous full text, single tap navigate!)
+    });
+
+    // Floating Book a Table Button Interaction
     const floatingBookBtn = document.getElementById('floatingBookBtn');
     if (floatingBookBtn) {
         floatingBookBtn.addEventListener('click', function(e) {
-            // Apply 2-step expand ONLY on tablet screen width (between 769px and 1024px)
             if (window.innerWidth > 768 && window.innerWidth <= 1024) {
                 if (!floatingBookBtn.classList.contains('expanded')) {
                     e.preventDefault();
