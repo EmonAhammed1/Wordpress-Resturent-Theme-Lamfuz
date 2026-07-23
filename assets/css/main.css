@@ -3703,11 +3703,12 @@ body.lang-en span.show-da, body.lang-en a.show-da {
         margin-bottom: 1.6rem !important;
     }
     .home-about-image-wrapper {
-        height: 420px !important;
+        height: 550px !important;
     }
     .home-about-img {
         height: 100% !important;
         object-fit: cover !important;
+        object-position: center center !important;
     }
 
     /* Gallery Section */
@@ -3747,7 +3748,15 @@ body.lang-en span.show-da, body.lang-en a.show-da {
         gap: 3rem !important;
     }
     .signature-dishes-image-column {
-        height: 420px !important;
+        height: 620px !important;
+        max-height: 680px !important;
+        overflow: hidden !important;
+    }
+    .signature-dishes-img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+        object-position: center center !important;
     }
     .signature-dishes-content-column {
         text-align: left !important;
