@@ -3796,20 +3796,37 @@ body.lang-en span.show-da, body.lang-en a.show-da {
     }
     .booking-container {
         flex-direction: column !important;
+        align-items: center !important;
         text-align: center !important;
-        gap: 2rem !important;
+        gap: 3rem !important;
         padding: 0 !important;
         width: 100% !important;
         max-width: 100% !important;
     }
     .booking-widget {
         width: 100% !important;
-        max-width: 100% !important;
+        max-width: 520px !important;
+        margin: 0 auto !important;
+        display: flex !important;
+        justify-content: center !important;
     }
     .booking-widget iframe {
-        max-width: 100% !important;
+        max-width: 520px !important;
         width: 100% !important;
         height: 750px !important;
+        margin: 0 auto !important;
+    }
+    .booking-content {
+        max-width: 620px !important;
+        margin: 0 auto !important;
+        text-align: center !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    .booking-text {
+        max-width: 550px !important;
+        margin: 0 auto !important;
     }
 
     /* Insta-Map Combined Section */
