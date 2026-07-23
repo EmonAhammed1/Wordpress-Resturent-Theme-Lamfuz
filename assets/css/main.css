@@ -3608,3 +3608,286 @@ body.lang-en span.show-da, body.lang-en a.show-da {
     }
 }
 
+/* ==========================================================================
+   TABLET RESPONSIVENESS OVERRIDES
+   Strictly scoped to (min-width: 768px) and (max-width: 1024px)
+   Does NOT alter mobile (< 768px) or desktop (> 1024px) layouts
+   ========================================================================== */
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* Header & Navigation */
+    .hero-header {
+        padding: 1.25rem 2.5rem !important;
+    }
+    .header-container {
+        max-width: 100% !important;
+        padding: 0 !important;
+    }
+    .hero-logo-img {
+        max-width: 140px;
+    }
+    .btn-header-book {
+        padding: 0.65rem 1.4rem;
+        font-size: 0.82rem;
+    }
+
+    /* Mobile Navigation Overlay on Tablet */
+    .mobile-nav-overlay {
+        padding: 2.5rem 3.5rem !important;
+    }
+    .mobile-nav-header {
+        margin-bottom: 2.5rem !important;
+    }
+    .mobile-nav-links {
+        gap: 2.2rem !important;
+        max-width: 500px !important;
+        margin: 0 auto !important;
+    }
+    .mobile-nav-link {
+        font-size: 1.85rem !important;
+        letter-spacing: 0.04em !important;
+    }
+    .mobile-nav-footer {
+        margin-top: 3rem !important;
+        gap: 2.5rem !important;
+    }
+    .btn-mobile-book {
+        padding: 0.8rem 2.2rem !important;
+        font-size: 0.9rem !important;
+    }
+
+    /* Hero Section */
+    .hero-section {
+        height: 75vh !important;
+        min-height: 520px !important;
+    }
+    .hero-bottom-actions {
+        bottom: 2.5rem !important;
+        left: 2.5rem !important;
+        right: auto !important;
+        width: auto !important;
+        max-width: none !important;
+        flex-direction: row !important;
+        gap: 1.25rem !important;
+        padding: 0 !important;
+    }
+    .hero-scroll-side {
+        right: 2.5rem !important;
+        bottom: 2.5rem !important;
+    }
+
+    /* Home About Section */
+    .home-about-section {
+        padding: 5rem 2.5rem !important;
+    }
+    .home-about-container {
+        padding: 0 !important;
+        max-width: 100% !important;
+    }
+    .home-about-grid {
+        grid-template-columns: 1fr !important;
+        gap: 3rem !important;
+    }
+    .home-about-content {
+        text-align: left !important;
+    }
+    .home-about-title {
+        font-size: 1.95rem !important;
+        margin-bottom: 1.5rem !important;
+    }
+    .home-about-text p {
+        font-size: 1.02rem !important;
+        margin-bottom: 1.4rem !important;
+    }
+    .home-about-text p.lead-text {
+        font-size: 1.2rem !important;
+        margin-bottom: 1.6rem !important;
+    }
+    .home-about-image-wrapper {
+        height: 420px !important;
+    }
+    .home-about-img {
+        height: 100% !important;
+        object-fit: cover !important;
+    }
+
+    /* Gallery Section */
+    .gallery-section {
+        padding: 5rem 0 3rem !important;
+    }
+    .gallery-container {
+        flex-direction: column !important;
+        padding: 0 2.5rem !important;
+        gap: 2.5rem !important;
+    }
+    .gallery-content {
+        max-width: 100% !important;
+        width: 100% !important;
+        flex: auto !important;
+    }
+    .gallery-swiper {
+        width: 100% !important;
+    }
+    .gallery-img {
+        height: 450px !important;
+    }
+    .gallery-swiper .swiper-slide {
+        width: 42% !important;
+    }
+
+    /* Signature Dishes Section */
+    .signature-dishes-section {
+        padding: 5rem 2.5rem !important;
+    }
+    .signature-dishes-container {
+        padding: 0 !important;
+        max-width: 100% !important;
+    }
+    .signature-dishes-grid-layout {
+        grid-template-columns: 1fr !important;
+        gap: 3rem !important;
+    }
+    .signature-dishes-image-column {
+        height: 420px !important;
+    }
+    .signature-dishes-content-column {
+        text-align: left !important;
+    }
+    .signature-dishes-actions {
+        flex-direction: row !important;
+        gap: 1.25rem !important;
+        justify-content: flex-start !important;
+    }
+
+    /* Booking Section */
+    .booking-section {
+        padding: 4rem 2.5rem !important;
+    }
+    .booking-container {
+        flex-direction: column !important;
+        text-align: center !important;
+        gap: 2rem !important;
+        padding: 0 !important;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    .booking-widget {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    .booking-widget iframe {
+        max-width: 100% !important;
+        width: 100% !important;
+        height: 750px !important;
+    }
+
+    /* Insta-Map Combined Section */
+    .insta-map-section {
+        padding: 5rem 0 !important;
+    }
+    .insta-map-container {
+        grid-template-columns: 1fr 1fr !important;
+        gap: 2.5rem !important;
+        padding: 0 2.5rem !important;
+    }
+    .map-title {
+        height: 70px !important;
+        font-size: 1.25rem !important;
+    }
+    .insta-map-container .map-container {
+        height: 100% !important;
+        min-height: 350px !important;
+    }
+
+    /* FAQ Section */
+    .faq-section {
+        padding: 0 2.5rem 5rem !important;
+    }
+    .faq-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 1.5rem !important;
+    }
+    .faq-item summary {
+        font-size: 0.88rem !important;
+        padding: 1rem 1.2rem !important;
+    }
+
+    /* Site Footer */
+    .site-footer {
+        padding: 4rem 2.5rem 2rem !important;
+    }
+    .footer-columns {
+        display: grid !important;
+        grid-template-columns: repeat(3, 1fr) !important;
+        gap: 2.2rem !important;
+    }
+    .footer-columns .footer-col:first-child {
+        grid-column: span 3 !important;
+        text-align: center !important;
+        margin-bottom: 1rem !important;
+    }
+    .footer-bottom {
+        flex-direction: row !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        padding-top: 2rem !important;
+    }
+
+    /* Menu Page & Cards */
+    .menu-page-hero, .menu-hero-section {
+        padding: 5rem 2.5rem 3rem !important;
+    }
+    .dishes-grid, .menu-dishes-grid, .menu-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 1.8rem !important;
+    }
+    .menu-tabs {
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        gap: 0.75rem !important;
+        padding: 0 2rem !important;
+    }
+    .menu-tab-btn {
+        padding: 0.65rem 1.25rem !important;
+        font-size: 0.85rem !important;
+    }
+
+    /* Blog Page */
+    .blog-posts-grid, .posts-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 2rem !important;
+    }
+
+    /* Contact Page & About Page */
+    .contact-container, .about-container {
+        padding: 0 2.5rem !important;
+        max-width: 100% !important;
+    }
+    .contact-grid, .about-split-grid {
+        grid-template-columns: 1fr 1fr !important;
+        gap: 2.5rem !important;
+    }
+
+    /* Floating UI Elements */
+    .floating-book-btn {
+        right: 2.5rem !important;
+        bottom: 5.5rem !important;
+        width: 50px !important;
+        height: 50px !important;
+    }
+    .floating-book-btn svg {
+        width: 22px !important;
+        height: 22px !important;
+        margin-left: 12px !important;
+    }
+    .back-to-top {
+        right: 2.5rem !important;
+        bottom: 2rem !important;
+    }
+
+    /* Policy Pages */
+    .cookie-policy-container, .privacy-policy-container {
+        padding: 0 2.5rem !important;
+        max-width: 100% !important;
+    }
+}
+
