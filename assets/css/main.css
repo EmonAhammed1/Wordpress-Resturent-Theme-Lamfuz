@@ -3489,17 +3489,43 @@ body.lang-en span.show-da, body.lang-en a.show-da {
     transition: opacity 0.3s ease 0.1s, transform 0.3s ease 0.1s !important;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
     .floating-book-btn {
-        right: 1.5rem;
-        bottom: 5.5rem;
-        width: 56px;
-        height: 56px;
+        right: 1.25rem !important;
+        bottom: 5rem !important;
+        width: auto !important;
+        max-width: calc(100vw - 3rem) !important;
+        height: 48px !important;
+        padding: 0 1.3rem 0 0.9rem !important;
+        border-radius: 50px !important;
+        background-color: var(--red-cta) !important;
+        border: 2px solid var(--red-cta) !important;
+        box-shadow: 0 6px 20px rgba(220, 24, 64, 0.4) !important;
+        display: inline-flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        white-space: nowrap !important;
     }
     .floating-book-btn svg {
-        width: 24px;
-        height: 24px;
-        margin-left: 14px;
+        width: 22px !important;
+        height: 22px !important;
+        fill: #ffffff !important;
+        color: #ffffff !important;
+        margin-left: 0 !important;
+        margin-right: 0.5rem !important;
+        flex-shrink: 0 !important;
+    }
+    .floating-book-btn .btn-text {
+        display: inline-block !important;
+        opacity: 1 !important;
+        transform: none !important;
+        color: #ffffff !important;
+        font-size: 0.84rem !important;
+        font-weight: 700 !important;
+        letter-spacing: 0.04em !important;
+        text-transform: uppercase !important;
+        margin: 0 !important;
+        white-space: nowrap !important;
     }
 }
 
