@@ -223,15 +223,13 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 
-    // Floating Book a Table Button Interaction
+    // Floating Book a Table Button Interaction (1st click expand, 2nd click navigate)
     const floatingBookBtn = document.getElementById('floatingBookBtn');
     if (floatingBookBtn) {
         floatingBookBtn.addEventListener('click', function(e) {
-            if (window.innerWidth > 768 && window.innerWidth <= 1024) {
-                if (!floatingBookBtn.classList.contains('expanded')) {
-                    e.preventDefault();
-                    floatingBookBtn.classList.add('expanded');
-                }
+            if (!floatingBookBtn.classList.contains('expanded')) {
+                e.preventDefault();
+                floatingBookBtn.classList.add('expanded');
             }
         });
 
