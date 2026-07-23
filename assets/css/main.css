@@ -3422,12 +3422,12 @@ body.lang-en span.show-da, body.lang-en a.show-da {
     position: fixed;
     right: 2.5rem;
     bottom: 6.5rem;
-    width: 55px;
-    height: 55px;
+    width: 60px;
+    height: 60px;
     background-color: var(--red-cta);
     color: #ffffff !important;
     border-radius: 50px;
-    box-shadow: 0 4px 15px rgba(220, 24, 64, 0.35);
+    box-shadow: 0 6px 20px rgba(220, 24, 64, 0.38);
     transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
     z-index: 998;
     display: inline-flex;
@@ -3440,31 +3440,34 @@ body.lang-en span.show-da, body.lang-en a.show-da {
     text-decoration: none;
 }
 
-.floating-book-btn:hover {
-    width: 195px;
-    background-color: #ffffff;
+.floating-book-btn:hover,
+.floating-book-btn.expanded {
+    width: 210px !important;
+    background-color: #ffffff !important;
     border-color: #ffffff !important;
-    box-shadow: 0 6px 20px rgba(220, 24, 64, 0.45);
+    box-shadow: 0 8px 25px rgba(220, 24, 64, 0.45) !important;
 }
 
 .floating-book-btn svg {
-    width: 24px;
-    height: 24px;
+    width: 26px;
+    height: 26px;
     fill: currentColor;
     display: block;
-    margin-left: 13px;
+    margin-left: 15px;
     flex-shrink: 0;
     transition: margin-left 0.4s cubic-bezier(0.4, 0, 0.2, 1), color 0.3s ease;
 }
 
-.floating-book-btn:hover svg {
-    color: var(--red-cta);
-    margin-left: 18px;
+.floating-book-btn:hover svg,
+.floating-book-btn.expanded svg {
+    color: var(--red-cta) !important;
+    fill: var(--red-cta) !important;
+    margin-left: 18px !important;
 }
 
 .floating-book-btn .btn-text {
     font-family: var(--font-heading);
-    font-size: 0.9rem;
+    font-size: 0.92rem;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.05em;
@@ -3473,40 +3476,30 @@ body.lang-en span.show-da, body.lang-en a.show-da {
     transform: translateX(10px);
     transition: opacity 0.3s ease, transform 0.3s ease, color 0.3s ease;
     margin-left: 10px;
-    margin-right: 20px;
+    margin-right: 18px;
     display: inline-block;
 }
 
-.floating-book-btn:hover .btn-text {
-    color: var(--red-cta);
-    opacity: 1;
-    transform: translateX(0);
-    transition: opacity 0.3s ease 0.1s, transform 0.3s ease 0.1s;
+.floating-book-btn:hover .btn-text,
+.floating-book-btn.expanded .btn-text {
+    display: inline-block !important;
+    color: var(--red-cta) !important;
+    opacity: 1 !important;
+    transform: translateX(0) !important;
+    transition: opacity 0.3s ease 0.1s, transform 0.3s ease 0.1s !important;
 }
 
 @media (max-width: 900px) {
     .floating-book-btn {
         right: 1.5rem;
         bottom: 5.5rem;
-        width: 48px;
-        height: 48px;
+        width: 56px;
+        height: 56px;
     }
     .floating-book-btn svg {
-        width: 20px;
-        height: 20px;
-        margin-left: 12px;
-    }
-    .floating-book-btn:hover {
-        width: 48px;
-        background-color: var(--red-cta);
-        border-color: var(--red-cta) !important;
-    }
-    .floating-book-btn:hover svg {
-        color: #ffffff;
-        margin-left: 12px;
-    }
-    .floating-book-btn .btn-text {
-        display: none;
+        width: 24px;
+        height: 24px;
+        margin-left: 14px;
     }
 }
 
@@ -4017,13 +4010,13 @@ body.lang-en span.show-da, body.lang-en a.show-da {
     .floating-book-btn {
         right: 2.5rem !important;
         bottom: 5.5rem !important;
-        width: 50px !important;
-        height: 50px !important;
+        width: 60px !important;
+        height: 60px !important;
     }
     .floating-book-btn svg {
-        width: 22px !important;
-        height: 22px !important;
-        margin-left: 12px !important;
+        width: 26px !important;
+        height: 26px !important;
+        margin-left: 15px !important;
     }
     .back-to-top {
         right: 2.5rem !important;

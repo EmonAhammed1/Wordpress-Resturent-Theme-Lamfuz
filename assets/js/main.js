@@ -221,7 +221,28 @@ document.addEventListener("DOMContentLoaded", function() {
                 }
             });
         }
-    });
+    // Floating Book a Table Button Interaction (1st tap expand, 2nd tap navigate)
+    const floatingBookBtn = document.getElementById('floatingBookBtn');
+    if (floatingBookBtn) {
+        floatingBookBtn.addEventListener('click', function(e) {
+            if (!floatingBookBtn.classList.contains('expanded')) {
+                e.preventDefault();
+                floatingBookBtn.classList.add('expanded');
+            }
+        });
+
+        document.addEventListener('click', function(e) {
+            if (!floatingBookBtn.contains(e.target)) {
+                floatingBookBtn.classList.remove('expanded');
+            }
+        });
+
+        window.addEventListener('scroll', function() {
+            if (floatingBookBtn.classList.contains('expanded')) {
+                floatingBookBtn.classList.remove('expanded');
+            }
+        }, { passive: true });
+    }
 
 });
     
