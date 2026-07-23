@@ -3758,7 +3758,7 @@ body.lang-en span.show-da, body.lang-en a.show-da {
         justify-content: flex-start !important;
     }
 
-    /* Booking Section */
+    /* Booking Section & Booking Page */
     .booking-section {
         padding: 4rem 2.5rem !important;
     }
@@ -3832,11 +3832,15 @@ body.lang-en span.show-da, body.lang-en a.show-da {
         padding-top: 2rem !important;
     }
 
-    /* Menu Page & Cards */
+    /* Menu Page & Cards Grid */
     .menu-page-hero, .menu-hero-section {
         padding: 5rem 2.5rem 3rem !important;
     }
-    .dishes-grid, .menu-dishes-grid, .menu-grid {
+    .menu-page-container {
+        padding: 0 2.5rem !important;
+        max-width: 100% !important;
+    }
+    .menu-drinks-grid, .menu-food-grid, .dishes-grid, .menu-dishes-grid, .menu-grid {
         grid-template-columns: repeat(2, 1fr) !important;
         gap: 1.8rem !important;
     }
@@ -3852,15 +3856,27 @@ body.lang-en span.show-da, body.lang-en a.show-da {
     }
 
     /* Blog Page */
-    .blog-posts-grid, .posts-grid {
+    .blog-container {
+        padding: 0 2.5rem !important;
+        max-width: 100% !important;
+    }
+    .blog-grid, .blog-posts-grid, .posts-grid {
         grid-template-columns: repeat(2, 1fr) !important;
         gap: 2rem !important;
     }
 
-    /* Contact Page & About Page */
-    .contact-container, .about-container {
+    /* About Page & Contact Page */
+    .about-container, .contact-container {
         padding: 0 2.5rem !important;
         max-width: 100% !important;
+    }
+    .about-split {
+        flex-direction: column !important;
+        gap: 2.5rem !important;
+    }
+    .about-split-image img {
+        min-height: 380px !important;
+        max-height: 450px !important;
     }
     .contact-grid, .about-split-grid {
         grid-template-columns: 1fr 1fr !important;
