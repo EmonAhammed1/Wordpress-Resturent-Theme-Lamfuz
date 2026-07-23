@@ -3656,24 +3656,31 @@ body.lang-en span.show-da, body.lang-en a.show-da {
         padding: 2.5rem 3.5rem !important;
     }
     .mobile-nav-header {
-        margin-bottom: 2.5rem !important;
+        margin-bottom: 3rem !important;
+        width: 100% !important;
     }
     .mobile-nav-links {
         gap: 2.2rem !important;
-        max-width: 500px !important;
-        margin: 0 auto !important;
+        max-width: 100% !important;
+        width: 100% !important;
+        margin: 0 !important;
+        align-items: flex-start !important;
+        text-align: left !important;
     }
     .mobile-nav-link {
-        font-size: 1.85rem !important;
-        letter-spacing: 0.04em !important;
+        font-size: 2rem !important;
+        letter-spacing: 0.05em !important;
+        text-align: left !important;
     }
     .mobile-nav-footer {
-        margin-top: 3rem !important;
+        margin-top: auto !important;
         gap: 2.5rem !important;
+        width: 100% !important;
+        align-items: flex-start !important;
     }
     .btn-mobile-book {
-        padding: 0.8rem 2.2rem !important;
-        font-size: 0.9rem !important;
+        padding: 0.85rem 2.5rem !important;
+        font-size: 0.95rem !important;
     }
 
     /* Hero Section */
