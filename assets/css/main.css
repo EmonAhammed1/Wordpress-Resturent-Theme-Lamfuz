@@ -3748,8 +3748,9 @@ body.lang-en span.show-da, body.lang-en a.show-da {
         gap: 3rem !important;
     }
     .signature-dishes-image-column {
-        height: 620px !important;
-        max-height: 680px !important;
+        height: 760px !important;
+        min-height: 760px !important;
+        max-height: 850px !important;
         overflow: hidden !important;
     }
     .signature-dishes-img {
