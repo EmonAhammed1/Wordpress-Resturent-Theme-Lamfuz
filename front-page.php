@@ -59,16 +59,20 @@ get_header();
                     </h2>
                     <div class="home-about-text">
                         <p class="lead-text">
-                            <span class="show-da">Længes du efter dristige, eksotiske smagsoplevelser? Lad Lamfuz tage dine smagsløg med på en uforglemmelig rejse.</span>
-                            <span class="show-en notranslate">Craving bold, exotic flavours? Let Lamfuz take your taste buds on an unforgettable journey.</span>
+                            <span class="show-da">Autentisk smag. Moderne udtryk. Rødder i Nepal. Skabt til København.</span>
+                            <span class="show-en notranslate">Authentic Taste. Modern Expression. Rooted in Nepal. Made for Copenhagen.</span>
                         </p>
                         <p class="body-text">
-                            <span class="show-da">Velkommen til Lamfuz, en autentisk nepalesisk restaurant i hjertet af København, hvor livlige smage møder ægte gæstfrihed. Hver ret fejrer Nepals rige traditioner, serveret med varme, lidenskab og omhu.</span>
-                            <span class="show-en notranslate">Welcome to Lamfuz, an authentic Nepali restaurant in the heart of Copenhagen, where vibrant flavours meet genuine hospitality. Every dish celebrates the rich traditions of Nepal, served with warmth, passion, and care.</span>
+                            <span class="show-da">Lamfuz er mere end en restaurant. Det er en fejring af nepalesisk kultur, smage og gæstfrihed, bragt til hjertet af København. Hver ret, vi serverer, fortæller en historie – en der begynder i Nepals bjerge og dale, fortsætter gennem års erfaring i danske køkkener og vækkes til live i dag på Turesensgade.</span>
+                            <span class="show-en notranslate">Lamfuz is more than a restaurant. It is a celebration of Nepali culture, flavours, and hospitality, brought to the heart of Copenhagen. Every dish we serve tells a story, one that begins in the mountains and valleys of Nepal, continues through years of experience in Danish kitchens, and comes to life today on Turesensgade.</span>
                         </p>
-                        <p class="tagline-text">
-                            <span class="show-da">Kom for maden. Bliv for oplevelsen.</span>
-                            <span class="show-en notranslate">Come for the food. Stay for the experience.</span>
+                        <p class="body-text">
+                            <span class="show-da">Vores filosofi er enkel: ære traditionen og samtidig favne nutiden. Vi forbliver tro mod autentiske nepalesiske opskrifter, tilbereder hver ret med omhu og bruger de fineste sæsonbestemte ingredienser til at skabe mad, der føles både tidløs og moderne. Det er det, vi kalder en smag af Nepal med et moderne udtryk.</span>
+                            <span class="show-en notranslate">Our philosophy is simple: honour tradition while embracing the present. We stay true to authentic Nepali recipes, prepare every dish with care, and use the finest seasonal ingredients to create food that feels both timeless and contemporary. It's what we call a taste of Nepal with a modern expression.</span>
+                        </p>
+                        <p class="body-text">
+                            <span class="show-da">Mere end noget andet er Lamfuz bygget på mennesker, familie, venskab, håndværk og troen på, at god mad har magten til at samle alle om det samme bord.</span>
+                            <span class="show-en notranslate">More than anything, Lamfuz is built on people, family, friendship, craftsmanship, and the belief that great food has the power to bring everyone around the same table.</span>
                         </p>
                     </div>
                 </div>
