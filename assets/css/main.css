@@ -3539,19 +3539,19 @@ body.lang-en span.show-da, body.lang-en a.show-da {
     font-weight: 600;
     line-height: 1.2;
     color: #b3522a;
-    margin: 0 0 1.5rem 0;
+    margin: 0;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    height: 82px; /* Match the Instagram header height exactly */
     display: flex;
     align-items: center;
+    box-sizing: border-box;
 }
 
 .insta-map-container .map-container {
     width: 100%;
-    aspect-ratio: 1 / 1; /* Match the 2x2 image grid square ratio */
     overflow: hidden;
     border: 1px solid rgba(179, 82, 42, 0.2);
+    box-sizing: border-box;
 }
 
 .insta-map-container .map-container iframe {

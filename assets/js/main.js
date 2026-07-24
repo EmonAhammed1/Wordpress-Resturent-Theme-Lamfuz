@@ -302,6 +302,56 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     }
+
+    // Instagram & Map Pixel Perfect Alignment
+    function syncInstaMapAlignment() {
+        if (window.innerWidth <= 900) {
+            const mapTitle = document.querySelector('.map-column .map-title');
+            const mapContainer = document.querySelector('.insta-map-container .map-container');
+            if (mapTitle) {
+                mapTitle.style.height = 'auto';
+                mapTitle.style.marginBottom = '1.5rem';
+            }
+            if (mapContainer) {
+                mapContainer.style.height = 'auto';
+                mapContainer.style.aspectRatio = '1 / 1';
+            }
+            return;
+        }
+
+        const sbiHeader = document.querySelector('#sb_instagram .sbi_header');
+        const sbiImages = document.querySelector('#sb_instagram #sbi_images');
+        const mapTitle = document.querySelector('.map-column .map-title');
+        const mapContainer = document.querySelector('.insta-map-container .map-container');
+
+        if (sbiImages && mapContainer) {
+            const imagesRect = sbiImages.getBoundingClientRect();
+            const imagesHeight = sbiImages.offsetHeight;
+            
+            if (imagesHeight > 0) {
+                mapContainer.style.height = imagesHeight + 'px';
+                mapContainer.style.aspectRatio = 'auto';
+            }
+
+            if (sbiHeader && mapTitle) {
+                const headerRect = sbiHeader.getBoundingClientRect();
+                const diffTop = imagesRect.top - headerRect.top;
+                if (diffTop > 0) {
+                    mapTitle.style.height = diffTop + 'px';
+                    mapTitle.style.marginBottom = '0px';
+                    mapTitle.style.display = 'flex';
+                    mapTitle.style.alignItems = 'center';
+                }
+            }
+        }
+    }
+
+    syncInstaMapAlignment();
+    window.addEventListener('load', syncInstaMapAlignment);
+    window.addEventListener('resize', syncInstaMapAlignment);
+    setTimeout(syncInstaMapAlignment, 300);
+    setTimeout(syncInstaMapAlignment, 1000);
+    setTimeout(syncInstaMapAlignment, 2500);
 });
 
 
