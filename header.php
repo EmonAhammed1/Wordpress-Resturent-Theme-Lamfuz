@@ -51,11 +51,26 @@ if ( ! defined( 'ABSPATH' ) ) {
                         ) );
                     } else {
                     ?>
-                        <a href="<?php echo home_url('/'); ?>" class="hero-nav-link <?php echo is_front_page() ? 'active' : ''; ?>">FORSIDE</a>
-                        <a href="<?php echo lamfuz_get_page_url('menu'); ?>" class="hero-nav-link <?php echo is_page('menu') ? 'active' : ''; ?>">MENU</a>
-                        <a href="<?php echo lamfuz_get_page_url(array('about', 'om-lamfuz')); ?>" class="hero-nav-link <?php echo is_page('about') || is_page('om-lamfuz') ? 'active' : ''; ?>">OM LAMFUZ</a>
-                        <a href="<?php echo lamfuz_get_page_url('blog'); ?>" class="hero-nav-link <?php echo is_page('blog') || is_page_template('page-blog.php') || (is_home() && !is_front_page()) || is_singular('post') ? 'active' : ''; ?>">BLOG</a>
-                        <a href="<?php echo lamfuz_get_page_url(array('contact', 'kontakt')); ?>" class="hero-nav-link <?php echo is_page('contact') || is_page('kontakt') ? 'active' : ''; ?>">KONTAKT</a>
+                        <a href="<?php echo home_url('/'); ?>" class="hero-nav-link <?php echo is_front_page() ? 'active' : ''; ?>">
+                            <span class="show-da">FORSIDE</span>
+                            <span class="show-en notranslate">FRONT</span>
+                        </a>
+                        <a href="<?php echo lamfuz_get_page_url('menu'); ?>" class="hero-nav-link <?php echo is_page('menu') ? 'active' : ''; ?>">
+                            <span class="show-da">MENU</span>
+                            <span class="show-en notranslate">MENU</span>
+                        </a>
+                        <a href="<?php echo lamfuz_get_page_url(array('about', 'om-lamfuz')); ?>" class="hero-nav-link <?php echo is_page('about') || is_page('om-lamfuz') ? 'active' : ''; ?>">
+                            <span class="show-da">OM LAMFUZ</span>
+                            <span class="show-en notranslate">ABOUT US</span>
+                        </a>
+                        <a href="<?php echo lamfuz_get_page_url('blog'); ?>" class="hero-nav-link <?php echo is_page('blog') || is_page_template('page-blog.php') || (is_home() && !is_front_page()) || is_singular('post') ? 'active' : ''; ?>">
+                            <span class="show-da">BLOG</span>
+                            <span class="show-en notranslate">BLOG</span>
+                        </a>
+                        <a href="<?php echo lamfuz_get_page_url(array('contact', 'kontakt')); ?>" class="hero-nav-link <?php echo is_page('contact') || is_page('kontakt') ? 'active' : ''; ?>">
+                            <span class="show-da">KONTAKT</span>
+                            <span class="show-en notranslate">CONTACT</span>
+                        </a>
                     <?php } ?>
                 </nav>
             </div>
@@ -105,11 +120,26 @@ if ( ! defined( 'ABSPATH' ) ) {
                 ) );
             } else {
             ?>
-                <a href="<?php echo home_url('/'); ?>" class="mobile-nav-link <?php echo is_front_page() ? 'active' : ''; ?>">FORSIDE</a>
-                <a href="<?php echo lamfuz_get_page_url('menu'); ?>" class="mobile-nav-link <?php echo is_page('menu') ? 'active' : ''; ?>">MENU</a>
-                <a href="<?php echo lamfuz_get_page_url(array('about', 'om-lamfuz')); ?>" class="mobile-nav-link <?php echo is_page('about') || is_page('om-lamfuz') ? 'active' : ''; ?>">OM LAMFUZ</a>
-                <a href="<?php echo lamfuz_get_page_url('blog'); ?>" class="mobile-nav-link <?php echo is_page('blog') || is_page_template('page-blog.php') || (is_home() && !is_front_page()) || is_singular('post') ? 'active' : ''; ?>">BLOG</a>
-                <a href="<?php echo lamfuz_get_page_url(array('contact', 'kontakt')); ?>" class="mobile-nav-link <?php echo is_page('contact') || is_page('kontakt') ? 'active' : ''; ?>">KONTAKT</a>
+                <a href="<?php echo home_url('/'); ?>" class="mobile-nav-link <?php echo is_front_page() ? 'active' : ''; ?>">
+                    <span class="show-da">FORSIDE</span>
+                    <span class="show-en notranslate">FRONT</span>
+                </a>
+                <a href="<?php echo lamfuz_get_page_url('menu'); ?>" class="mobile-nav-link <?php echo is_page('menu') ? 'active' : ''; ?>">
+                    <span class="show-da">MENU</span>
+                    <span class="show-en notranslate">MENU</span>
+                </a>
+                <a href="<?php echo lamfuz_get_page_url(array('about', 'om-lamfuz')); ?>" class="mobile-nav-link <?php echo is_page('about') || is_page('om-lamfuz') ? 'active' : ''; ?>">
+                    <span class="show-da">OM LAMFUZ</span>
+                    <span class="show-en notranslate">ABOUT US</span>
+                </a>
+                <a href="<?php echo lamfuz_get_page_url('blog'); ?>" class="mobile-nav-link <?php echo is_page('blog') || is_page_template('page-blog.php') || (is_home() && !is_front_page()) || is_singular('post') ? 'active' : ''; ?>">
+                    <span class="show-da">BLOG</span>
+                    <span class="show-en notranslate">BLOG</span>
+                </a>
+                <a href="<?php echo lamfuz_get_page_url(array('contact', 'kontakt')); ?>" class="mobile-nav-link <?php echo is_page('contact') || is_page('kontakt') ? 'active' : ''; ?>">
+                    <span class="show-da">KONTAKT</span>
+                    <span class="show-en notranslate">CONTACT</span>
+                </a>
             <?php } ?>
         </div>
 

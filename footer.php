@@ -55,7 +55,7 @@ if ( ! defined( 'ABSPATH' ) ) {
                         <div class="show-en notranslate">
                             <a href="<?php echo home_url('/'); ?>">FRONT</a>
                             <a href="<?php echo lamfuz_get_page_url('menu'); ?>">MENU</a>
-                            <a href="<?php echo lamfuz_get_page_url(array('about', 'om-lamfuz')); ?>">ABOUT LAMFUZ</a>
+                            <a href="<?php echo lamfuz_get_page_url(array('about', 'om-lamfuz')); ?>">ABOUT US</a>
                             <a href="<?php echo lamfuz_get_page_url('blog'); ?>">BLOG</a>
                             <a href="<?php echo lamfuz_get_page_url(array('contact', 'kontakt')); ?>">CONTACT</a>
                         </div>
