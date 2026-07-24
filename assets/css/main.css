@@ -3539,12 +3539,13 @@ body.lang-en span.show-da, body.lang-en a.show-da {
     font-weight: 600;
     line-height: 1.2;
     color: #b3522a;
-    margin: 0 0 20px 0 !important;
+    margin: 0 0 25px 0 !important;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    height: 60px !important;
+    height: 48px !important;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    padding-top: 4px;
     box-sizing: border-box;
 }
 
@@ -3571,11 +3572,11 @@ body.lang-en span.show-da, body.lang-en a.show-da {
 }
 
 .insta-map-section #sb_instagram .sbi_header {
-    height: 60px !important;
-    margin-bottom: 20px !important;
+    height: 48px !important;
+    margin-bottom: 25px !important;
     padding: 0 !important;
     display: flex !important;
-    align-items: center !important;
+    align-items: flex-start !important;
     box-sizing: border-box !important;
 }
 
