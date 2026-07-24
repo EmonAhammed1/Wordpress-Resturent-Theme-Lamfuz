@@ -305,12 +305,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Instagram & Map Pixel Perfect Alignment
     function syncInstaMapAlignment() {
-        if (window.innerWidth <= 900) return;
+        const mapContainer = document.querySelector('.insta-map-container .map-container');
+        if (!mapContainer) return;
+
+        if (window.innerWidth <= 900) {
+            mapContainer.style.height = 'auto';
+            return;
+        }
 
         const sbiImages = document.querySelector('#sb_instagram #sbi_images');
-        const mapContainer = document.querySelector('.insta-map-container .map-container');
-
-        if (sbiImages && mapContainer) {
+        if (sbiImages) {
             const imagesHeight = sbiImages.offsetHeight;
             if (imagesHeight > 0) {
                 mapContainer.style.height = imagesHeight + 'px';
