@@ -98,7 +98,7 @@ get_header();
                         </h3>
                         <p class="gallery-reason-text">
                             <span class="show-da">Et varmt, hyggeligt og afslappet rum med rustikt interiør, naturligt træ, dæmpet musik og ægte nepalesisk gæstfrihed. Oplev glimt af vores kokke i arbejdet, hør lyden fra køkkenet og nyd aromaen af friskristede og malede krydderier. For en mere stille oplevelse rummer vores andet spiselokale op til 10 gæster. Oplev den hjertelige velkomst og venlige service, som nepalesisk kultur er kendt for, så du føler dig helt hjemme.</span>
-                            <span class="show-en notranslate">A warm, cozy, and relaxed space with rustic interiors, natural wood, chilled music, and genuine Nepali hospitality. Catch glimpses of our chefs at work, hear the sounds of the kitchen, and enjoy the aroma of spices freshly toasted and ground in-house. For a quieter experience, our second dining room seats up to 10 guests. Experience the heartfelt welcome and friendly service that Nepali culture is known for, making you feel right at home.</span>
+                            <span class="show-en notranslate">A warm, cozy, and relaxed space with rustic interiors, natural wood, chill music, and genuine Nepali hospitality. Catch glimpses of our chefs at work, hear the sounds of the kitchen, and enjoy the aroma of spices freshly toasted and ground in-house. For a quieter experience, our second dining room seats up to 10 guests. Experience the heartfelt welcome and friendly service that Nepali culture is known for, making you feel right at home.</span>
                         </p>
                     </div>
                     <!-- Item 2 -->
