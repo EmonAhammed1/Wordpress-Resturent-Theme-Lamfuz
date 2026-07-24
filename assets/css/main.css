@@ -3539,9 +3539,10 @@ body.lang-en span.show-da, body.lang-en a.show-da {
     font-weight: 600;
     line-height: 1.2;
     color: #b3522a;
-    margin: 0;
+    margin: 0 0 20px 0 !important;
     text-transform: uppercase;
     letter-spacing: 0.05em;
+    height: 60px !important;
     display: flex;
     align-items: center;
     box-sizing: border-box;
@@ -3549,6 +3550,7 @@ body.lang-en span.show-da, body.lang-en a.show-da {
 
 .insta-map-container .map-container {
     width: 100%;
+    aspect-ratio: 1 / 1 !important;
     overflow: hidden;
     border: 1px solid rgba(179, 82, 42, 0.2);
     box-sizing: border-box;
@@ -3562,7 +3564,21 @@ body.lang-en span.show-da, body.lang-en a.show-da {
     height: 100%;
 }
 
-/* Force Smash Balloon grid to 2 columns in this section */
+/* Force Smash Balloon grid & header to match Map column */
+.insta-map-section #sb_instagram {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.insta-map-section #sb_instagram .sbi_header {
+    height: 60px !important;
+    margin-bottom: 20px !important;
+    padding: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    box-sizing: border-box !important;
+}
+
 .insta-map-section #sb_instagram #sbi_images {
     display: grid !important;
     grid-template-columns: repeat(2, 1fr) !important;
