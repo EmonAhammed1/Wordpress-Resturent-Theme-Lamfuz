@@ -2202,7 +2202,7 @@ body { top: 0 !important; }
 }
 
 .menu-intro-title {
-    font-family: var(--font-body);
+    font-family: var(--font-heading);
     font-size: clamp(1.3rem, 3vw, 2rem);
     font-weight: 700;
     color: #b3522a;
@@ -2841,6 +2841,7 @@ body.lang-en span.show-da, body.lang-en a.show-da {
     .support-title,
     .about-section-title,
     .menu-group-title,
+    .menu-intro-title,
     .about-hero-title,
     .experience-title {
         font-family: var(--font-heading) !important;
