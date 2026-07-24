@@ -64,7 +64,7 @@ get_header();
                         </p>
                         <p class="body-text">
                             <span class="show-da">Velkommen til Lamfuz, en autentisk nepalesisk restaurant i hjertet af København, hvor livlige smage møder ægte gæstfrihed. Hver ret fejrer Nepals rige traditioner, serveret med varme, lidenskab og omhu.</span>
-                            <span class="show-en notranslate">Welcome to Lamfuz, an authentic Nepalese restaurant in the heart of Copenhagen, where vibrant flavours meet genuine hospitality. Every dish celebrates the rich traditions of Nepal, served with warmth, passion, and care.</span>
+                            <span class="show-en notranslate">Welcome to Lamfuz, an authentic Nepali restaurant in the heart of Copenhagen, where vibrant flavours meet genuine hospitality. Every dish celebrates the rich traditions of Nepal, served with warmth, passion, and care.</span>
                         </p>
                         <p class="tagline-text">
                             <span class="show-da">Kom for maden. Bliv for oplevelsen.</span>
@@ -158,7 +158,7 @@ get_header();
             <div class="signature-dishes-grid-layout">
                 <!-- Left Column: Image -->
                 <div class="signature-dishes-image-column">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Dish-3_16-9_Above_portrait.jpg" alt="Signature Nepalese Dishes" class="signature-dishes-img">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Dish-3_16-9_Above_portrait.jpg" alt="Signature Nepali Dishes" class="signature-dishes-img">
                 </div>
                 <!-- Right Column: Content -->
                 <div class="signature-dishes-content-column">
@@ -398,7 +398,7 @@ get_header();
                         </summary>
                         <div class="faq-content">
                             <p class="show-da">Helt sikkert. Nepalesisk madlavning bruger ofte disse ingredienser, men vores køkken tilpasser det gerne, hvor vi kan. Nævn det blot ved bestilling, så gør vi vores bedste for at tilberede din ret, som du ønsker det.</p>
-                            <p class="show-en notranslate">Absolutely. Nepalese cooking uses these ingredients often, but our kitchen is happy to adapt where we can. Just mention it when ordering, and we'll do our best to prepare your dish the way you like it.</p>
+                            <p class="show-en notranslate">Absolutely. Nepali cooking uses these ingredients often, but our kitchen is happy to adapt where we can. Just mention it when ordering, and we'll do our best to prepare your dish the way you like it.</p>
                         </div>
                     </details>
 
@@ -466,7 +466,7 @@ get_header();
                         </summary>
                         <div class="faq-content">
                             <p class="show-da">Vores momo (dampede nepalesiske dumplings med sesam-tomat-chutney) er den klare favorit og den mest bestilte ret på menuen. Lige derefter kommer vores dal bhat-platte, selve hjertet i nepalesisk hverdagsmad.</p>
-                            <p class="show-en notranslate">Our momo (steamed Nepalese dumplings with sesame - tomato chutney) are the clear favourite and the most ordered dish on the menu. Right behind it is our dal bhat platter, the true heart of everyday Nepali home cooking.</p>
+                            <p class="show-en notranslate">Our momo (steamed Nepali dumplings with sesame - tomato chutney) are the clear favourite and the most ordered dish on the menu. Right behind it is our dal bhat platter, the true heart of everyday Nepali home cooking.</p>
                         </div>
                     </details>
 
