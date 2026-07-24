@@ -3257,7 +3257,7 @@ body.lang-en span.show-da, body.lang-en a.show-da {
     background-color: #fff8e6;
     padding: 6rem 2rem;
     color: #b3522a;
-    border-top: 1.5px dotted rgba(168, 144, 102, 0.4);
+    border-top: 1.5px dashed rgba(168, 144, 102, 0.35);
 }
 
 .signature-dishes-container {
