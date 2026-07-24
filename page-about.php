@@ -20,7 +20,7 @@ get_header(); ?>
             <div class="about-hero-content">
                 <h1 class="about-hero-title">
                     <span class="show-da">OM LAMFUZ</span>
-                    <span class="show-en notranslate">ABOUT LAMFUZ</span>
+                    <span class="show-en notranslate">ABOUT US</span>
                 </h1>
             </div>
         </div>
