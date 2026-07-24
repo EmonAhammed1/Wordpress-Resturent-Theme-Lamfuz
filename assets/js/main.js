@@ -317,7 +317,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (sbiImages) {
             const imagesHeight = sbiImages.offsetHeight;
             if (imagesHeight > 0) {
-                mapContainer.style.height = imagesHeight + 'px';
+                mapContainer.style.height = (imagesHeight - 16) + 'px';
             }
         }
     }
